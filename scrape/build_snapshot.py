@@ -58,6 +58,8 @@ def build(run_date: date | None = None, write: bool = True) -> dict:
             "close_position": scored["close_position"],
             "vol_profile": scored["vol_profile"],
             "latest_bar": e.get("latest_bar"),
+            "run_low": bars.get("run_low"),
+            "run_high": bars.get("run_high"),
             "streak": streak,
             "components": scored["components"],
             "shs_float": e.get("shs_float"),

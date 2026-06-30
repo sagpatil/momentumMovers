@@ -157,18 +157,9 @@ def classify(rec: dict, streak: int) -> dict:
         elif cp < 0.4:
             badges.append("Upper wick / fade")
 
-    # Pullback depth descriptor.
-    pullback_depth = None
-    if retrace is not None and retrace > 5.0:  # meaningfully off the highs
-        if above_ema10:
-            pullback_depth = "tight"
-        elif above_ema20:
-            pullback_depth = "healthy"
-        else:
-            pullback_depth = "deep"
-        badges.append(f"Pullback: {pullback_depth}")
-
-    # Primary tier.
+    # Primary tier. The retrace floor (>50% of the breakout->peak run given back)
+    # demotes a name to Reversal/Failed regardless of how it closed today — a bounce
+    # inside a broken structure is not a healthy pullback.
     if retrace is not None and retrace > PULLBACK_FAIL_RETRACE_PCT:
         tier = "Reversal/Failed"
     elif retrace is not None and retrace > 5.0:
@@ -177,6 +168,21 @@ def classify(rec: dict, streak: int) -> dict:
         tier = "Day-1 Breakout"
     else:
         tier = "Continuation"
+
+    # Pullback-depth descriptor — only meaningful for an actual Pullback. A failed
+    # reversal must not also advertise "Pullback: tight" (contradictory).
+    pullback_depth = None
+    if tier == "Pullback":
+        if above_ema10:
+            pullback_depth = "tight"
+        elif above_ema20:
+            pullback_depth = "healthy"
+        else:
+            pullback_depth = "deep"
+        badges.append(f"Pullback: {pullback_depth}")
+    elif tier == "Reversal/Failed":
+        # Show how far it has broken down instead of a misleading pullback badge.
+        badges.append(f"Broke down {round(retrace)}% off peak")
 
     return {
         "tier": tier,

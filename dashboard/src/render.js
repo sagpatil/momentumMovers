@@ -236,7 +236,8 @@ function openDrawer(r) {
       ${kv("Short ratio", fmtNum(r.short_ratio, 2))}
       ${kv("ATR(14)", fmtNum(r.atr14, 2))}
       ${kv("Dist > EMA10", r.dist_above_ema10_atr == null ? "—" : fmtNum(r.dist_above_ema10_atr, 1) + " ATR")}
-      ${kv("Retrace from peak", r.retrace_pct == null ? "—" : fmtNum(r.retrace_pct, 1) + "%")}
+      ${kv("Run (low → peak)", r.run_low == null ? "—" : `${fmtNum(r.run_low, 2)} → ${fmtNum(r.run_high, 2)}`)}
+      ${kv("Retrace from peak", r.retrace_pct == null ? "—" : fmtNum(r.retrace_pct, 1) + "% given back")}
       ${kv("Up-day streak", `${r.up_streak ?? 0}d`)}
       ${kv("Screener streak", `${r.streak || 1}d`)}
       ${kv("vs SMA50", r.sma50_dist_pct == null ? "—" : "+" + fmtNum(r.sma50_dist_pct, 0) + "%")}
