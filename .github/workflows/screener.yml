@@ -1,0 +1,73 @@
+name: Daily screener → dashboard
+
+on:
+  schedule:
+    # 21:30 UTC weekdays ≈ shortly after the US market close (handles DST loosely).
+    - cron: "30 21 * * 1-5"
+  workflow_dispatch: {}   # allow manual runs from the Actions tab
+
+# Pages deploy + committing the snapshot back to the repo.
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Don't let two scheduled runs race on the committed history file.
+concurrency:
+  group: screener
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install pipeline deps
+        run: pip install -r scrape/requirements-scrape.txt
+
+      - name: Run screener pipeline
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}  # optional; rules-only if unset
+        run: python -m scrape.build_snapshot
+
+      - name: Commit snapshot + history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f dashboard/public/data/latest.json \
+                     dashboard/public/data/*.json \
+                     dashboard/public/data/screener_history.parquet
+          git commit -m "snapshot: $(date -u +%Y-%m-%d)" || echo "no changes to commit"
+          git push || echo "nothing to push"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build dashboard
+        working-directory: dashboard
+        run: |
+          npm install
+          npm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
