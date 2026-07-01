@@ -1,8 +1,8 @@
 {
-  "run_date": "2026-06-30",
-  "generated_at": "2026-06-30T22:01:08.890960+00:00",
+  "run_date": "2026-07-01",
+  "generated_at": "2026-07-01T22:02:24.241352+00:00",
   "filters_url": "cap_smallover,sh_avgvol_o500,sh_curvol_o1000,sh_price_o7,sh_relvol_o1.5,ta_averagetruerange_o1,ta_change_u3,ta_sma200_pa",
-  "n": 42,
+  "n": 15,
   "weights": {
     "closing_strength": 0.22,
     "volume": 0.18,
@@ -13,606 +13,16 @@
   },
   "rows": [
     {
-      "ticker": "FCEL",
-      "company": "Fuelcell Energy Inc",
-      "sector": "Industrials",
-      "industry": "Electrical Equipment & Parts",
+      "ticker": "JACK",
+      "company": "Jack In The Box Inc",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
       "country": "USA",
-      "market_cap": 2430000000.0,
-      "price": 36.01,
-      "change_pct": 20.84,
-      "volume": 26524517.0,
-      "mqs": 63.7,
-      "tier": "Pullback",
-      "badges": [
-        "Vol building",
-        "Pullback: tight"
-      ],
-      "extension": null,
-      "pullback_depth": "tight",
-      "retrace_pct": 5.5,
-      "dist_above_ema10_atr": 1.87,
-      "up_streak": 2,
-      "close_position": 0.785,
-      "vol_profile": {
-        "am_vol": 321023,
-        "pm_vol": 456229,
-        "pm_share": 0.587,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 29.47,
-        "high": 37.825,
-        "low": 29.47,
-        "close": 36.025,
-        "volume": 778579.0,
-        "date": "2026-06-30",
-        "close_position": 0.785
-      },
-      "run_low": 11.72,
-      "run_high": 30.79,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.785,
-        "volume": 0.79,
-        "float": 0.635,
-        "short_float": 0.508,
-        "catalyst": 0.9,
-        "persistence": 0.0
-      },
-      "shs_float": 67390000.0,
-      "short_float_pct": 10.17,
-      "short_ratio": 0.7,
-      "rel_volume": 2.69,
-      "atr14": 4.14,
-      "sma50_dist_pct": 94.68,
-      "sma200_dist_pct": 242.3,
-      "perf_week_pct": 65.03,
-      "earnings": "Jun 08 BMO",
-      "catalyst": {
-        "strength": "strong",
-        "score": 0.9,
-        "label": "Contract / partnership",
-        "reason": "FuelCell Energy Secures $49 Million in EXIM Financing to Advance U.S. Clean Energy Exports",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 03:11",
-          "title": "Pulling A Bloom? FCEL Stocks Monster Quarter Rally Has Retail Comparing It To BEs Playbook",
-          "source": "Stocktwits",
-          "link": "https://finance.yahoo.com/m/d3d5af82-f96c-38ad-adf7-de25c4bfc5f8/%E2%80%98pulling-a-bloom%E2%80%99%3F-fcel.html"
-        },
-        {
-          "date": "2026-06-29 13:04",
-          "title": "FuelCell Energy Stock Breaks Out Bullishly On Government Financing. Bloom Energy Rebounds.",
-          "source": "Investor's Business Daily",
-          "link": "https://www.investors.com/news/fuelcell-energy-stock-soars-government-financing-bloom-energy-stock-rebounds?mod=IBD_FV"
-        },
-        {
-          "date": "2026-06-29 12:18",
-          "title": "The 'Time To Power' Signal The Market Missed In Bloom Energy Stock",
-          "source": "Trefis",
-          "link": "https://finance.yahoo.com/m/75bc5b8b-8bc7-3b89-93df-878841b0a972/the-%27time-to-power%27-signal.html"
-        },
-        {
-          "date": "2026-06-29 10:02",
-          "title": "FuelCell Energy Shares Rally After Securing US$49 Million EXIM Financing (FCEL)",
-          "source": "InvestorsHub",
-          "link": "https://finance.yahoo.com/m/5b4e7751-db4f-3f03-af11-2f1c239948c3/fuelcell-energy-shares-rally.html"
-        },
-        {
-          "date": "2026-06-29 08:56",
-          "title": "FCEL Stock Rockets On Securing Of South Korean Project Financing  Retail Cheers The Non-Dilutive Capital",
-          "source": "Stocktwits",
-          "link": "https://finance.yahoo.com/m/69c78e3b-feab-37b8-a719-5ec8a3ae0d86/fcel-stock-rockets-on.html"
-        }
-      ]
-    },
-    {
-      "ticker": "QLYS",
-      "company": "Qualys Inc",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "country": "USA",
-      "market_cap": 4840000000.0,
-      "price": 137.49,
-      "change_pct": 7.15,
-      "volume": 1826689.0,
-      "mqs": 61.2,
-      "tier": "Continuation",
-      "badges": [
-        "Vol building"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 2.4,
-      "dist_above_ema10_atr": 2.53,
-      "up_streak": 5,
-      "close_position": 0.644,
-      "vol_profile": {
-        "am_vol": 42994,
-        "pm_vol": 48481,
-        "pm_share": 0.53,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 130.26,
-        "high": 141.335,
-        "low": 130.26,
-        "close": 137.39,
-        "volume": 103006.0,
-        "date": "2026-06-30",
-        "close_position": 0.644
-      },
-      "run_low": 84.305,
-      "run_high": 129.53,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.644,
-        "volume": 0.647,
-        "float": 0.886,
-        "short_float": 0.522,
-        "catalyst": 0.9,
-        "persistence": 0.0
-      },
-      "shs_float": 34760000.0,
-      "short_float_pct": 10.45,
-      "short_ratio": 4.35,
-      "rel_volume": 2.19,
-      "atr14": 5.85,
-      "sma50_dist_pct": 35.08,
-      "sma200_dist_pct": 17.44,
-      "perf_week_pct": 22.4,
-      "earnings": "May 05 AMC",
-      "catalyst": {
-        "strength": "strong",
-        "score": 0.9,
-        "label": "Analyst upgrade",
-        "reason": "Goldman downgraded, Block upgraded: Wall Street's top analyst calls",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 15:17",
-          "title": "These Two Software Stocks Are Defying the Sector Selloff",
-          "source": "Barrons.com",
-          "link": "https://www.barrons.com/articles/jfrog-qualys-stock-software-sector-relative-strength-c594c368?mod=bar_FV"
-        },
-        {
-          "date": "2026-06-30 14:16",
-          "title": "Chinese AI Is Closing in on U.S. Rivals. That's Good News for CrowdStrike and These 3 Stocks.",
-          "source": "Barrons.com",
-          "link": "https://www.barrons.com/articles/ai-china-crowdstrike-palo-alto-stock-cybersecurity-5b55b270?mod=bar_FV"
-        },
-        {
-          "date": "2026-06-30 09:49",
-          "title": "Goldman downgraded, Block upgraded: Wall Street's top analyst calls",
-          "source": "The Fly",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-downgraded-block-upgraded-wall-134911563.html"
-        }
-      ]
-    },
-    {
-      "ticker": "AMBA",
-      "company": "Ambarella Inc",
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "country": "USA",
-      "market_cap": 3760000000.0,
-      "price": 85.8,
-      "change_pct": 28.04,
-      "volume": 6952996.0,
-      "mqs": 59.5,
-      "tier": "Day-1 Breakout",
-      "badges": [
-        "Vol building"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 4.5,
-      "dist_above_ema10_atr": 0.18,
-      "up_streak": 1,
-      "close_position": 0.864,
-      "vol_profile": {
-        "am_vol": 173600,
-        "pm_vol": 215264,
-        "pm_share": 0.554,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 67.56,
-        "high": 88.57,
-        "low": 67.56,
-        "close": 85.715,
-        "volume": 398905.0,
-        "date": "2026-06-30",
-        "close_position": 0.864
-      },
-      "run_low": 60.425,
-      "run_high": 67.39,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.864,
-        "volume": 1.0,
-        "float": 0.832,
-        "short_float": 0.343,
-        "catalyst": 0.4,
-        "persistence": 0.0
-      },
-      "shs_float": 41840000.0,
-      "short_float_pct": 6.86,
-      "short_ratio": 2.39,
-      "rel_volume": 5.78,
-      "atr14": 6.22,
-      "sma50_dist_pct": 18.5,
-      "sma200_dist_pct": 19.83,
-      "perf_week_pct": 30.97,
-      "earnings": "May 28 AMC",
-      "catalyst": {
-        "strength": "unknown",
-        "score": 0.4,
-        "label": "Unclassified",
-        "reason": "Headlines present but no rule matched.",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 15:09",
-          "title": "AMBA Stock Rockets 32%  Why Rosenblatt Sees Ambarella As A Pure Play On Physical AI",
-          "source": "Stocktwits",
-          "link": "https://finance.yahoo.com/m/37ddefb9-a7a9-3743-8c42-632f83d93deb/amba-stock-rockets-32%25-%E2%80%94-why.html"
-        },
-        {
-          "date": "2026-06-30 13:14",
-          "title": "Ambarella Stock Rockets As AI Chipmaker Scores 'Top Pick' Rating",
-          "source": "Investor's Business Daily",
-          "link": "https://www.investors.com/news/technology/ambarella-stock-rockets-ai-chipmaker-top-pick-rating?mod=IBD_FV"
-        }
-      ]
-    },
-    {
-      "ticker": "MKSI",
-      "company": "MKS Inc",
-      "sector": "Technology",
-      "industry": "Scientific & Technical Instruments",
-      "country": "USA",
-      "market_cap": 30040000000.0,
-      "price": 444.8,
-      "change_pct": 6.92,
-      "volume": 2202245.0,
-      "mqs": 59.5,
-      "tier": "Day-1 Breakout",
-      "badges": [
-        "Vol building"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 3.6,
-      "dist_above_ema10_atr": 1.25,
-      "up_streak": 1,
-      "close_position": 0.89,
-      "vol_profile": {
-        "am_vol": 61792,
-        "pm_vol": 81616,
-        "pm_share": 0.569,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 426.5,
-        "high": 447.29,
-        "low": 420.03,
-        "close": 444.3,
-        "volume": 158190.0,
-        "date": "2026-06-30",
-        "close_position": 0.89
-      },
-      "run_low": 264.83,
-      "run_high": 421.57,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.89,
-        "volume": 0.53,
-        "float": 0.652,
-        "short_float": 0.352,
-        "catalyst": 0.9,
-        "persistence": 0.0
-      },
-      "shs_float": 65200000.0,
-      "short_float_pct": 7.04,
-      "short_ratio": 3.7,
-      "rel_volume": 1.78,
-      "atr14": 23.68,
-      "sma50_dist_pct": 36.42,
-      "sma200_dist_pct": 100.87,
-      "perf_week_pct": 14.29,
-      "earnings": "May 06 AMC",
-      "catalyst": {
-        "strength": "strong",
-        "score": 0.9,
-        "label": "Analyst upgrade",
-        "reason": "Goldman downgraded, Block upgraded: Wall Street's top analyst calls",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 15:08",
-          "title": "KLAC Stock: The Math Hidden In Its Price",
-          "source": "Trefis",
-          "link": "https://finance.yahoo.com/m/aae64ab7-9cf0-3adb-92f2-a18e5e912fb8/klac-stock%3A-the-math-hidden.html"
-        },
-        {
-          "date": "2026-06-30 12:06",
-          "title": "After a Monumental Run, Is Lam Research Stock Buying The AI Boom Or A Cyclical Peak?",
-          "source": "Trefis",
-          "link": "https://finance.yahoo.com/m/d645fb83-35bc-3718-8413-4c6b9059a27d/after-a-monumental-run%2C-is.html"
-        },
-        {
-          "date": "2026-06-30 09:49",
-          "title": "Goldman downgraded, Block upgraded: Wall Street's top analyst calls",
-          "source": "The Fly",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-downgraded-block-upgraded-wall-134911563.html"
-        },
-        {
-          "date": "2026-06-26 17:14",
-          "title": "What Lam Research Stock Gave Up To Become An AI Giant",
-          "source": "Trefis",
-          "link": "https://finance.yahoo.com/m/cc483413-9ffe-3847-96a7-2486cac8ce7e/what-lam-research-stock-gave.html"
-        },
-        {
-          "date": "2026-06-25 21:17",
-          "title": "Where Lam Research Stock Is Most Exposed",
-          "source": "Trefis",
-          "link": "https://finance.yahoo.com/m/dff95e2a-c0a7-3d60-87d0-3a61830235dc/where-lam-research-stock-is.html"
-        }
-      ]
-    },
-    {
-      "ticker": "VSAT",
-      "company": "Viasat Inc",
-      "sector": "Technology",
-      "industry": "Communication Equipment",
-      "country": "USA",
-      "market_cap": 12270000000.0,
-      "price": 89.81,
-      "change_pct": 17.11,
-      "volume": 6359578.0,
-      "mqs": 59.1,
-      "tier": "Day-1 Breakout",
-      "badges": [
-        "Closed at HOD"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 3.5,
-      "dist_above_ema10_atr": 1.83,
-      "up_streak": 2,
-      "close_position": 0.986,
-      "vol_profile": {
-        "am_vol": 119205,
-        "pm_vol": 115660,
-        "pm_share": 0.492,
-        "persistence": "balanced"
-      },
-      "latest_bar": {
-        "open": 76.35,
-        "high": 89.9,
-        "low": 76.25,
-        "close": 89.705,
-        "volume": 242667.0,
-        "date": "2026-06-30",
-        "close_position": 0.986
-      },
-      "run_low": 58.56,
-      "run_high": 77.37,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.986,
-        "volume": 0.669,
-        "float": 0.158,
-        "short_float": 0.423,
-        "catalyst": 0.9,
-        "persistence": 0.0
-      },
-      "shs_float": 129460000.00000001,
-      "short_float_pct": 8.46,
-      "short_ratio": 4.8,
-      "rel_volume": 2.79,
-      "atr14": 6.63,
-      "sma50_dist_pct": 30.73,
-      "sma200_dist_pct": 89.09,
-      "perf_week_pct": 40.59,
-      "earnings": "May 28 AMC",
-      "catalyst": {
-        "strength": "strong",
-        "score": 0.9,
-        "label": "M&A",
-        "reason": "This Space Stock Could Be a Takeover Target After Rocket Lab, Iridium Deal",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 09:47",
-          "title": "This Space Stock Could Be a Takeover Target After Rocket Lab, Iridium Deal",
-          "source": "Barrons.com",
-          "link": "https://www.barrons.com/articles/viasat-stock-price-taleover-target-iridium-spacex-2bfece81?mod=bar_FV"
-        },
-        {
-          "date": "2026-06-29 22:31",
-          "title": "RKLB Stock Keeps Flying Overnight: Analyst Says Rocket Lab Outbid ASTS, Other Rivals For Iridium In 'Bolt From The Blue' Deal",
-          "source": "Stocktwits",
-          "link": "https://finance.yahoo.com/m/70693999-c9d6-320d-bace-6aa1aed3c626/rklb-stock-keeps-flying.html"
-        },
-        {
-          "date": "2026-06-29 18:46",
-          "title": "VSAT Stock Clocks Best Day In Over 10 Months  Analyst Calls It Last Major Global Satellite Spectrum Play After Rocket Lab-Iridium Deal",
-          "source": "Stocktwits",
-          "link": "https://finance.yahoo.com/m/9f8e6d22-1cca-36f4-bbc0-19a62a547a9b/vsat-stock-clocks-best-day-in.html"
-        },
-        {
-          "date": "2026-06-29 10:07",
-          "title": "Rocket Lab to take on SpaceX's Starlink with $8 billion acquisition",
-          "source": "MarketWatch",
-          "link": "https://www.marketwatch.com/story/rocket-lab-to-take-on-spacexs-starlink-with-8-billion-acquisition-bf7ef649?mod=mw_FV"
-        },
-        {
-          "date": "2026-06-27 08:08",
-          "title": "The SpaceX IPO Put a Spotlight on Starlink -- and on the One Public Company Building a Rival Direct-to-Phone Network",
-          "source": "PR Newswire",
-          "link": "/news/364440/the-spacex-ipo-put-a-spotlight-on-starlink-and-on-the-one-public-company-building-a-rival-direct-to-phone-network"
-        }
-      ]
-    },
-    {
-      "ticker": "BKV",
-      "company": "BKV Corp",
-      "sector": "Energy",
-      "industry": "Oil & Gas E&P",
-      "country": "USA",
-      "market_cap": 2990000000.0,
-      "price": 27.36,
-      "change_pct": 5.23,
-      "volume": 1323310.0,
-      "mqs": 56.7,
-      "tier": "Pullback",
-      "badges": [
-        "Vol building",
-        "Pullback: tight"
-      ],
-      "extension": null,
-      "pullback_depth": "tight",
-      "retrace_pct": 18.1,
-      "dist_above_ema10_atr": 0.49,
-      "up_streak": 4,
-      "close_position": 0.893,
-      "vol_profile": {
-        "am_vol": 22599,
-        "pm_vol": 50455,
-        "pm_share": 0.691,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 26.3,
-        "high": 27.52,
-        "low": 26.3,
-        "close": 27.39,
-        "volume": 80032.0,
-        "date": "2026-06-30",
-        "close_position": 0.893
-      },
-      "run_low": 23.76,
-      "run_high": 26.53,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.893,
-        "volume": 0.459,
-        "float": 0.91,
-        "short_float": 0.758,
-        "catalyst": 0.4,
-        "persistence": 0.0
-      },
-      "shs_float": 31740000.0,
-      "short_float_pct": 15.15,
-      "short_ratio": 5.56,
-      "rel_volume": 1.53,
-      "atr14": 1.05,
-      "sma50_dist_pct": -0.63,
-      "sma200_dist_pct": 1.85,
-      "perf_week_pct": 7.34,
-      "earnings": "May 07 BMO",
-      "catalyst": {
-        "strength": "unknown",
-        "score": 0.4,
-        "label": "Unclassified",
-        "reason": "Headlines present but no rule matched.",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 07:00",
-          "title": "BKV Announces Two New Carbon Capture and Sequestration Facilities Now Operational",
-          "source": "Business Wire",
-          "link": "https://www.businesswire.com/news/home/20260630926298/en"
-        }
-      ]
-    },
-    {
-      "ticker": "ARQQ",
-      "company": "Arqit Quantum Inc",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "country": "United Kingdom",
-      "market_cap": 517200000.00000006,
-      "price": 29.72,
-      "change_pct": 8.82,
-      "volume": 1225300.0,
-      "mqs": 55.9,
-      "tier": "Pullback",
-      "badges": [
-        "Vol building",
-        "Pullback: tight"
-      ],
-      "extension": null,
-      "pullback_depth": "tight",
-      "retrace_pct": 13.9,
-      "dist_above_ema10_atr": 1.07,
-      "up_streak": 1,
-      "close_position": 0.892,
-      "vol_profile": {
-        "am_vol": 4128,
-        "pm_vol": 5887,
-        "pm_share": 0.588,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 26.47,
-        "high": 30.27,
-        "low": 26.47,
-        "close": 29.86,
-        "volume": 14507.0,
-        "date": "2026-06-30",
-        "close_position": 0.892
-      },
-      "run_low": 11.8,
-      "run_high": 29.75,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.892,
-        "volume": 0.459,
-        "float": 1.0,
-        "short_float": 1.0,
-        "catalyst": 0.15,
-        "persistence": 0.0
-      },
-      "shs_float": 5360000.0,
-      "short_float_pct": 39.1,
-      "short_ratio": 2.61,
-      "rel_volume": 1.53,
-      "atr14": 3.31,
-      "sma50_dist_pct": 76.36,
-      "sma200_dist_pct": 22.36,
-      "perf_week_pct": 2.34,
-      "earnings": "May 21 BMO",
-      "catalyst": {
-        "strength": "none",
-        "score": 0.15,
-        "label": "No recent news",
-        "reason": "No headlines in the last few days.",
-        "source": "rules"
-      },
-      "news": []
-    },
-    {
-      "ticker": "EZPW",
-      "company": "EZCorp Inc",
-      "sector": "Financial",
-      "industry": "Credit Services",
-      "country": "USA",
-      "market_cap": 2130000000.0,
-      "price": 34.57,
-      "change_pct": 3.75,
-      "volume": 1565636.0,
-      "mqs": 55.9,
+      "market_cap": 332070000.0,
+      "price": 17.41,
+      "change_pct": 10.12,
+      "volume": 2774744.0,
+      "mqs": 71.9,
       "tier": "Pullback",
       "badges": [
         "Vol building",
@@ -621,303 +31,324 @@
       ],
       "extension": null,
       "pullback_depth": "tight",
-      "retrace_pct": 15.5,
-      "dist_above_ema10_atr": 0.72,
-      "up_streak": 1,
-      "close_position": 0.962,
-      "vol_profile": {
-        "am_vol": 27851,
-        "pm_vol": 57899,
-        "pm_share": 0.675,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 33.74,
-        "high": 34.585,
-        "low": 33.27,
-        "close": 34.535,
-        "volume": 93558.0,
-        "date": "2026-06-30",
-        "close_position": 0.962
-      },
-      "run_low": 27.905,
-      "run_high": 34.315,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.962,
-        "volume": 0.547,
-        "float": 0.737,
-        "short_float": 1.0,
-        "catalyst": 0.15,
-        "persistence": 0.0
-      },
-      "shs_float": 54210000.0,
-      "short_float_pct": 21.2,
-      "short_ratio": 13.52,
-      "rel_volume": 1.84,
-      "atr14": 1.51,
-      "sma50_dist_pct": 7.05,
-      "sma200_dist_pct": 42.29,
-      "perf_week_pct": 6.76,
-      "earnings": "May 06 AMC",
-      "catalyst": {
-        "strength": "none",
-        "score": 0.15,
-        "label": "No recent news",
-        "reason": "No headlines in the last few days.",
-        "source": "rules"
-      },
-      "news": []
-    },
-    {
-      "ticker": "ABVX",
-      "company": "Abivax ADR",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "country": "France",
-      "market_cap": 10630000000.0,
-      "price": 133.26,
-      "change_pct": 38.6,
-      "volume": 8748633.0,
-      "mqs": 51.7,
-      "tier": "Pullback",
-      "badges": [
-        "Pullback: deep"
-      ],
-      "extension": null,
-      "pullback_depth": "deep",
-      "retrace_pct": 31.3,
-      "dist_above_ema10_atr": -0.15,
+      "retrace_pct": 19.9,
+      "dist_above_ema10_atr": 1.66,
       "up_streak": 0,
-      "close_position": 0.567,
+      "close_position": 0.996,
       "vol_profile": {
-        "am_vol": 437208,
-        "pm_vol": 228503,
-        "pm_share": 0.343,
-        "persistence": "balanced"
-      },
-      "latest_bar": {
-        "open": 130.895,
-        "high": 137.02,
-        "low": 128.4,
-        "close": 133.285,
-        "volume": 668577.0,
-        "date": "2026-06-30",
-        "close_position": 0.567
-      },
-      "run_low": 69.91,
-      "run_high": 108.175,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.567,
-        "volume": 1.0,
-        "float": 0.629,
-        "short_float": 0.358,
-        "catalyst": 0.45,
-        "persistence": 0.0
-      },
-      "shs_float": 68260000.0,
-      "short_float_pct": 7.16,
-      "short_ratio": 2.77,
-      "rel_volume": 4.95,
-      "atr14": 10.93,
-      "sma50_dist_pct": 19.72,
-      "sma200_dist_pct": 19.53,
-      "perf_week_pct": 35.39,
-      "earnings": "May 22 AMC",
-      "catalyst": {
-        "strength": "weak",
-        "score": 0.45,
-        "label": "Sector / macro",
-        "reason": "Nasdaq leads Wall Street higher as second quarter ends",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 16:45",
-          "title": "Abivax Announces Launch of Public Offering of American Depositary Shares",
-          "source": "GlobeNewswire",
-          "link": "/news/365178/abivax-announces-launch-of-public-offering-of-american-depositary-shares"
-        },
-        {
-          "date": "2026-06-30 16:26",
-          "title": "Abivax Stock Soars 36% After Trial Update Eases Cancer Concerns",
-          "source": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/healthcare/articles/abivax-stock-soars-36-trial-202654471.html"
-        },
-        {
-          "date": "2026-06-30 13:15",
-          "title": "Abivax shares jump as updated trial data eases safety concerns",
-          "source": "Proactive",
-          "link": "https://finance.yahoo.com/m/5029094e-1f00-32ec-9dac-b94f637c7656/abivax-shares-jump-as-updated.html"
-        },
-        {
-          "date": "2026-06-30 09:25",
-          "title": "Abivax stock surges on obefazimod safety data, cancer concerns",
-          "source": "Quartz",
-          "link": "https://finance.yahoo.com/m/b30600ba-c382-318c-b4c4-4cd3975b3cbf/abivax-stock-surges-on.html"
-        },
-        {
-          "date": "2026-06-30 08:59",
-          "title": "Abivax shares jump 36% as new trial data support ulcerative colitis drug obefazimod",
-          "source": "Euronews",
-          "link": "https://finance.yahoo.com/m/496a5227-5bac-347c-a4c1-5ebdf757356b/abivax-shares-jump-36%25-as-new.html"
-        }
-      ]
-    },
-    {
-      "ticker": "ZYME",
-      "company": "Zymeworks BC Inc",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "country": "USA",
-      "market_cap": 1920000000.0,
-      "price": 26.14,
-      "change_pct": 8.46,
-      "volume": 1077728.0,
-      "mqs": 51.7,
-      "tier": "Day-1 Breakout",
-      "badges": [
-        "Vol building"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 0.7,
-      "dist_above_ema10_atr": 0.38,
-      "up_streak": 0,
-      "close_position": 0.612,
-      "vol_profile": {
-        "am_vol": 21525,
-        "pm_vol": 22594,
-        "pm_share": 0.512,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 25.175,
-        "high": 26.99,
-        "low": 25.175,
-        "close": 26.285,
-        "volume": 59023.0,
-        "date": "2026-06-30",
-        "close_position": 0.612
-      },
-      "run_low": 22.02,
-      "run_high": 24.15,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.612,
-        "volume": 0.484,
-        "float": 0.612,
-        "short_float": 0.319,
-        "catalyst": 0.9,
-        "persistence": 0.0
-      },
-      "shs_float": 70410000.0,
-      "short_float_pct": 6.37,
-      "short_ratio": 6.73,
-      "rel_volume": 1.62,
-      "atr14": 1.21,
-      "sma50_dist_pct": 4.11,
-      "sma200_dist_pct": 12.99,
-      "perf_week_pct": 9.46,
-      "earnings": "May 07 AMC",
-      "catalyst": {
-        "strength": "strong",
-        "score": 0.9,
-        "label": "M&A",
-        "reason": "Why This Biotech Stock Is Falling After a $929 Million Buyout Lifeline",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 04:35",
-          "title": "Zymeworks agrees to buy Theravance Biopharma for $929m",
-          "source": "Pharmaceutical Business Review",
-          "link": "https://www.pharmaceutical-business-review.com/news/zymeworks-to-buy-theravance-biopharma/"
-        },
-        {
-          "date": "2026-06-29 08:44",
-          "title": "Zymeworks To Buy Theravance Biopharma In $929M Deal  A Look At What This Deal Means For TBPH Shareholders",
-          "source": "Stocktwits",
-          "link": "https://finance.yahoo.com/m/65800728-8f43-3d04-94ef-1d11e364578f/zymeworks-to-buy-theravance.html"
-        },
-        {
-          "date": "2026-06-29 07:26",
-          "title": "Why This Biotech Stock Is Falling After a $929 Million Buyout Lifeline",
-          "source": "Barrons.com",
-          "link": "https://www.barrons.com/articles/theravance-being-bought-by-zymeworks-5338af25?mod=bar_FV"
-        },
-        {
-          "date": "2026-06-29 06:00",
-          "title": "Zymeworks to Acquire Theravance Biopharma, Inc.",
-          "source": "GlobeNewswire",
-          "link": "/news/364476/zymeworks-to-acquire-theravance-biopharma-inc"
-        },
-        {
-          "date": "2026-06-29 04:42",
-          "title": "Theravance, after clinical setbacks, agrees to $929M buyout",
-          "source": "BioPharma Dive",
-          "link": "https://finance.yahoo.com/m/a194499a-ee51-3614-888e-ac18b9747d50/theravance%2C-after-clinical.html"
-        }
-      ]
-    },
-    {
-      "ticker": "KOD",
-      "company": "Kodiak Sciences Inc",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "country": "USA",
-      "market_cap": 2440000000.0,
-      "price": 38.96,
-      "change_pct": 3.2300000000000004,
-      "volume": 1549551.0,
-      "mqs": 51.7,
-      "tier": "Pullback",
-      "badges": [
-        "Vol building",
-        "Pullback: tight"
-      ],
-      "extension": null,
-      "pullback_depth": "tight",
-      "retrace_pct": 8.2,
-      "dist_above_ema10_atr": 0.83,
-      "up_streak": 2,
-      "close_position": 0.853,
-      "vol_profile": {
-        "am_vol": 27317,
-        "pm_vol": 43412,
+        "am_vol": 26191,
+        "pm_vol": 41673,
         "pm_share": 0.614,
         "persistence": "building"
       },
       "latest_bar": {
-        "open": 38.07,
-        "high": 39.31,
-        "low": 36.925,
-        "close": 38.96,
-        "volume": 78832.0,
-        "date": "2026-06-30",
-        "close_position": 0.853
+        "open": 15.635,
+        "high": 17.43,
+        "low": 14.785,
+        "close": 17.42,
+        "volume": 80838.0,
+        "date": "2026-07-01",
+        "close_position": 0.996
       },
-      "run_low": 29.22,
-      "run_high": 38.46,
+      "run_low": 10.48,
+      "run_high": 17.16,
       "streak": 1,
       "components": {
-        "closing_strength": 0.853,
-        "volume": 0.539,
-        "float": 0.709,
-        "short_float": 0.905,
+        "closing_strength": 0.996,
+        "volume": 0.887,
+        "float": 1.0,
+        "short_float": 1.0,
+        "catalyst": 0.45,
+        "persistence": 0.0
+      },
+      "shs_float": 16719999.999999998,
+      "short_float_pct": 40.16,
+      "short_ratio": 7.33,
+      "rel_volume": 3.03,
+      "atr14": 1.41,
+      "sma50_dist_pct": 37.57,
+      "sma200_dist_pct": 7.2,
+      "perf_week_pct": 30.41,
+      "earnings": "May 13 AMC",
+      "catalyst": {
+        "strength": "weak",
+        "score": 0.45,
+        "label": "Sector / macro",
+        "reason": "Jack in the Box shares extend rally as short squeeze gathers momentum (JACK)",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-07-01 13:47",
+          "title": "Is The Jack In The Box Short Squeeze Back On?",
+          "source": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/jack-in-the-box-short-squeeze-wendys-reddit-retail-investors?mod=IBD_FV"
+        },
+        {
+          "date": "2026-06-30 12:44",
+          "title": "Is Jack In The Box On The Verge Of A Short Squeeze?",
+          "source": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/jack-in-the-box-short-squeeze-wendys-reddit?mod=IBD_FV"
+        },
+        {
+          "date": "2026-06-30 08:58",
+          "title": "Jack in the Box shares extend rally as short squeeze gathers momentum (JACK)",
+          "source": "InvestorsHub",
+          "link": "https://finance.yahoo.com/m/c5dc38f9-42c8-3a6f-8c6e-bead66320da9/jack-in-the-box-shares-extend.html"
+        },
+        {
+          "date": "2026-06-30 05:14",
+          "title": "JACK Stock Gains Premarket: Short Squeeze Drives Momentum After Russell Addition, Retail Eyes Breakout",
+          "source": "Stocktwits",
+          "link": "https://finance.yahoo.com/m/fb23835d-8d80-3706-9597-14d575948863/jack-stock-gains-premarket%3A.html"
+        }
+      ]
+    },
+    {
+      "ticker": "PRGS",
+      "company": "Progress Software Corp",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "country": "USA",
+      "market_cap": 1650000000.0,
+      "price": 39.16,
+      "change_pct": 16.62,
+      "volume": 3362462.0,
+      "mqs": 69.0,
+      "tier": "Pullback",
+      "badges": [
+        "Pullback: tight"
+      ],
+      "extension": null,
+      "pullback_depth": "tight",
+      "retrace_pct": 18.5,
+      "dist_above_ema10_atr": 1.39,
+      "up_streak": 0,
+      "close_position": 0.825,
+      "vol_profile": {
+        "am_vol": 95118,
+        "pm_vol": 75064,
+        "pm_share": 0.441,
+        "persistence": "balanced"
+      },
+      "latest_bar": {
+        "open": 33.52,
+        "high": 40.435,
+        "low": 33.325,
+        "close": 39.19,
+        "volume": 178082.0,
+        "date": "2026-07-01",
+        "close_position": 0.825
+      },
+      "run_low": 26.05,
+      "run_high": 35.38,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.825,
+        "volume": 0.931,
+        "float": 0.837,
+        "short_float": 0.464,
+        "catalyst": 0.9,
+        "persistence": 0.0
+      },
+      "shs_float": 41210000.0,
+      "short_float_pct": 9.29,
+      "short_ratio": 4.22,
+      "rel_volume": 3.71,
+      "atr14": 2.07,
+      "sma50_dist_pct": 30.08,
+      "sma200_dist_pct": 4.43,
+      "perf_week_pct": 30.71,
+      "earnings": "Jun 30 AMC",
+      "catalyst": {
+        "strength": "strong",
+        "score": 0.9,
+        "label": "Earnings / guidance",
+        "reason": "Progress Software Corp (PRGS) Q2 2026 Earnings Call Highlights: Strong Revenue Growth and ...",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-07-01 01:00",
+          "title": "Progress Software Corp (PRGS) Q2 2026 Earnings Call Highlights: Strong Revenue Growth and ...",
+          "source": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/progress-software-corp-prgs-q2-050027849.html"
+        },
+        {
+          "date": "2026-06-30 16:11",
+          "title": "Progress Software: Fiscal Q2 Earnings Snapshot",
+          "source": "Associated Press",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/progress-software-fiscal-q2-earnings-201123501.html"
+        },
+        {
+          "date": "2026-06-30 16:01",
+          "title": "Progress Software Reports Fiscal Second Quarter 2026 Financial Results",
+          "source": "GlobeNewswire",
+          "link": "/news/365105/progress-software-reports-fiscal-second-quarter-2026-financial-results"
+        },
+        {
+          "date": "2026-06-30 09:00",
+          "title": "Progress Software Launches Progress Chef Enterprise Management for NVIDIA DGX Spark, \"the World's Smallest AI Supercomputer\"",
+          "source": "GlobeNewswire",
+          "link": "/news/365010/progress-software-launches-progress-chef-enterprise-management-for-nvidia-dgx-spark-the-worlds-smallest-ai-supercomputer"
+        },
+        {
+          "date": "2026-06-30 05:57",
+          "title": "Nike earnings on tap after big stock slide",
+          "source": "MarketWatch",
+          "link": "https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-dow-jones-us-iran-trump-peace-talks-nike-earnings-results/card/nike-earnings-on-tap-after-big-stock-slide-yKNLzQx7Xikar4t8JN0k?mod=mw_FV"
+        }
+      ]
+    },
+    {
+      "ticker": "BHVN",
+      "company": "Biohaven Ltd",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "USA",
+      "market_cap": 2370000000.0,
+      "price": 15.76,
+      "change_pct": 5.91,
+      "volume": 4743454.0,
+      "mqs": 64.1,
+      "tier": "Pullback",
+      "badges": [
+        "Vol building",
+        "Closed at HOD",
+        "Pullback: tight"
+      ],
+      "extension": null,
+      "pullback_depth": "tight",
+      "retrace_pct": 21.4,
+      "dist_above_ema10_atr": 0.49,
+      "up_streak": 0,
+      "close_position": 0.987,
+      "vol_profile": {
+        "am_vol": 54118,
+        "pm_vol": 203979,
+        "pm_share": 0.79,
+        "persistence": "building"
+      },
+      "latest_bar": {
+        "open": 15.09,
+        "high": 15.795,
+        "low": 14.61,
+        "close": 15.78,
+        "volume": 266948.0,
+        "date": "2026-07-01",
+        "close_position": 0.987
+      },
+      "run_low": 8.26,
+      "run_high": 16.72,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.987,
+        "volume": 0.507,
+        "float": 0.189,
+        "short_float": 1.0,
+        "catalyst": 0.9,
+        "persistence": 0.0
+      },
+      "shs_float": 125450000.0,
+      "short_float_pct": 20.33,
+      "short_ratio": 9.12,
+      "rel_volume": 1.7,
+      "atr14": 1.07,
+      "sma50_dist_pct": 42.07,
+      "sma200_dist_pct": 36.07,
+      "perf_week_pct": 5.35,
+      "earnings": "May 04 AMC",
+      "catalyst": {
+        "strength": "strong",
+        "score": 0.9,
+        "label": "FDA / clinical",
+        "reason": "Biohaven Advances a New Class of Precision Immunology Therapies: First MoDE Extracellular Protein Degrader, BHV-1300, Begins Phase 3 Pivotal Trial in Graves' Di",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-06-30 07:30",
+          "title": "Biohaven Completes Enrollment in RISE 3 Pivotal Focal Epilepsy Study with Opakalim, a Selective Kv7.2/7.3 Activator",
+          "source": "PR Newswire",
+          "link": "/news/364872/biohaven-completes-enrollment-in-rise-3-pivotal-focal-epilepsy-study-with-opakalim-a-selective-kv7273-activator"
+        },
+        {
+          "date": "2026-06-30 04:19",
+          "title": "Why Is BHVN Stock Falling Premarket?",
+          "source": "Stocktwits",
+          "link": "https://finance.yahoo.com/m/132edcbd-0994-3b7b-b9d1-3d4110b15424/why-is-bhvn-stock-falling.html"
+        },
+        {
+          "date": "2026-06-29 12:01",
+          "title": "BofA cuts ratings on four biopharma stocks over valuation and catalyst concerns",
+          "source": "Investing.com",
+          "link": "https://finance.yahoo.com/healthcare/articles/bofa-cuts-ratings-four-biopharma-160109349.html"
+        },
+        {
+          "date": "2026-06-29 07:30",
+          "title": "Biohaven Advances a New Class of Precision Immunology Therapies: First MoDE Extracellular Protein Degrader, BHV-1300, Begins Phase 3 Pivotal Trial in Graves' Disease",
+          "source": "PR Newswire",
+          "link": "/news/364534/biohaven-advances-a-new-class-of-precision-immunology-therapies-first-mode-extracellular-protein-degrader-bhv-1300-begins-phase-3-pivotal-trial-in-graves-disease"
+        }
+      ]
+    },
+    {
+      "ticker": "ZBIO",
+      "company": "Zenas Biopharma Inc",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "USA",
+      "market_cap": 1770000000.0,
+      "price": 28.0,
+      "change_pct": 10.32,
+      "volume": 2340774.0,
+      "mqs": 59.7,
+      "tier": "Pullback",
+      "badges": [
+        "Vol building",
+        "Pullback: tight"
+      ],
+      "extension": null,
+      "pullback_depth": "tight",
+      "retrace_pct": 6.4,
+      "dist_above_ema10_atr": 1.9,
+      "up_streak": 0,
+      "close_position": 0.737,
+      "vol_profile": {
+        "am_vol": 44973,
+        "pm_vol": 46447,
+        "pm_share": 0.508,
+        "persistence": "building"
+      },
+      "latest_bar": {
+        "open": 25.915,
+        "high": 28.9,
+        "low": 25.785,
+        "close": 28.08,
+        "volume": 95658.0,
+        "date": "2026-07-01",
+        "close_position": 0.737
+      },
+      "run_low": 16.44,
+      "run_high": 25.965,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.737,
+        "volume": 0.936,
+        "float": 0.887,
+        "short_float": 1.0,
         "catalyst": 0.15,
         "persistence": 0.0
       },
-      "shs_float": 57890000.0,
-      "short_float_pct": 18.1,
-      "short_ratio": 12.25,
-      "rel_volume": 1.81,
-      "atr14": 2.85,
-      "sma50_dist_pct": 2.18,
-      "sma200_dist_pct": 42.62,
-      "perf_week_pct": 5.16,
-      "earnings": "May 07 AMC",
+      "shs_float": 34680000.0,
+      "short_float_pct": 32.1,
+      "short_ratio": 15.21,
+      "rel_volume": 3.2,
+      "atr14": 1.64,
+      "sma50_dist_pct": 42.38,
+      "sma200_dist_pct": 12.64,
+      "perf_week_pct": 28.44,
+      "earnings": "May 13 BMO",
       "catalyst": {
         "strength": "none",
         "score": 0.15,
@@ -928,476 +359,98 @@
       "news": []
     },
     {
-      "ticker": "NKTR",
-      "company": "Nektar Therapeutics",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
+      "ticker": "MSM",
+      "company": "MSC Industrial Direct Co Inc",
+      "sector": "Industrials",
+      "industry": "Industrial Distribution",
       "country": "USA",
-      "market_cap": 2360000000.0,
-      "price": 69.81,
-      "change_pct": 6.76,
-      "volume": 1718189.0,
-      "mqs": 49.6,
+      "market_cap": 6890000000.0,
+      "price": 123.34,
+      "change_pct": 3.6900000000000004,
+      "volume": 2358899.0,
+      "mqs": 58.8,
       "tier": "Pullback",
       "badges": [
         "Pullback: tight"
       ],
       "extension": null,
       "pullback_depth": "tight",
-      "retrace_pct": 17.3,
-      "dist_above_ema10_atr": 0.72,
-      "up_streak": 2,
-      "close_position": 0.649,
-      "vol_profile": {
-        "am_vol": 36619,
-        "pm_vol": 30671,
-        "pm_share": 0.456,
-        "persistence": "balanced"
-      },
-      "latest_bar": {
-        "open": 66.75,
-        "high": 71.39,
-        "low": 66.75,
-        "close": 69.76,
-        "volume": 81996.0,
-        "date": "2026-06-30",
-        "close_position": 0.649
-      },
-      "run_low": 54.255,
-      "run_high": 67.7,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.649,
-        "volume": 0.311,
-        "float": 0.903,
-        "short_float": 0.758,
-        "catalyst": 0.45,
-        "persistence": 0.0
-      },
-      "shs_float": 32640000.0,
-      "short_float_pct": 15.15,
-      "short_ratio": 4.44,
-      "rel_volume": 1.54,
-      "atr14": 3.59,
-      "sma50_dist_pct": -2.74,
-      "sma200_dist_pct": 13.39,
-      "perf_week_pct": 4.68,
-      "earnings": "May 07 AMC",
-      "catalyst": {
-        "strength": "weak",
-        "score": 0.45,
-        "label": "Sector / macro",
-        "reason": "Nektar Therapeutics Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-26 16:30",
-          "title": "Nektar Therapeutics Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-          "source": "PR Newswire",
-          "link": "/news/364409/nektar-therapeutics-reports-inducement-grants-under-nasdaq-listing-rule-5635c4"
-        }
-      ]
-    },
-    {
-      "ticker": "TENB",
-      "company": "Tenable Holdings Inc",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "country": "USA",
-      "market_cap": 4070000000.0000005,
-      "price": 36.88,
-      "change_pct": 10.12,
-      "volume": 7074037.0,
-      "mqs": 49.4,
-      "tier": "Day-1 Breakout",
-      "badges": [
-        "Vol building",
-        "Closed at HOD"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 1.2,
-      "dist_above_ema10_atr": 2.86,
-      "up_streak": 2,
-      "close_position": 0.906,
-      "vol_profile": {
-        "am_vol": 224290,
-        "pm_vol": 269820,
-        "pm_share": 0.546,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 33.42,
-        "high": 37.23,
-        "low": 33.42,
-        "close": 36.87,
-        "volume": 495973.0,
-        "date": "2026-06-30",
-        "close_position": 0.906
-      },
-      "run_low": 20.07,
-      "run_high": 33.6,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.906,
-        "volume": 0.596,
-        "float": 0.318,
-        "short_float": 0.53,
-        "catalyst": 0.4,
-        "persistence": 0.0
-      },
-      "shs_float": 108690000.0,
-      "short_float_pct": 10.6,
-      "short_ratio": 3.27,
-      "rel_volume": 2.01,
-      "atr14": 1.84,
-      "sma50_dist_pct": 48.22,
-      "sma200_dist_pct": 51.29,
-      "perf_week_pct": 35.29,
-      "earnings": "Apr 29 AMC",
-      "catalyst": {
-        "strength": "unknown",
-        "score": 0.4,
-        "label": "Unclassified",
-        "reason": "Headlines present but no rule matched.",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 14:16",
-          "title": "Chinese AI Is Closing in on U.S. Rivals. That's Good News for CrowdStrike and These 3 Stocks.",
-          "source": "Barrons.com",
-          "link": "https://www.barrons.com/articles/ai-china-crowdstrike-palo-alto-stock-cybersecurity-5b55b270?mod=bar_FV"
-        },
-        {
-          "date": "2026-06-29 09:00",
-          "title": "Tenable Achieves FedRAMP High and Impact Level 5 Authorization",
-          "source": "GlobeNewswire",
-          "link": "/news/364643/tenable-achieves-fedramp-high-and-impact-level-5-authorization"
-        }
-      ]
-    },
-    {
-      "ticker": "OUST",
-      "company": "Ouster Inc",
-      "sector": "Technology",
-      "industry": "Electronic Components",
-      "country": "USA",
-      "market_cap": 3980000000.0,
-      "price": 62.52,
-      "change_pct": 15.629999999999999,
-      "volume": 7437787.0,
-      "mqs": 48.9,
-      "tier": "Continuation",
-      "badges": [],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 1.3,
-      "dist_above_ema10_atr": 1.7,
-      "up_streak": 3,
-      "close_position": 0.868,
-      "vol_profile": {
-        "am_vol": 98736,
-        "pm_vol": 54588,
-        "pm_share": 0.356,
-        "persistence": "balanced"
-      },
-      "latest_bar": {
-        "open": 53.85,
-        "high": 63.78,
-        "low": 53.85,
-        "close": 62.47,
-        "volume": 163653.0,
-        "date": "2026-06-30",
-        "close_position": 0.868
-      },
-      "run_low": 23.66,
-      "run_high": 54.47,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.868,
-        "volume": 0.38,
-        "float": 0.695,
-        "short_float": 0.435,
-        "catalyst": 0.45,
-        "persistence": 0.0
-      },
-      "shs_float": 59640000.0,
-      "short_float_pct": 8.7,
-      "short_ratio": 1.24,
-      "rel_volume": 1.78,
-      "atr14": 6.02,
-      "sma50_dist_pct": 70.86,
-      "sma200_dist_pct": 127.27,
-      "perf_week_pct": 38.44,
-      "earnings": "May 05 AMC",
-      "catalyst": {
-        "strength": "weak",
-        "score": 0.45,
-        "label": "Sector / macro",
-        "reason": "OUST Stock Explained: The Deals Behind Ousters Explosive 28% Rally",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 06:00",
-          "title": "Ouster Announces Build America, Buy America Compliance for REV8 OS Digital Lidar Sensors",
-          "source": "Business Wire",
-          "link": "https://www.businesswire.com/news/home/20260630299896/en"
-        },
-        {
-          "date": "2026-06-30 05:08",
-          "title": "OUST Stock Explained: The Deals Behind Ousters Explosive 28% Rally",
-          "source": "BeInCrypto",
-          "link": "https://finance.yahoo.com/m/c90f3211-98b3-3b30-9745-f567a80cbcce/oust-stock-explained%3A-the.html"
-        },
-        {
-          "date": "2026-06-29 22:38",
-          "title": "Why Did SLS, BB, OUST Stocks Surge To 52-Week Highs Today?",
-          "source": "Stocktwits",
-          "link": "https://finance.yahoo.com/m/01cc3690-c2e4-3e8e-952c-d3eb33f79301/why-did-sls%2C-bb%2C-oust-stocks.html"
-        },
-        {
-          "date": "2026-06-29 11:23",
-          "title": "OUST Stock Soars To 54-Month Highs  Retail Points To Physical AI, Robotics Opportunity",
-          "source": "Stocktwits",
-          "link": "https://finance.yahoo.com/m/4af306af-12a9-3a55-902e-328176611fcd/oust-stock-soars-to-54-month.html"
-        }
-      ]
-    },
-    {
-      "ticker": "NP",
-      "company": "Neptune Insurance Holdings Inc",
-      "sector": "Financial",
-      "industry": "Insurance Brokers",
-      "country": "USA",
-      "market_cap": 4360000000.0,
-      "price": 31.5,
-      "change_pct": 3.35,
-      "volume": 1330473.0,
-      "mqs": 48.8,
-      "tier": "Day-1 Breakout",
-      "badges": [
-        "Vol building"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 2.4,
-      "dist_above_ema10_atr": 1.2,
-      "up_streak": 2,
-      "close_position": 0.886,
-      "vol_profile": {
-        "am_vol": 22987,
-        "pm_vol": 35858,
-        "pm_share": 0.609,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 30.725,
-        "high": 31.67,
-        "low": 30.22,
-        "close": 31.505,
-        "volume": 66376.0,
-        "date": "2026-06-30",
-        "close_position": 0.886
-      },
-      "run_low": 23.77,
-      "run_high": 30.55,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.886,
-        "volume": 0.527,
-        "float": 0.867,
-        "short_float": 0.112,
-        "catalyst": 0.4,
-        "persistence": 0.0
-      },
-      "shs_float": 37230000.0,
-      "short_float_pct": 2.23,
-      "short_ratio": 1.1,
-      "rel_volume": 1.77,
-      "atr14": 1.53,
-      "sma50_dist_pct": 14.81,
-      "sma200_dist_pct": 23.33,
-      "perf_week_pct": 5.99,
-      "earnings": "Apr 22 AMC",
-      "catalyst": {
-        "strength": "unknown",
-        "score": 0.4,
-        "label": "Unclassified",
-        "reason": "Headlines present but no rule matched.",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-25 16:10",
-          "title": "Neptune Raises Building Coverage Limits to $15 Million and Expands Flood Insurance Coverage Options",
-          "source": "Business Wire",
-          "link": "https://www.businesswire.com/news/home/20260625213958/en/"
-        }
-      ]
-    },
-    {
-      "ticker": "ONTO",
-      "company": "Onto Innovation Inc",
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "country": "USA",
-      "market_cap": 18830000000.0,
-      "price": 378.45,
-      "change_pct": 7.68,
-      "volume": 2469011.0,
-      "mqs": 48.4,
-      "tier": "Day-1 Breakout",
-      "badges": [
-        "Vol building"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 1.3,
-      "dist_above_ema10_atr": 1.04,
+      "retrace_pct": 12.6,
+      "dist_above_ema10_atr": 0.56,
       "up_streak": 1,
-      "close_position": 0.743,
+      "close_position": 0.57,
       "vol_profile": {
-        "am_vol": 71901,
-        "pm_vol": 75139,
-        "pm_share": 0.511,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 355.17,
-        "high": 386.17,
-        "low": 355.17,
-        "close": 378.21,
-        "volume": 165421.0,
-        "date": "2026-06-30",
-        "close_position": 0.743
-      },
-      "run_low": 238.55,
-      "run_high": 352.14,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.743,
-        "volume": 0.633,
-        "float": 0.774,
-        "short_float": 0.26,
-        "catalyst": 0.4,
-        "persistence": 0.0
-      },
-      "shs_float": 49430000.0,
-      "short_float_pct": 5.2,
-      "short_ratio": 2.23,
-      "rel_volume": 2.14,
-      "atr14": 24.54,
-      "sma50_dist_pct": 29.58,
-      "sma200_dist_pct": 85.76,
-      "perf_week_pct": 19.81,
-      "earnings": "May 05 AMC",
-      "catalyst": {
-        "strength": "unknown",
-        "score": 0.4,
-        "label": "Unclassified",
-        "reason": "Headlines present but no rule matched.",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 15:08",
-          "title": "KLAC Stock: The Math Hidden In Its Price",
-          "source": "Trefis",
-          "link": "https://finance.yahoo.com/m/aae64ab7-9cf0-3adb-92f2-a18e5e912fb8/klac-stock%3A-the-math-hidden.html"
-        }
-      ]
-    },
-    {
-      "ticker": "MPWR",
-      "company": "Monolithic Power System Inc",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "country": "USA",
-      "market_cap": 67920000000.0,
-      "price": 1382.36,
-      "change_pct": 5.3,
-      "volume": 1492100.0,
-      "mqs": 48.4,
-      "tier": "Pullback",
-      "badges": [
-        "Closed at HOD",
-        "Pullback: deep"
-      ],
-      "extension": null,
-      "pullback_depth": "deep",
-      "retrace_pct": 44.4,
-      "dist_above_ema10_atr": -1.22,
-      "up_streak": 1,
-      "close_position": 0.916,
-      "vol_profile": {
-        "am_vol": 36165,
-        "pm_vol": 29907,
-        "pm_share": 0.453,
+        "am_vol": 119852,
+        "pm_vol": 80336,
+        "pm_share": 0.401,
         "persistence": "balanced"
       },
       "latest_bar": {
-        "open": 1322.395,
-        "high": 1388.42,
-        "low": 1322.395,
-        "close": 1382.87,
-        "volume": 66417.0,
-        "date": "2026-06-30",
-        "close_position": 0.916
+        "open": 118.08,
+        "high": 127.35,
+        "low": 118.08,
+        "close": 123.36,
+        "volume": 209389.0,
+        "date": "2026-07-01",
+        "close_position": 0.57
       },
-      "run_low": 1275.18,
-      "run_high": 1340.08,
+      "run_low": 101.15,
+      "run_high": 121.42,
       "streak": 1,
       "components": {
-        "closing_strength": 0.916,
-        "volume": 0.417,
-        "float": 0.789,
-        "short_float": 0.248,
-        "catalyst": 0.4,
+        "closing_strength": 0.57,
+        "volume": 0.826,
+        "float": 0.803,
+        "short_float": 0.292,
+        "catalyst": 0.9,
         "persistence": 0.0
       },
-      "shs_float": 47370000.0,
-      "short_float_pct": 4.96,
-      "short_ratio": 3.0,
-      "rel_volume": 1.91,
-      "atr14": 100.5,
-      "sma50_dist_pct": -10.83,
-      "sma200_dist_pct": 18.71,
-      "perf_week_pct": -2.91,
-      "earnings": "Apr 30 AMC",
+      "shs_float": 45570000.0,
+      "short_float_pct": 5.85,
+      "short_ratio": 3.77,
+      "rel_volume": 3.34,
+      "atr14": 3.67,
+      "sma50_dist_pct": 12.46,
+      "sma200_dist_pct": 31.16,
+      "perf_week_pct": 5.83,
+      "earnings": "Jul 01 BMO",
       "catalyst": {
-        "strength": "unknown",
-        "score": 0.4,
-        "label": "Unclassified",
-        "reason": "Headlines present but no rule matched.",
+        "strength": "strong",
+        "score": 0.9,
+        "label": "Earnings / guidance",
+        "reason": "MSC Industrial Direct Co Inc (MSM) Q3 2026 Earnings Call Highlights: Strong Sales Growth and ...",
         "source": "rules"
       },
       "news": [
         {
-          "date": "2026-06-30 16:30",
-          "title": "Monolithic Power Systems Inc. stock outperforms competitors on strong trading day",
+          "date": "2026-07-01 17:00",
+          "title": "MSC Industrial Direct Co Inc (MSM) Q3 2026 Earnings Call Highlights: Strong Sales Growth and ...",
+          "source": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/msc-industrial-direct-co-inc-210038611.html"
+        },
+        {
+          "date": "2026-07-01 09:52",
+          "title": "MSC Industrial shares jump after third-quarter earnings top expectations (MSM)",
+          "source": "InvestorsHub",
+          "link": "https://finance.yahoo.com/m/5db34a6c-5ec1-3ba8-b557-7273351b3680/msc-industrial-shares-jump.html"
+        },
+        {
+          "date": "2026-07-01 06:41",
+          "title": "MSC Industrial: Fiscal Q3 Earnings Snapshot",
+          "source": "Associated Press",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/msc-industrial-fiscal-q3-earnings-104127248.html"
+        },
+        {
+          "date": "2026-07-01 06:30",
+          "title": "MSC Industrial Supply Co. Reports Fiscal 2026 Third Quarter Results",
+          "source": "ACCESSWIRE",
+          "link": "/news/365248/msc-industrial-supply-co-reports-fiscal-2026-third-quarter-results"
+        },
+        {
+          "date": "2026-07-01 04:32",
+          "title": "General Mills earnings on tap after a poor period for the company's stock",
           "source": "MarketWatch",
-          "link": "https://www.marketwatch.com/data-news/monolithic-power-systems-inc-stock-outperforms-competitors-on-strong-trading-day-97491fbe-1ec7921cae48?mod=mw_FV"
-        },
-        {
-          "date": "2026-06-26 16:30",
-          "title": "Monolithic Power Systems Inc. stock underperforms Friday when compared to competitors",
-          "source": "MarketWatch",
-          "link": "https://www.marketwatch.com/data-news/monolithic-power-systems-inc-stock-underperforms-friday-when-compared-to-competitors-67318bca-9cc97b6eaec2?mod=mw_FV"
-        },
-        {
-          "date": "2026-06-26 02:15",
-          "title": "FTSE 100 Live: London banks and miners, US tech stocks lead falls",
-          "source": "Proactive",
-          "link": "https://finance.yahoo.com/m/b472acc9-9a93-34e2-8510-6ccf59602b71/ftse-100-live%3A-london-banks.html"
-        },
-        {
-          "date": "2026-06-26 02:15",
-          "title": "FTSE 100 Live: Blue-chips cut losses, Downing Street pushes defence plan",
-          "source": "Proactive",
-          "link": "https://finance.yahoo.com/m/b472acc9-9a93-34e2-8510-6ccf59602b71/ftse-100-live%3A-blue-chips-cut.html"
+          "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-rally-warsh-ecb-forum/card/general-mills-earnings-on-tap-after-a-poor-period-for-the-company-s-stock-PvqLlTLXHHAP8obdKLyq?mod=mw_FV"
         }
       ]
     },
@@ -1407,55 +460,56 @@
       "sector": "Technology",
       "industry": "Software - Application",
       "country": "USA",
-      "market_cap": 4460000000.0,
-      "price": 25.19,
-      "change_pct": 3.03,
-      "volume": 3179286.0,
-      "mqs": 48.4,
+      "market_cap": 4680000000.0,
+      "price": 26.48,
+      "change_pct": 5.12,
+      "volume": 2881212.0,
+      "mqs": 56.2,
       "tier": "Continuation",
       "badges": [
-        "Vol building"
+        "Vol building",
+        "Closed at HOD"
       ],
       "extension": null,
       "pullback_depth": null,
-      "retrace_pct": 4.8,
-      "dist_above_ema10_atr": 2.2,
-      "up_streak": 5,
-      "close_position": 0.734,
+      "retrace_pct": 2.3,
+      "dist_above_ema10_atr": 2.34,
+      "up_streak": 6,
+      "close_position": 0.976,
       "vol_profile": {
-        "am_vol": 76029,
-        "pm_vol": 138333,
-        "pm_share": 0.645,
+        "am_vol": 65371,
+        "pm_vol": 89997,
+        "pm_share": 0.579,
         "persistence": "building"
       },
       "latest_bar": {
-        "open": 24.42,
-        "high": 25.455,
-        "low": 24.42,
-        "close": 25.18,
-        "volume": 217182.0,
-        "date": "2026-06-30",
-        "close_position": 0.734
+        "open": 25.35,
+        "high": 26.52,
+        "low": 25.05,
+        "close": 26.485,
+        "volume": 158218.0,
+        "date": "2026-07-01",
+        "close_position": 0.976
       },
-      "run_low": 12.725,
-      "run_high": 25.03,
-      "streak": 1,
+      "run_low": 13.41,
+      "run_high": 25.455,
+      "streak": 2,
       "components": {
-        "closing_strength": 0.734,
-        "volume": 0.619,
+        "closing_strength": 0.976,
+        "volume": 0.55,
         "float": 0.832,
         "short_float": 0.239,
         "catalyst": 0.4,
-        "persistence": 0.0
+        "persistence": 0.25
       },
       "shs_float": 41880000.0,
       "short_float_pct": 4.79,
-      "short_ratio": 1.32,
-      "rel_volume": 2.09,
-      "atr14": 1.27,
-      "sma50_dist_pct": 40.24,
-      "sma200_dist_pct": 72.63,
-      "perf_week_pct": 17.22,
+      "short_ratio": 1.29,
+      "rel_volume": 1.85,
+      "atr14": 1.29,
+      "sma50_dist_pct": 45.36,
+      "sma200_dist_pct": 80.72,
+      "perf_week_pct": 21.52,
       "earnings": "May 06 AMC",
       "catalyst": {
         "strength": "unknown",
@@ -1474,1752 +528,74 @@
       ]
     },
     {
-      "ticker": "BOT",
-      "company": "RoboStrategy Inc",
-      "sector": "Financial",
-      "industry": "Closed-End Fund - Equity",
-      "country": "USA",
-      "market_cap": 805900000.0,
-      "price": 39.75,
-      "change_pct": 19.41,
-      "volume": 1792444.0,
-      "mqs": 48.2,
-      "tier": "Pullback",
-      "badges": [
-        "Closed at HOD",
-        "Pullback: tight"
-      ],
-      "extension": null,
-      "pullback_depth": "tight",
-      "retrace_pct": 49.9,
-      "dist_above_ema10_atr": 0.47,
-      "up_streak": 3,
-      "close_position": 0.922,
-      "vol_profile": {
-        "am_vol": 15259,
-        "pm_vol": 12136,
-        "pm_share": 0.443,
-        "persistence": "balanced"
-      },
-      "latest_bar": {
-        "open": 35.48,
-        "high": 39.87,
-        "low": 34.26,
-        "close": 39.43,
-        "volume": 31482.0,
-        "date": "2026-06-30",
-        "close_position": 0.922
-      },
-      "run_low": 19.35,
-      "run_high": 48.35,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.922,
-        "volume": 0.486,
-        "float": 0.5,
-        "short_float": 0.4,
-        "catalyst": 0.4,
-        "persistence": 0.0
-      },
-      "shs_float": null,
-      "short_float_pct": null,
-      "short_ratio": 0.91,
-      "rel_volume": 2.15,
-      "atr14": 6.66,
-      "sma50_dist_pct": 28.76,
-      "sma200_dist_pct": 28.76,
-      "perf_week_pct": 33.79,
-      "earnings": "-",
-      "catalyst": {
-        "strength": "unknown",
-        "score": 0.4,
-        "label": "Unclassified",
-        "reason": "Headlines present but no rule matched.",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-29 08:40",
-          "title": "RoboStrategy, Inc. Raises Approximately $33.9 Million Through Private Share Issuances",
-          "source": "GlobeNewswire",
-          "link": "/news/364626/robostrategy-inc-raises-approximately-339-million-through-private-share-issuances"
-        },
-        {
-          "date": "2026-06-26 09:00",
-          "title": "RoboStrategy, Inc. Raises Approximately $36.5 Million Through Private Share Issuances",
-          "source": "GlobeNewswire",
-          "link": "/news/364347/robostrategy-inc-raises-approximately-365-million-through-private-share-issuances"
-        }
-      ]
-    },
-    {
-      "ticker": "PACS",
-      "company": "PACS Group Inc",
+      "ticker": "ESTA",
+      "company": "Establishment Labs Holdings Inc",
       "sector": "Healthcare",
-      "industry": "Medical Care Facilities",
+      "industry": "Medical Devices",
       "country": "USA",
-      "market_cap": 6750000000.0,
-      "price": 42.64,
-      "change_pct": 6.76,
-      "volume": 1451124.0,
-      "mqs": 47.4,
+      "market_cap": 2630000000.0,
+      "price": 89.23,
+      "change_pct": 3.9900000000000007,
+      "volume": 1233852.0,
+      "mqs": 55.1,
       "tier": "Pullback",
       "badges": [
-        "Vol building",
         "Pullback: tight"
       ],
       "extension": null,
       "pullback_depth": "tight",
-      "retrace_pct": 22.8,
-      "dist_above_ema10_atr": 0.77,
+      "retrace_pct": 17.6,
+      "dist_above_ema10_atr": 0.01,
       "up_streak": 0,
-      "close_position": 0.671,
+      "close_position": 0.809,
       "vol_profile": {
-        "am_vol": 30062,
-        "pm_vol": 52987,
-        "pm_share": 0.638,
-        "persistence": "building"
+        "am_vol": 24816,
+        "pm_vol": 22362,
+        "pm_share": 0.474,
+        "persistence": "balanced"
       },
       "latest_bar": {
-        "open": 41.95,
-        "high": 43.89,
-        "low": 39.82,
-        "close": 42.55,
-        "volume": 88678.0,
-        "date": "2026-06-30",
-        "close_position": 0.671
+        "open": 85.55,
+        "high": 90.15,
+        "low": 85.55,
+        "close": 89.27,
+        "volume": 56316.0,
+        "date": "2026-07-01",
+        "close_position": 0.809
       },
-      "run_low": 31.87,
-      "run_high": 42.33,
+      "run_low": 64.44,
+      "run_high": 90.31,
       "streak": 1,
       "components": {
-        "closing_strength": 0.671,
-        "volume": 0.493,
-        "float": 0.797,
-        "short_float": 0.475,
+        "closing_strength": 0.809,
+        "volume": 0.474,
+        "float": 0.947,
+        "short_float": 0.722,
         "catalyst": 0.4,
         "persistence": 0.0
       },
-      "shs_float": 46450000.0,
-      "short_float_pct": 9.51,
-      "short_ratio": 5.03,
-      "rel_volume": 1.65,
-      "atr14": 2.02,
-      "sma50_dist_pct": 16.87,
-      "sma200_dist_pct": 41.29,
-      "perf_week_pct": 14.1,
-      "earnings": "May 11 AMC",
-      "catalyst": {
-        "strength": "unknown",
-        "score": 0.4,
-        "label": "Unclassified",
-        "reason": "Headlines present but no rule matched.",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-29 16:05",
-          "title": "PACS Group to Acquire Operations of 34 Facilities Across Texas, Montana, New Mexico, North Dakota, South Dakota, and Utah",
-          "source": "Business Wire",
-          "link": "https://www.businesswire.com/news/home/20260629276186/en/"
-        }
-      ]
-    },
-    {
-      "ticker": "AEVA",
-      "company": "Aeva Technologies Inc",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "country": "USA",
-      "market_cap": 1810000000.0,
-      "price": 28.72,
-      "change_pct": 11.88,
-      "volume": 4627585.0,
-      "mqs": 47.1,
-      "tier": "Pullback",
-      "badges": [
-        "Vol fading",
-        "Pullback: tight"
-      ],
-      "extension": null,
-      "pullback_depth": "tight",
-      "retrace_pct": 24.0,
-      "dist_above_ema10_atr": 0.96,
-      "up_streak": 3,
-      "close_position": 0.841,
-      "vol_profile": {
-        "am_vol": 134347,
-        "pm_vol": 53486,
-        "pm_share": 0.285,
-        "persistence": "front_loaded"
-      },
-      "latest_bar": {
-        "open": 25.895,
-        "high": 29.3,
-        "low": 25.83,
-        "close": 28.75,
-        "volume": 200439.0,
-        "date": "2026-06-30",
-        "close_position": 0.841
-      },
-      "run_low": 12.535,
-      "run_high": 29.77,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.841,
-        "volume": 0.35,
-        "float": 0.827,
-        "short_float": 0.72,
-        "catalyst": 0.15,
-        "persistence": 0.0
-      },
-      "shs_float": 42500000.0,
-      "short_float_pct": 14.39,
-      "short_ratio": 2.91,
-      "rel_volume": 2.2,
-      "atr14": 2.93,
-      "sma50_dist_pct": 35.99,
-      "sma200_dist_pct": 76.65,
-      "perf_week_pct": 22.01,
-      "earnings": "May 06 AMC",
-      "catalyst": {
-        "strength": "none",
-        "score": 0.15,
-        "label": "No recent news",
-        "reason": "No headlines in the last few days.",
-        "source": "rules"
-      },
-      "news": []
-    },
-    {
-      "ticker": "RRX",
-      "company": "Regal Rexnord Corp",
-      "sector": "Industrials",
-      "industry": "Specialty Industrial Machinery",
-      "country": "USA",
-      "market_cap": 15860000000.0,
-      "price": 238.19,
-      "change_pct": 8.33,
-      "volume": 2424438.0,
-      "mqs": 47.0,
-      "tier": "Pullback",
-      "badges": [
-        "Vol building",
-        "Closed at HOD",
-        "Pullback: healthy"
-      ],
-      "extension": null,
-      "pullback_depth": "healthy",
-      "retrace_pct": 27.6,
-      "dist_above_ema10_atr": -0.04,
-      "up_streak": 0,
-      "close_position": 0.951,
-      "vol_profile": {
-        "am_vol": 84270,
-        "pm_vol": 100460,
-        "pm_share": 0.544,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 230.545,
-        "high": 238.955,
-        "low": 224.91,
-        "close": 238.27,
-        "volume": 191760.0,
-        "date": "2026-06-30",
-        "close_position": 0.951
-      },
-      "run_low": 180.53,
-      "run_high": 234.22,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.951,
-        "volume": 0.667,
-        "float": 0.644,
-        "short_float": 0.253,
-        "catalyst": 0.15,
-        "persistence": 0.0
-      },
-      "shs_float": 66250000.0,
-      "short_float_pct": 5.06,
-      "short_ratio": 3.12,
-      "rel_volume": 2.26,
-      "atr14": 11.11,
-      "sma50_dist_pct": 12.62,
-      "sma200_dist_pct": 35.13,
-      "perf_week_pct": 9.17,
-      "earnings": "May 06 AMC",
-      "catalyst": {
-        "strength": "none",
-        "score": 0.15,
-        "label": "No recent news",
-        "reason": "No headlines in the last few days.",
-        "source": "rules"
-      },
-      "news": []
-    },
-    {
-      "ticker": "RARE",
-      "company": "Ultragenyx Pharmaceutical Inc",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "country": "USA",
-      "market_cap": 3290000000.0,
-      "price": 33.39,
-      "change_pct": 8.83,
-      "volume": 6691912.0,
-      "mqs": 46.7,
-      "tier": "Day-1 Breakout",
-      "badges": [],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 4.8,
-      "dist_above_ema10_atr": 1.85,
-      "up_streak": 0,
-      "close_position": 0.612,
-      "vol_profile": {
-        "am_vol": 243708,
-        "pm_vol": 173592,
-        "pm_share": 0.416,
-        "persistence": "balanced"
-      },
-      "latest_bar": {
-        "open": 31.11,
-        "high": 34.975,
-        "low": 30.9,
-        "close": 33.395,
-        "volume": 423493.0,
-        "date": "2026-06-30",
-        "close_position": 0.612
-      },
-      "run_low": 21.345,
-      "run_high": 31.16,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.612,
-        "volume": 0.791,
-        "float": 0.464,
-        "short_float": 0.798,
-        "catalyst": 0.15,
-        "persistence": 0.0
-      },
-      "shs_float": 89670000.0,
-      "short_float_pct": 15.96,
-      "short_ratio": 6.88,
-      "rel_volume": 3.22,
-      "atr14": 1.54,
-      "sma50_dist_pct": 32.81,
-      "sma200_dist_pct": 23.74,
-      "perf_week_pct": 16.1,
-      "earnings": "May 05 AMC",
-      "catalyst": {
-        "strength": "none",
-        "score": 0.15,
-        "label": "No recent news",
-        "reason": "No headlines in the last few days.",
-        "source": "rules"
-      },
-      "news": []
-    },
-    {
-      "ticker": "FBIN",
-      "company": "Fortune Brands Innovations Inc",
-      "sector": "Industrials",
-      "industry": "Building Products & Equipment",
-      "country": "USA",
-      "market_cap": 6550000000.0,
-      "price": 54.9,
-      "change_pct": 7.71,
-      "volume": 7421490.0,
-      "mqs": 44.9,
-      "tier": "Day-1 Breakout",
-      "badges": [
-        "Closed at HOD"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 1.6,
-      "dist_above_ema10_atr": 3.06,
-      "up_streak": 1,
-      "close_position": 0.971,
-      "vol_profile": {
-        "am_vol": 185470,
-        "pm_vol": 178290,
-        "pm_share": 0.49,
-        "persistence": "balanced"
-      },
-      "latest_bar": {
-        "open": 52.15,
-        "high": 55.065,
-        "low": 52.14,
-        "close": 54.98,
-        "volume": 366712.0,
-        "date": "2026-06-30",
-        "close_position": 0.971
-      },
-      "run_low": 32.11,
-      "run_high": 51.3,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.971,
-        "volume": 0.66,
-        "float": 0.256,
-        "short_float": 0.433,
-        "catalyst": 0.15,
-        "persistence": 0.0
-      },
-      "shs_float": 116700000.0,
-      "short_float_pct": 8.66,
-      "short_ratio": 3.75,
-      "rel_volume": 2.76,
-      "atr14": 2.32,
-      "sma50_dist_pct": 36.43,
-      "sma200_dist_pct": 14.51,
-      "perf_week_pct": 35.06,
-      "earnings": "May 07 AMC",
-      "catalyst": {
-        "strength": "none",
-        "score": 0.15,
-        "label": "No recent news",
-        "reason": "No headlines in the last few days.",
-        "source": "rules"
-      },
-      "news": []
-    },
-    {
-      "ticker": "ASTH",
-      "company": "Astrana Health Inc",
-      "sector": "Healthcare",
-      "industry": "Medical Care Facilities",
-      "country": "USA",
-      "market_cap": 2300000000.0,
-      "price": 46.41,
-      "change_pct": 3.06,
-      "volume": 1274019.0,
-      "mqs": 44.4,
-      "tier": "Continuation",
-      "badges": [
-        "Vol building"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 0.3,
-      "dist_above_ema10_atr": 2.31,
-      "up_streak": 7,
-      "close_position": 0.657,
-      "vol_profile": {
-        "am_vol": 13235,
-        "pm_vol": 24382,
-        "pm_share": 0.648,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 45.31,
-        "high": 47.05,
-        "low": 45.125,
-        "close": 46.39,
-        "volume": 46031.0,
-        "date": "2026-06-30",
-        "close_position": 0.657
-      },
-      "run_low": 33.43,
-      "run_high": 45.075,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.657,
-        "volume": 0.716,
-        "float": 0.85,
-        "short_float": 0.298,
-        "catalyst": 0.15,
-        "persistence": 0.0
-      },
-      "shs_float": 39550000.0,
-      "short_float_pct": 5.96,
-      "short_ratio": 4.49,
-      "rel_volume": 2.43,
-      "atr14": 1.61,
-      "sma50_dist_pct": 22.44,
-      "sma200_dist_pct": 61.48,
-      "perf_week_pct": 12.65,
-      "earnings": "May 07 AMC",
-      "catalyst": {
-        "strength": "none",
-        "score": 0.15,
-        "label": "No recent news",
-        "reason": "No headlines in the last few days.",
-        "source": "rules"
-      },
-      "news": []
-    },
-    {
-      "ticker": "UCTT",
-      "company": "Ultra Clean Hldgs Inc",
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "country": "USA",
-      "market_cap": 6390000000.0,
-      "price": 142.59,
-      "change_pct": 9.1,
-      "volume": 2144202.0,
-      "mqs": 44.3,
-      "tier": "Day-1 Breakout",
-      "badges": [],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 0.0,
-      "dist_above_ema10_atr": 1.7,
-      "up_streak": 1,
-      "close_position": 0.868,
-      "vol_profile": {
-        "am_vol": 45219,
-        "pm_vol": 35499,
-        "pm_share": 0.44,
-        "persistence": "balanced"
-      },
-      "latest_bar": {
-        "open": 132.69,
-        "high": 144.15,
-        "low": 131.91,
-        "close": 142.53,
-        "volume": 88709.0,
-        "date": "2026-06-30",
-        "close_position": 0.868
-      },
-      "run_low": 71.75,
-      "run_high": 130.8,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.868,
-        "volume": 0.397,
-        "float": 0.819,
-        "short_float": 0.403,
-        "catalyst": 0.15,
-        "persistence": 0.0
-      },
-      "shs_float": 43490000.0,
-      "short_float_pct": 8.05,
-      "short_ratio": 3.01,
-      "rel_volume": 1.84,
-      "atr14": 9.52,
-      "sma50_dist_pct": 55.0,
-      "sma200_dist_pct": 168.09,
-      "perf_week_pct": 27.73,
-      "earnings": "Apr 28 AMC",
-      "catalyst": {
-        "strength": "none",
-        "score": 0.15,
-        "label": "No recent news",
-        "reason": "No headlines in the last few days.",
-        "source": "rules"
-      },
-      "news": []
-    },
-    {
-      "ticker": "IFF",
-      "company": "International Flavors & Fragrances Inc",
-      "sector": "Basic Materials",
-      "industry": "Specialty Chemicals",
-      "country": "USA",
-      "market_cap": 20230000000.0,
-      "price": 79.22,
-      "change_pct": 3.56,
-      "volume": 2934013.0,
-      "mqs": 43.6,
-      "tier": "Pullback",
-      "badges": [
-        "Vol building",
-        "Closed at HOD",
-        "Pullback: tight"
-      ],
-      "extension": null,
-      "pullback_depth": "tight",
-      "retrace_pct": 46.0,
-      "dist_above_ema10_atr": 0.27,
-      "up_streak": 2,
-      "close_position": 1.0,
-      "vol_profile": {
-        "am_vol": 62665,
-        "pm_vol": 98035,
-        "pm_share": 0.61,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 76.645,
-        "high": 79.08,
-        "low": 75.515,
-        "close": 79.08,
-        "volume": 168597.0,
-        "date": "2026-06-30",
-        "close_position": 1.0
-      },
-      "run_low": 68.49,
-      "run_high": 83.32,
-      "streak": 1,
-      "components": {
-        "closing_strength": 1.0,
-        "volume": 0.47,
-        "float": 0.1,
-        "short_float": 0.302,
-        "catalyst": 0.4,
-        "persistence": 0.0
-      },
-      "shs_float": 250600000.0,
-      "short_float_pct": 6.05,
-      "short_ratio": 8.1,
-      "rel_volume": 1.57,
-      "atr14": 2.41,
-      "sma50_dist_pct": 5.78,
-      "sma200_dist_pct": 12.76,
-      "perf_week_pct": 6.04,
-      "earnings": "May 05 AMC",
-      "catalyst": {
-        "strength": "unknown",
-        "score": 0.4,
-        "label": "Unclassified",
-        "reason": "Headlines present but no rule matched.",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 08:00",
-          "title": "IFF Launches SENSORA, an Innovative Pro-Fragrance Technology Platform",
-          "source": "Business Wire",
-          "link": "https://www.businesswire.com/news/home/20260629247253/en/SENSORA,"
-        },
-        {
-          "date": "2026-06-29 08:03",
-          "title": "CVC Capital Partners to Buy Ingredients Business Irca From Advent",
-          "source": "The Wall Street Journal",
-          "link": "https://www.wsj.com/business/deals/cvc-capital-partners-to-buy-ingredients-business-irca-from-advent-d60bf54f?mod=wsj_FV"
-        }
-      ]
-    },
-    {
-      "ticker": "ALMS",
-      "company": "Alumis Inc",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "country": "USA",
-      "market_cap": 3590000000.0,
-      "price": 28.14,
-      "change_pct": 3.6799999999999997,
-      "volume": 2340222.0,
-      "mqs": 43.2,
-      "tier": "Continuation",
-      "badges": [
-        "Vol building"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 0.1,
-      "dist_above_ema10_atr": 1.89,
-      "up_streak": 4,
-      "close_position": 0.704,
-      "vol_profile": {
-        "am_vol": 44437,
-        "pm_vol": 82381,
-        "pm_share": 0.65,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 26.88,
-        "high": 28.64,
-        "low": 26.85,
-        "close": 28.11,
-        "volume": 136236.0,
-        "date": "2026-06-30",
-        "close_position": 0.704
-      },
-      "run_low": 18.37,
-      "run_high": 27.15,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.704,
-        "volume": 0.519,
-        "float": 0.489,
-        "short_float": 0.732,
-        "catalyst": 0.15,
-        "persistence": 0.0
-      },
-      "shs_float": 86470000.0,
-      "short_float_pct": 14.64,
-      "short_ratio": 9.41,
-      "rel_volume": 1.74,
-      "atr14": 1.54,
-      "sma50_dist_pct": 20.89,
-      "sma200_dist_pct": 62.28,
-      "perf_week_pct": 14.81,
-      "earnings": "May 14 AMC",
-      "catalyst": {
-        "strength": "none",
-        "score": 0.15,
-        "label": "No recent news",
-        "reason": "No headlines in the last few days.",
-        "source": "rules"
-      },
-      "news": []
-    },
-    {
-      "ticker": "PDFS",
-      "company": "PDF Solutions Inc",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "country": "USA",
-      "market_cap": 2920000000.0,
-      "price": 70.79,
-      "change_pct": 7.39,
-      "volume": 1139055.0,
-      "mqs": 40.9,
-      "tier": "Pullback",
-      "badges": [
-        "Pullback: tight"
-      ],
-      "extension": null,
-      "pullback_depth": "tight",
-      "retrace_pct": 9.3,
-      "dist_above_ema10_atr": 0.61,
-      "up_streak": 1,
-      "close_position": 0.816,
-      "vol_profile": {
-        "am_vol": 31256,
-        "pm_vol": 15817,
-        "pm_share": 0.336,
-        "persistence": "balanced"
-      },
-      "latest_bar": {
-        "open": 67.145,
-        "high": 71.685,
-        "low": 67.145,
-        "close": 70.85,
-        "volume": 53484.0,
-        "date": "2026-06-30",
-        "close_position": 0.816
-      },
-      "run_low": 40.145,
-      "run_high": 68.66,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.816,
-        "volume": 0.306,
-        "float": 0.872,
-        "short_float": 0.303,
-        "catalyst": 0.15,
-        "persistence": 0.0
-      },
-      "shs_float": 36620000.0,
-      "short_float_pct": 6.06,
-      "short_ratio": 2.96,
-      "rel_volume": 1.52,
-      "atr14": 4.5,
-      "sma50_dist_pct": 35.43,
-      "sma200_dist_pct": 98.34,
-      "perf_week_pct": 16.93,
-      "earnings": "May 07 AMC",
-      "catalyst": {
-        "strength": "none",
-        "score": 0.15,
-        "label": "No recent news",
-        "reason": "No headlines in the last few days.",
-        "source": "rules"
-      },
-      "news": []
-    },
-    {
-      "ticker": "ALGM",
-      "company": "Allegro Microsystems Inc",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "country": "USA",
-      "market_cap": 12970000000.0,
-      "price": 69.62,
-      "change_pct": 4.9,
-      "volume": 4304016.0,
-      "mqs": 40.7,
-      "tier": "Day-1 Breakout",
-      "badges": [
-        "Vol building"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 3.6,
-      "dist_above_ema10_atr": 1.98,
-      "up_streak": 1,
-      "close_position": 0.66,
-      "vol_profile": {
-        "am_vol": 118609,
-        "pm_vol": 122773,
-        "pm_share": 0.509,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 66.215,
-        "high": 71.76,
-        "low": 64.975,
-        "close": 69.45,
-        "volume": 248166.0,
-        "date": "2026-06-30",
-        "close_position": 0.66
-      },
-      "run_low": 39.62,
-      "run_high": 67.41,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.66,
-        "volume": 0.487,
-        "float": 0.196,
-        "short_float": 0.54,
-        "catalyst": 0.4,
-        "persistence": 0.0
-      },
-      "shs_float": 124500000.0,
-      "short_float_pct": 10.8,
-      "short_ratio": 5.08,
-      "rel_volume": 1.63,
-      "atr14": 4.65,
-      "sma50_dist_pct": 41.12,
-      "sma200_dist_pct": 94.46,
-      "perf_week_pct": 25.4,
-      "earnings": "May 07 BMO",
-      "catalyst": {
-        "strength": "unknown",
-        "score": 0.4,
-        "label": "Unclassified",
-        "reason": "Headlines present but no rule matched.",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-29 14:30",
-          "title": "Allegro MicroSystems Spikes To All-Time High On 'Best Idea' Rating",
-          "source": "Investor's Business Daily",
-          "link": "https://www.investors.com/news/technology/algm-stock-allegro-microsystems-spikes-all-time-high?mod=IBD_FV"
-        }
-      ]
-    },
-    {
-      "ticker": "KLAC",
-      "company": "KLA Corp",
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "country": "USA",
-      "market_cap": 394120000000.0,
-      "price": 301.71,
-      "change_pct": 8.38,
-      "volume": 19553076.0,
-      "mqs": 39.1,
-      "tier": "Day-1 Breakout",
-      "badges": [
-        "Vol building"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 0.8,
-      "dist_above_ema10_atr": 1.63,
-      "up_streak": 1,
-      "close_position": 0.794,
-      "vol_profile": {
-        "am_vol": 409148,
-        "pm_vol": 465152,
-        "pm_share": 0.532,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 280.94,
-        "high": 307.27,
-        "low": 279.245,
-        "close": 301.49,
-        "volume": 874310.0,
-        "date": "2026-06-30",
-        "close_position": 0.794
-      },
-      "run_low": 164.67,
-      "run_high": 279.305,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.794,
-        "volume": 0.521,
-        "float": 0.1,
-        "short_float": 0.156,
-        "catalyst": 0.45,
-        "persistence": 0.0
-      },
-      "shs_float": 1300000000.0,
-      "short_float_pct": 3.12,
-      "short_ratio": 3.65,
-      "rel_volume": 1.75,
-      "atr14": 17.55,
-      "sma50_dist_pct": 46.49,
-      "sma200_dist_pct": 100.54,
-      "perf_week_pct": 23.4,
-      "earnings": "Apr 29 AMC",
-      "catalyst": {
-        "strength": "weak",
-        "score": 0.45,
-        "label": "Sector / macro",
-        "reason": "The 20 best-performing stocks in the S&P 500 for the first half of 2026",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 17:13",
-          "title": "The 20 best-performing stocks in the S&P 500 for the first half of 2026",
-          "source": "MarketWatch",
-          "link": "https://www.marketwatch.com/story/the-20-best-performing-stocks-in-the-s-p-500-for-the-first-half-of-2026-d916d182?mod=mw_FV"
-        },
-        {
-          "date": "2026-06-30 15:41",
-          "title": "Chip tool stocks surge up to 9% on Samsung, SKs $1.3 trillion Korea bet",
-          "source": "Investing.com",
-          "link": "https://finance.yahoo.com/technology/articles/chip-tool-stocks-surge-9-194154764.html"
-        },
-        {
-          "date": "2026-06-30 15:08",
-          "title": "KLAC Stock: The Math Hidden In Its Price",
-          "source": "Trefis",
-          "link": "https://finance.yahoo.com/m/aae64ab7-9cf0-3adb-92f2-a18e5e912fb8/klac-stock%3A-the-math-hidden.html"
-        },
-        {
-          "date": "2026-06-30 13:18",
-          "title": "ASML, Chip-Tool Stocks Soar as Samsung, SK Plan Investments",
-          "source": "Bloomberg",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/asml-chip-tool-stocks-soar-171857707.html"
-        },
-        {
-          "date": "2026-06-30 12:06",
-          "title": "After a Monumental Run, Is Lam Research Stock Buying The AI Boom Or A Cyclical Peak?",
-          "source": "Trefis",
-          "link": "https://finance.yahoo.com/m/d645fb83-35bc-3718-8413-4c6b9059a27d/after-a-monumental-run%2C-is.html"
-        }
-      ]
-    },
-    {
-      "ticker": "NXT",
-      "company": "Nextpower Inc",
-      "sector": "Technology",
-      "industry": "Solar",
-      "country": "USA",
-      "market_cap": 18070000000.0,
-      "price": 119.14,
-      "change_pct": 7.66,
-      "volume": 4108433.0,
-      "mqs": 38.4,
-      "tier": "Pullback",
-      "badges": [
-        "Vol building",
-        "Pullback: deep"
-      ],
-      "extension": null,
-      "pullback_depth": "deep",
-      "retrace_pct": 18.1,
-      "dist_above_ema10_atr": -0.79,
-      "up_streak": 1,
-      "close_position": 0.83,
-      "vol_profile": {
-        "am_vol": 93829,
-        "pm_vol": 151789,
-        "pm_share": 0.618,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 115.52,
-        "high": 120.295,
-        "low": 113.78,
-        "close": 119.185,
-        "volume": 254092.0,
-        "date": "2026-06-30",
-        "close_position": 0.83
-      },
-      "run_low": 106.28,
-      "run_high": 111.79,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.83,
-        "volume": 0.464,
-        "float": 0.009,
-        "short_float": 0.285,
-        "catalyst": 0.4,
-        "persistence": 0.0
-      },
-      "shs_float": 148850000.0,
-      "short_float_pct": 5.7,
-      "short_ratio": 3.2,
-      "rel_volume": 1.55,
-      "atr14": 9.25,
-      "sma50_dist_pct": -5.4,
-      "sma200_dist_pct": 12.73,
-      "perf_week_pct": -1.24,
-      "earnings": "May 12 AMC",
-      "catalyst": {
-        "strength": "unknown",
-        "score": 0.4,
-        "label": "Unclassified",
-        "reason": "Headlines present but no rule matched.",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-26 01:30",
-          "title": "This Solar Power Stock Still Has a Bright Future",
-          "source": "Barrons.com",
-          "link": "https://www.barrons.com/articles/solar-power-stock-bright-future-69125145?mod=bar_FV"
-        }
-      ]
-    },
-    {
-      "ticker": "BLZE",
-      "company": "Backblaze Inc",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "country": "USA",
-      "market_cap": 951600000.0,
-      "price": 15.86,
-      "change_pct": 5.95,
-      "volume": 4399528.0,
-      "mqs": 38.0,
-      "tier": "Pullback",
-      "badges": [
-        "Pullback: tight"
-      ],
-      "extension": null,
-      "pullback_depth": "tight",
-      "retrace_pct": 5.6,
-      "dist_above_ema10_atr": 3.19,
-      "up_streak": 5,
-      "close_position": 0.87,
-      "vol_profile": {
-        "am_vol": 68242,
-        "pm_vol": 68135,
-        "pm_share": 0.5,
-        "persistence": "balanced"
-      },
-      "latest_bar": {
-        "open": 14.635,
-        "high": 16.02,
-        "low": 14.635,
-        "close": 15.84,
-        "volume": 141651.0,
-        "date": "2026-06-30",
-        "close_position": 0.87
-      },
-      "run_low": 4.19,
-      "run_high": 15.645,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.87,
-        "volume": 0.309,
-        "float": 0.718,
-        "short_float": 0.133,
-        "catalyst": 0.15,
-        "persistence": 0.0
-      },
-      "shs_float": 56630000.0,
-      "short_float_pct": 2.65,
-      "short_ratio": 0.52,
-      "rel_volume": 1.53,
-      "atr14": 1.12,
-      "sma50_dist_pct": 106.1,
-      "sma200_dist_pct": 153.31,
-      "perf_week_pct": 36.02,
-      "earnings": "May 04 AMC",
-      "catalyst": {
-        "strength": "none",
-        "score": 0.15,
-        "label": "No recent news",
-        "reason": "No headlines in the last few days.",
-        "source": "rules"
-      },
-      "news": []
-    },
-    {
-      "ticker": "CGNX",
-      "company": "Cognex Corp",
-      "sector": "Technology",
-      "industry": "Scientific & Technical Instruments",
-      "country": "USA",
-      "market_cap": 12050000000.0,
-      "price": 72.42,
-      "change_pct": 5.94,
-      "volume": 4130517.0,
-      "mqs": 36.8,
-      "tier": "Pullback",
-      "badges": [
-        "Vol building",
-        "Closed at HOD",
-        "Pullback: tight"
-      ],
-      "extension": null,
-      "pullback_depth": "tight",
-      "retrace_pct": 19.5,
-      "dist_above_ema10_atr": 0.92,
-      "up_streak": 1,
-      "close_position": 0.915,
-      "vol_profile": {
-        "am_vol": 73946,
-        "pm_vol": 156349,
-        "pm_share": 0.679,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 69.135,
-        "high": 72.84,
-        "low": 68.16,
-        "close": 72.44,
-        "volume": 252108.0,
-        "date": "2026-06-30",
-        "close_position": 0.915
-      },
-      "run_low": 54.26,
-      "run_high": 71.76,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.915,
-        "volume": 0.55,
-        "float": 0.1,
-        "short_float": 0.2,
-        "catalyst": 0.15,
-        "persistence": 0.0
-      },
-      "shs_float": 165800000.0,
-      "short_float_pct": 3.99,
-      "short_ratio": 2.97,
-      "rel_volume": 1.85,
-      "atr14": 3.14,
-      "sma50_dist_pct": 15.83,
-      "sma200_dist_pct": 47.95,
-      "perf_week_pct": 13.23,
-      "earnings": "May 06 AMC",
-      "catalyst": {
-        "strength": "none",
-        "score": 0.15,
-        "label": "No recent news",
-        "reason": "No headlines in the last few days.",
-        "source": "rules"
-      },
-      "news": []
-    },
-    {
-      "ticker": "JCI",
-      "company": "Johnson Controls International plc",
-      "sector": "Industrials",
-      "industry": "Building Products & Equipment",
-      "country": "Ireland",
-      "market_cap": 89140000000.0,
-      "price": 146.11,
-      "change_pct": 4.02,
-      "volume": 7390280.0,
-      "mqs": 36.5,
-      "tier": "Pullback",
-      "badges": [
-        "Vol building",
-        "Pullback: deep"
-      ],
-      "extension": null,
-      "pullback_depth": "deep",
-      "retrace_pct": 49.6,
-      "dist_above_ema10_atr": -0.44,
-      "up_streak": 1,
-      "close_position": 0.689,
-      "vol_profile": {
-        "am_vol": 206952,
-        "pm_vol": 254426,
-        "pm_share": 0.551,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 142.015,
-        "high": 148.255,
-        "low": 141.96,
-        "close": 146.3,
-        "volume": 464889.0,
-        "date": "2026-06-30",
-        "close_position": 0.689
-      },
-      "run_low": 131.91,
-      "run_high": 149.08,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.689,
-        "volume": 0.573,
-        "float": 0.1,
-        "short_float": 0.067,
-        "catalyst": 0.45,
-        "persistence": 0.0
-      },
-      "shs_float": 608050000.0,
-      "short_float_pct": 1.34,
-      "short_ratio": 2.13,
-      "rel_volume": 1.93,
-      "atr14": 5.04,
-      "sma50_dist_pct": 2.94,
-      "sma200_dist_pct": 15.12,
-      "perf_week_pct": 3.42,
+      "shs_float": 26920000.0,
+      "short_float_pct": 14.44,
+      "short_ratio": 6.64,
+      "rel_volume": 2.11,
+      "atr14": 4.25,
+      "sma50_dist_pct": 19.67,
+      "sma200_dist_pct": 36.7,
+      "perf_week_pct": 2.32,
       "earnings": "May 06 BMO",
       "catalyst": {
-        "strength": "weak",
-        "score": 0.45,
-        "label": "Sector / macro",
-        "reason": "Carrier Global Stock: A Louder Version of the Market",
+        "strength": "unknown",
+        "score": 0.4,
+        "label": "Unclassified",
+        "reason": "Headlines present but no rule matched.",
         "source": "rules"
       },
       "news": [
         {
-          "date": "2026-06-30 08:54",
-          "title": "Should You Chase The Breakout In AeroVironment (AVAV) Stock?",
-          "source": "Trefis",
-          "link": "https://finance.yahoo.com/m/df69b716-bf89-307e-a12c-82cbdc8939b0/should-you-chase-the-breakout.html"
-        },
-        {
-          "date": "2026-06-26 15:12",
-          "title": "Carrier Global Stock: A Louder Version of the Market",
-          "source": "Trefis",
-          "link": "https://finance.yahoo.com/m/715b5a56-d220-3715-9461-ae9641223039/carrier-global-stock%3A-a.html"
-        }
-      ]
-    },
-    {
-      "ticker": "AMAT",
-      "company": "Applied Materials Inc",
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "country": "USA",
-      "market_cap": 574030000000.0,
-      "price": 723.0,
-      "change_pct": 4.08,
-      "volume": 15962854.0,
-      "mqs": 35.8,
-      "tier": "Day-1 Breakout",
-      "badges": [
-        "Vol building"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 4.4,
-      "dist_above_ema10_atr": 1.92,
-      "up_streak": 1,
-      "close_position": 0.619,
-      "vol_profile": {
-        "am_vol": 296968,
-        "pm_vol": 366435,
-        "pm_share": 0.552,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 698.025,
-        "high": 739.6,
-        "low": 696.24,
-        "close": 723.08,
-        "volume": 663639.0,
-        "date": "2026-06-30",
-        "close_position": 0.619
-      },
-      "run_low": 384.66,
-      "run_high": 708.985,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.619,
-        "volume": 0.567,
-        "float": 0.1,
-        "short_float": 0.139,
-        "catalyst": 0.45,
-        "persistence": 0.0
-      },
-      "shs_float": 789930000.0,
-      "short_float_pct": 2.77,
-      "short_ratio": 2.62,
-      "rel_volume": 1.91,
-      "atr14": 41.39,
-      "sma50_dist_pct": 50.37,
-      "sma200_dist_pct": 115.97,
-      "perf_week_pct": 23.4,
-      "earnings": "May 14 AMC",
-      "catalyst": {
-        "strength": "weak",
-        "score": 0.45,
-        "label": "Sector / macro",
-        "reason": "The 20 best-performing stocks in the S&P 500 for the first half of 2026",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 17:13",
-          "title": "The 20 best-performing stocks in the S&P 500 for the first half of 2026",
-          "source": "MarketWatch",
-          "link": "https://www.marketwatch.com/story/the-20-best-performing-stocks-in-the-s-p-500-for-the-first-half-of-2026-d916d182?mod=mw_FV"
-        },
-        {
-          "date": "2026-06-30 17:12",
-          "title": "Michael Burry bets against Tesla, Nvidia in new AI bubble short positions",
-          "source": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-bets-against-tesla-211234101.html"
-        },
-        {
-          "date": "2026-06-30 15:41",
-          "title": "Chip tool stocks surge up to 9% on Samsung, SKs $1.3 trillion Korea bet",
-          "source": "Investing.com",
-          "link": "https://finance.yahoo.com/technology/articles/chip-tool-stocks-surge-9-194154764.html"
-        },
-        {
-          "date": "2026-06-30 15:36",
-          "title": "The Whisper That Moved A Half-Trillion Dollar Stock",
-          "source": "Trefis",
-          "link": "https://finance.yahoo.com/m/c2556cb5-d235-35d0-bd0f-385819627105/the-whisper-that-moved-a.html"
-        },
-        {
-          "date": "2026-06-30 15:25",
-          "title": "Applied Materials Stock Is Priced For Perfection",
-          "source": "Trefis",
-          "link": "https://finance.yahoo.com/m/45868e36-93fe-32d5-9b5e-088629ea06b5/applied-materials-stock-is.html"
-        }
-      ]
-    },
-    {
-      "ticker": "LRCX",
-      "company": "Lam Research Corp",
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "country": "USA",
-      "market_cap": 541909999999.99994,
-      "price": 433.33,
-      "change_pct": 5.46,
-      "volume": 16832022.0,
-      "mqs": 35.1,
-      "tier": "Day-1 Breakout",
-      "badges": [],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 2.5,
-      "dist_above_ema10_atr": 1.13,
-      "up_streak": 1,
-      "close_position": 0.794,
-      "vol_profile": {
-        "am_vol": 498490,
-        "pm_vol": 383694,
-        "pm_share": 0.435,
-        "persistence": "balanced"
-      },
-      "latest_bar": {
-        "open": 416.29,
-        "high": 438.36,
-        "low": 414.66,
-        "close": 433.485,
-        "volume": 884616.0,
-        "date": "2026-06-30",
-        "close_position": 0.794
-      },
-      "run_low": 248.67,
-      "run_high": 414.905,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.794,
-        "volume": 0.329,
-        "float": 0.1,
-        "short_float": 0.12,
-        "catalyst": 0.45,
-        "persistence": 0.0
-      },
-      "shs_float": 1250000000.0,
-      "short_float_pct": 2.4,
-      "short_ratio": 2.85,
-      "rel_volume": 1.6,
-      "atr14": 25.35,
-      "sma50_dist_pct": 36.84,
-      "sma200_dist_pct": 96.7,
-      "perf_week_pct": 16.7,
-      "earnings": "Apr 22 AMC",
-      "catalyst": {
-        "strength": "weak",
-        "score": 0.45,
-        "label": "Sector / macro",
-        "reason": "The 20 best-performing stocks in the S&P 500 for the first half of 2026",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 17:13",
-          "title": "The 20 best-performing stocks in the S&P 500 for the first half of 2026",
-          "source": "MarketWatch",
-          "link": "https://www.marketwatch.com/story/the-20-best-performing-stocks-in-the-s-p-500-for-the-first-half-of-2026-d916d182?mod=mw_FV"
-        },
-        {
-          "date": "2026-06-30 15:41",
-          "title": "Chip tool stocks surge up to 9% on Samsung, SKs $1.3 trillion Korea bet",
-          "source": "Investing.com",
-          "link": "https://finance.yahoo.com/technology/articles/chip-tool-stocks-surge-9-194154764.html"
-        },
-        {
-          "date": "2026-06-30 15:36",
-          "title": "The Whisper That Moved A Half-Trillion Dollar Stock",
-          "source": "Trefis",
-          "link": "https://finance.yahoo.com/m/c2556cb5-d235-35d0-bd0f-385819627105/the-whisper-that-moved-a.html"
-        },
-        {
-          "date": "2026-06-30 15:25",
-          "title": "Applied Materials Stock Is Priced For Perfection",
-          "source": "Trefis",
-          "link": "https://finance.yahoo.com/m/45868e36-93fe-32d5-9b5e-088629ea06b5/applied-materials-stock-is.html"
-        },
-        {
-          "date": "2026-06-30 15:08",
-          "title": "KLAC Stock: The Math Hidden In Its Price",
-          "source": "Trefis",
-          "link": "https://finance.yahoo.com/m/aae64ab7-9cf0-3adb-92f2-a18e5e912fb8/klac-stock%3A-the-math-hidden.html"
-        }
-      ]
-    },
-    {
-      "ticker": "SYNA",
-      "company": "Synaptics Inc",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "country": "USA",
-      "market_cap": 4800000000.0,
-      "price": 124.23,
-      "change_pct": 5.84,
-      "volume": 2363361.0,
-      "mqs": 32.3,
-      "tier": "Reversal/Failed",
-      "badges": [
-        "Broke down 52% off peak"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 51.8,
-      "dist_above_ema10_atr": -1.38,
-      "up_streak": 0,
-      "close_position": 0.87,
-      "vol_profile": {
-        "am_vol": 99429,
-        "pm_vol": 83894,
-        "pm_share": 0.458,
-        "persistence": "balanced"
-      },
-      "latest_bar": {
-        "open": 118.24,
-        "high": 125.08,
-        "low": 118.24,
-        "close": 124.19,
-        "volume": 189537.0,
-        "date": "2026-06-30",
-        "close_position": 0.87
-      },
-      "run_low": 88.94,
-      "run_high": 148.095,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.87,
-        "volume": 0.537,
-        "float": 0.865,
-        "short_float": 0.568,
-        "catalyst": 0.9,
-        "persistence": 0.0
-      },
-      "shs_float": 37610000.0,
-      "short_float_pct": 11.35,
-      "short_ratio": 4.2,
-      "rel_volume": 2.33,
-      "atr14": 9.18,
-      "sma50_dist_pct": 1.94,
-      "sma200_dist_pct": 43.05,
-      "perf_week_pct": -7.57,
-      "earnings": "May 07 AMC",
-      "catalyst": {
-        "strength": "strong",
-        "score": 0.9,
-        "label": "Analyst upgrade",
-        "reason": "Adobe downgraded, Roblox upgraded: Wall Street's top analyst calls",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 07:08",
-          "title": "Onsemi agrees to buy Synaptics for about $7B",
-          "source": "Manufacturing Dive",
-          "link": "https://finance.yahoo.com/m/63b9dec4-0bd2-3a24-b085-958a217341dc/onsemi-agrees-to-buy.html"
-        },
-        {
-          "date": "2026-06-29 13:59",
-          "title": "Are IRDM, TBPH, SYNA, TECH Obtaining Fair Deals for their Shareholders?",
-          "source": "PR Newswire",
-          "link": "/news/364699/are-irdm-tbph-syna-tech-obtaining-fair-deals-for-their-shareholders"
-        },
-        {
-          "date": "2026-06-29 09:44",
-          "title": "Adobe downgraded, Roblox upgraded: Wall Street's top analyst calls",
-          "source": "The Fly",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/adobe-downgraded-roblox-upgraded-wall-134400216.html"
-        },
-        {
-          "date": "2026-06-28 21:29",
-          "title": "Onsemi's Synaptics acquisition intensifies competition for physical AI leadership",
-          "source": "DigiTimes",
-          "link": "https://www.digitimes.com/news/a20260629PD206/onsemi-synaptics-acquisition-competition-chipmakers.html"
-        },
-        {
-          "date": "2026-06-26 15:54",
-          "title": "Trending: Netflix stock bounces back, Moderna surges postinvestor day, ON Semi plummets",
-          "source": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/trending-netflix-stock-bounces-back-195450197.html"
-        }
-      ]
-    },
-    {
-      "ticker": "DRS",
-      "company": "Leonardo DRS Inc",
-      "sector": "Industrials",
-      "industry": "Aerospace & Defense",
-      "country": "USA",
-      "market_cap": 11380000000.0,
-      "price": 42.67,
-      "change_pct": 4.2,
-      "volume": 1945225.0,
-      "mqs": 29.9,
-      "tier": "Reversal/Failed",
-      "badges": [
-        "Vol building",
-        "Closed at HOD",
-        "Broke down 80% off peak"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 80.5,
-      "dist_above_ema10_atr": -1.99,
-      "up_streak": 0,
-      "close_position": 0.983,
-      "vol_profile": {
-        "am_vol": 17491,
-        "pm_vol": 23569,
-        "pm_share": 0.574,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 41.84,
-        "high": 42.68,
-        "low": 41.49,
-        "close": 42.66,
-        "volume": 52303.0,
-        "date": "2026-06-30",
-        "close_position": 0.983
-      },
-      "run_low": 38.81,
-      "run_high": 50.01,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.983,
-        "volume": 0.576,
-        "float": 0.568,
-        "short_float": 0.236,
-        "catalyst": 0.9,
-        "persistence": 0.0
-      },
-      "shs_float": 76140000.0,
-      "short_float_pct": 4.72,
-      "short_ratio": 3.58,
-      "rel_volume": 1.94,
-      "atr14": 1.81,
-      "sma50_dist_pct": -2.95,
-      "sma200_dist_pct": 3.52,
-      "perf_week_pct": -6.71,
-      "earnings": "May 05 BMO",
-      "catalyst": {
-        "strength": "strong",
-        "score": 0.9,
-        "label": "Earnings / guidance",
-        "reason": "Leonardo DRS Schedules Second Quarter 2026 Earnings Conference Call for July 30, 2026",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 08:00",
-          "title": "Leonardo DRS Schedules Second Quarter 2026 Earnings Conference Call for July 30, 2026",
-          "source": "GlobeNewswire",
-          "link": "/news/364931/leonardo-drs-schedules-second-quarter-2026-earnings-conference-call-for-july-30-2026"
-        },
-        {
-          "date": "2026-06-25 09:10",
-          "title": "AV Appoints William J. Lynn III to Board of Directors",
+          "date": "2026-06-29 08:00",
+          "title": "Establishment Labs Appoints Taylor Harris to Board of Directors",
           "source": "Business Wire",
-          "link": "https://www.businesswire.com/news/home/20260625949525/en/"
-        }
-      ]
-    },
-    {
-      "ticker": "ON",
-      "company": "ON Semiconductor Corp",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "country": "USA",
-      "market_cap": 37050000000.0,
-      "price": 94.54,
-      "change_pct": 6.74,
-      "volume": 18905904.0,
-      "mqs": 24.8,
-      "tier": "Reversal/Failed",
-      "badges": [
-        "Broke down 51% off peak"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 50.7,
-      "dist_above_ema10_atr": -2.17,
-      "up_streak": 0,
-      "close_position": 0.898,
-      "vol_profile": {
-        "am_vol": 407802,
-        "pm_vol": 360270,
-        "pm_share": 0.469,
-        "persistence": "balanced"
-      },
-      "latest_bar": {
-        "open": 88.77,
-        "high": 95.31,
-        "low": 88.77,
-        "close": 94.64,
-        "volume": 768665.0,
-        "date": "2026-06-30",
-        "close_position": 0.898
-      },
-      "run_low": 86.56,
-      "run_high": 90.9,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.898,
-        "volume": 0.306,
-        "float": 0.1,
-        "short_float": 0.4,
-        "catalyst": 0.9,
-        "persistence": 0.0
-      },
-      "shs_float": 389420000.0,
-      "short_float_pct": 8.01,
-      "short_ratio": 2.51,
-      "rel_volume": 1.52,
-      "atr14": 9.49,
-      "sma50_dist_pct": -14.38,
-      "sma200_dist_pct": 33.92,
-      "perf_week_pct": -19.24,
-      "earnings": "May 04 AMC",
-      "catalyst": {
-        "strength": "strong",
-        "score": 0.9,
-        "label": "Analyst upgrade",
-        "reason": "Adobe downgraded, Roblox upgraded: Wall Street's top analyst calls",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 16:30",
-          "title": "ON Semiconductor Corp. stock outperforms competitors on strong trading day",
-          "source": "MarketWatch",
-          "link": "https://www.marketwatch.com/data-news/on-semiconductor-corp-stock-outperforms-competitors-on-strong-trading-day-3e47f71b-69e94a0d792d?mod=mw_FV"
-        },
-        {
-          "date": "2026-06-30 07:08",
-          "title": "Onsemi agrees to buy Synaptics for about $7B",
-          "source": "Manufacturing Dive",
-          "link": "https://finance.yahoo.com/m/63b9dec4-0bd2-3a24-b085-958a217341dc/onsemi-agrees-to-buy.html"
-        },
-        {
-          "date": "2026-06-29 16:12",
-          "title": "Stocks Rally to Start a Big Holiday Week: Stock Market Today",
-          "source": "Kiplinger",
-          "link": "https://finance.yahoo.com/m/ddb34627-5d0a-3b1a-babf-1d1deaabe0b5/stocks-rally-to-start-a-big.html"
-        },
-        {
-          "date": "2026-06-29 09:44",
-          "title": "Adobe downgraded, Roblox upgraded: Wall Street's top analyst calls",
-          "source": "The Fly",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/adobe-downgraded-roblox-upgraded-wall-134400216.html"
-        },
-        {
-          "date": "2026-06-26 21:37",
-          "title": "What Analog Devices Stock Was Saying By Intentionally Selling Less",
-          "source": "Trefis",
-          "link": "https://finance.yahoo.com/m/ee6140e8-5634-333e-8c8c-94d5ffcb2ada/what-analog-devices-stock-was.html"
-        }
-      ]
-    },
-    {
-      "ticker": "UMAC",
-      "company": "Unusual Machines Inc",
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "country": "USA",
-      "market_cap": 1070000000.0000001,
-      "price": 22.3,
-      "change_pct": 15.960000000000003,
-      "volume": 9876301.0,
-      "mqs": 22.9,
-      "tier": "Reversal/Failed",
-      "badges": [
-        "Vol fading",
-        "Broke down 70% off peak"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 70.5,
-      "dist_above_ema10_atr": -0.77,
-      "up_streak": 2,
-      "close_position": 0.662,
-      "vol_profile": {
-        "am_vol": 290866,
-        "pm_vol": 127789,
-        "pm_share": 0.305,
-        "persistence": "front_loaded"
-      },
-      "latest_bar": {
-        "open": 20.825,
-        "high": 23.35,
-        "low": 20.21,
-        "close": 22.29,
-        "volume": 421346.0,
-        "date": "2026-06-30",
-        "close_position": 0.662
-      },
-      "run_low": 12.96,
-      "run_high": 34.29,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.662,
-        "volume": 0.193,
-        "float": 0.82,
-        "short_float": 0.692,
-        "catalyst": 0.45,
-        "persistence": 0.0
-      },
-      "shs_float": 43370000.0,
-      "short_float_pct": 13.83,
-      "short_ratio": 1.0,
-      "rel_volume": 1.65,
-      "atr14": 2.96,
-      "sma50_dist_pct": 13.44,
-      "sma200_dist_pct": 49.03,
-      "perf_week_pct": 3.67,
-      "earnings": "May 14 AMC",
-      "catalyst": {
-        "strength": "weak",
-        "score": 0.45,
-        "label": "Sector / macro",
-        "reason": "Defense stocks rally after AeroVironment delivers record quarterly performance (UMAC)",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-06-30 08:34",
-          "title": "Defense stocks rally after AeroVironment delivers record quarterly performance (UMAC)",
-          "source": "InvestorsHub",
-          "link": "https://finance.yahoo.com/m/0ebbdfc6-7054-348b-a28d-9f644ffe863e/defense-stocks-rally-after.html"
-        },
-        {
-          "date": "2026-06-29 08:30",
-          "title": "Unusual Machines Added to Russell 2000(R) Index",
-          "source": "ACCESSWIRE",
-          "link": "/news/364594/unusual-machines-added-to-russell-2000r-index"
-        },
-        {
-          "date": "2026-06-25 08:30",
-          "title": "Unusual Machines Expands Orlando Manufacturing Footprint to Support Battery Operations",
-          "source": "ACCESSWIRE",
-          "link": "/news/364031/unusual-machines-expands-orlando-manufacturing-footprint-to-support-battery-operations"
+          "link": "https://www.businesswire.com/news/home/20260629901894/en/"
         }
       ]
     },
@@ -3229,56 +605,57 @@
       "sector": "Basic Materials",
       "industry": "Specialty Chemicals",
       "country": "USA",
-      "market_cap": 65290000000.00001,
-      "price": 293.18,
-      "change_pct": 8.04,
-      "volume": 3508428.0,
-      "mqs": 18.1,
-      "tier": "Reversal/Failed",
+      "market_cap": 68230000000.00001,
+      "price": 306.4,
+      "change_pct": 4.51,
+      "volume": 2306298.0,
+      "mqs": 54.5,
+      "tier": "Pullback",
       "badges": [
-        "Upper wick / fade",
-        "Broke down 86% off peak"
+        "Vol building",
+        "Closed at HOD",
+        "Pullback: tight"
       ],
       "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 86.0,
-      "dist_above_ema10_atr": -1.27,
-      "up_streak": 0,
-      "close_position": 0.158,
+      "pullback_depth": "tight",
+      "retrace_pct": 33.8,
+      "dist_above_ema10_atr": 1.54,
+      "up_streak": 1,
+      "close_position": 0.944,
       "vol_profile": {
-        "am_vol": 106397,
-        "pm_vol": 91065,
-        "pm_share": 0.461,
-        "persistence": "balanced"
+        "am_vol": 84085,
+        "pm_vol": 90799,
+        "pm_share": 0.519,
+        "persistence": "building"
       },
       "latest_bar": {
-        "open": 301.0,
-        "high": 304.73,
-        "low": 290.82,
-        "close": 293.02,
-        "volume": 199272.0,
-        "date": "2026-06-30",
-        "close_position": 0.158
+        "open": 291.37,
+        "high": 307.65,
+        "low": 285.91,
+        "close": 306.43,
+        "volume": 177163.0,
+        "date": "2026-07-01",
+        "close_position": 0.944
       },
-      "run_low": 270.23,
-      "run_high": 279.11,
-      "streak": 1,
+      "run_low": 268.56,
+      "run_high": 302.85,
+      "streak": 2,
       "components": {
-        "closing_strength": 0.158,
-        "volume": 0.697,
+        "closing_strength": 0.944,
+        "volume": 0.547,
         "float": 0.1,
         "short_float": 0.071,
         "catalyst": 0.9,
-        "persistence": 0.0
+        "persistence": 0.25
       },
       "shs_float": 222550000.0,
       "short_float_pct": 1.42,
-      "short_ratio": 2.59,
-      "rel_volume": 2.89,
-      "atr14": 8.32,
-      "sma50_dist_pct": 1.17,
-      "sma200_dist_pct": 7.14,
-      "perf_week_pct": 3.8,
+      "short_ratio": 2.52,
+      "rel_volume": 1.84,
+      "atr14": 9.28,
+      "sma50_dist_pct": 5.65,
+      "sma200_dist_pct": 11.95,
+      "perf_week_pct": 9.93,
       "earnings": "Apr 30 BMO",
       "catalyst": {
         "strength": "strong",
@@ -3317,6 +694,540 @@
           "title": "Air Products Publishes 2026 Sustainability Report",
           "source": "PR Newswire",
           "link": "/news/364363/air-products-publishes-2026-sustainability-report"
+        }
+      ]
+    },
+    {
+      "ticker": "ASTH",
+      "company": "Astrana Health Inc",
+      "sector": "Healthcare",
+      "industry": "Medical Care Facilities",
+      "country": "USA",
+      "market_cap": 2470000000.0,
+      "price": 49.81,
+      "change_pct": 7.33,
+      "volume": 1696067.0,
+      "mqs": 52.5,
+      "tier": "Continuation",
+      "badges": [
+        "Vol building"
+      ],
+      "extension": null,
+      "pullback_depth": null,
+      "retrace_pct": 4.7,
+      "dist_above_ema10_atr": 2.61,
+      "up_streak": 8,
+      "close_position": 0.689,
+      "vol_profile": {
+        "am_vol": 21449,
+        "pm_vol": 40271,
+        "pm_share": 0.652,
+        "persistence": "building"
+      },
+      "latest_bar": {
+        "open": 48.115,
+        "high": 50.605,
+        "low": 48.115,
+        "close": 49.83,
+        "volume": 70359.0,
+        "date": "2026-07-01",
+        "close_position": 0.689
+      },
+      "run_low": 33.43,
+      "run_high": 47.05,
+      "streak": 2,
+      "components": {
+        "closing_strength": 0.689,
+        "volume": 0.919,
+        "float": 0.85,
+        "short_float": 0.298,
+        "catalyst": 0.15,
+        "persistence": 0.25
+      },
+      "shs_float": 39550000.0,
+      "short_float_pct": 5.96,
+      "short_ratio": 4.37,
+      "rel_volume": 3.14,
+      "atr14": 1.79,
+      "sma50_dist_pct": 30.15,
+      "sma200_dist_pct": 72.71,
+      "perf_week_pct": 17.84,
+      "earnings": "May 07 AMC",
+      "catalyst": {
+        "strength": "none",
+        "score": 0.15,
+        "label": "No recent news",
+        "reason": "No headlines in the last few days.",
+        "source": "rules"
+      },
+      "news": []
+    },
+    {
+      "ticker": "NP",
+      "company": "Neptune Insurance Holdings Inc",
+      "sector": "Financial",
+      "industry": "Insurance Brokers",
+      "country": "USA",
+      "market_cap": 4710000000.0,
+      "price": 34.06,
+      "change_pct": 8.13,
+      "volume": 1704646.0,
+      "mqs": 51.7,
+      "tier": "Continuation",
+      "badges": [
+        "Vol building",
+        "Closed at HOD"
+      ],
+      "extension": null,
+      "pullback_depth": null,
+      "retrace_pct": 1.8,
+      "dist_above_ema10_atr": 1.67,
+      "up_streak": 3,
+      "close_position": 0.966,
+      "vol_profile": {
+        "am_vol": 13253,
+        "pm_vol": 64765,
+        "pm_share": 0.83,
+        "persistence": "building"
+      },
+      "latest_bar": {
+        "open": 32.255,
+        "high": 34.12,
+        "low": 32.04,
+        "close": 34.05,
+        "volume": 82801.0,
+        "date": "2026-07-01",
+        "close_position": 0.966
+      },
+      "run_low": 23.77,
+      "run_high": 31.67,
+      "streak": 2,
+      "components": {
+        "closing_strength": 0.966,
+        "volume": 0.656,
+        "float": 0.867,
+        "short_float": 0.112,
+        "catalyst": 0.15,
+        "persistence": 0.25
+      },
+      "shs_float": 37230000.0,
+      "short_float_pct": 2.23,
+      "short_ratio": 1.08,
+      "rel_volume": 2.22,
+      "atr14": 1.61,
+      "sma50_dist_pct": 23.66,
+      "sma200_dist_pct": 33.12,
+      "perf_week_pct": 17.49,
+      "earnings": "Apr 22 AMC",
+      "catalyst": {
+        "strength": "none",
+        "score": 0.15,
+        "label": "No recent news",
+        "reason": "No headlines in the last few days.",
+        "source": "rules"
+      },
+      "news": []
+    },
+    {
+      "ticker": "GH",
+      "company": "Guardant Health Inc",
+      "sector": "Healthcare",
+      "industry": "Diagnostics & Research",
+      "country": "USA",
+      "market_cap": 22640000000.0,
+      "price": 170.77,
+      "change_pct": 13.819999999999999,
+      "volume": 6706184.0,
+      "mqs": 47.5,
+      "tier": "Pullback",
+      "badges": [
+        "Pullback: tight"
+      ],
+      "extension": null,
+      "pullback_depth": "tight",
+      "retrace_pct": 5.6,
+      "dist_above_ema10_atr": 1.43,
+      "up_streak": 0,
+      "close_position": 0.897,
+      "vol_profile": {
+        "am_vol": 227150,
+        "pm_vol": 188830,
+        "pm_share": 0.454,
+        "persistence": "balanced"
+      },
+      "latest_bar": {
+        "open": 159.69,
+        "high": 172.58,
+        "low": 156.63,
+        "close": 170.93,
+        "volume": 420640.0,
+        "date": "2026-07-01",
+        "close_position": 0.897
+      },
+      "run_low": 86.435,
+      "run_high": 153.86,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.897,
+        "volume": 0.614,
+        "float": 0.173,
+        "short_float": 0.513,
+        "catalyst": 0.4,
+        "persistence": 0.0
+      },
+      "shs_float": 127460000.0,
+      "short_float_pct": 10.27,
+      "short_ratio": 5.08,
+      "rel_volume": 2.6,
+      "atr14": 7.83,
+      "sma50_dist_pct": 48.07,
+      "sma200_dist_pct": 75.41,
+      "perf_week_pct": 24.69,
+      "earnings": "May 07 AMC",
+      "catalyst": {
+        "strength": "unknown",
+        "score": 0.4,
+        "label": "Unclassified",
+        "reason": "Headlines present but no rule matched.",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-07-01 14:50",
+          "title": "UnitedHealth Group Now Covers Guardant Health's Shield Blood Test for Colorectal Cancer Screening",
+          "source": "Business Wire",
+          "link": "https://www.businesswire.com/news/home/20260701277599/en"
+        },
+        {
+          "date": "2026-07-01 13:10",
+          "title": "GH Stock At Over 5-Year Highs  Whats The UnitedHealth Connection?",
+          "source": "Stocktwits",
+          "link": "https://finance.yahoo.com/m/7ed83da5-1964-3456-829f-1a66f3c7758e/gh-stock-at-over-5-year-highs.html"
+        }
+      ]
+    },
+    {
+      "ticker": "RDDT",
+      "company": "Reddit Inc",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "country": "USA",
+      "market_cap": 38070000000.0,
+      "price": 197.76,
+      "change_pct": 13.930000000000001,
+      "volume": 8742308.0,
+      "mqs": 46.7,
+      "tier": "Pullback",
+      "badges": [
+        "Vol building",
+        "Pullback: tight"
+      ],
+      "extension": null,
+      "pullback_depth": "tight",
+      "retrace_pct": 28.8,
+      "dist_above_ema10_atr": 0.43,
+      "up_streak": 0,
+      "close_position": 0.862,
+      "vol_profile": {
+        "am_vol": 153367,
+        "pm_vol": 230525,
+        "pm_share": 0.6,
+        "persistence": "building"
+      },
+      "latest_bar": {
+        "open": 175.61,
+        "high": 201.085,
+        "low": 175.38,
+        "close": 197.55,
+        "volume": 385883.0,
+        "date": "2026-07-01",
+        "close_position": 0.862
+      },
+      "run_low": 139.64,
+      "run_high": 187.34,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.862,
+        "volume": 0.539,
+        "float": 0.099,
+        "short_float": 0.601,
+        "catalyst": 0.45,
+        "persistence": 0.0
+      },
+      "shs_float": 137140000.0,
+      "short_float_pct": 12.01,
+      "short_ratio": 3.42,
+      "rel_volume": 1.81,
+      "atr14": 11.99,
+      "sma50_dist_pct": 20.63,
+      "sma200_dist_pct": 6.97,
+      "perf_week_pct": 23.05,
+      "earnings": "Apr 30 AMC",
+      "catalyst": {
+        "strength": "weak",
+        "score": 0.45,
+        "label": "Retail buzz",
+        "reason": "Reddit Campaign Shouts Out Its Greatest Assets",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-06-29 17:43",
+          "title": "Reddit Campaign Shouts Out Its Greatest Assets",
+          "source": "MediaPost",
+          "link": "https://finance.yahoo.com/m/4e84fa11-af98-368e-9a0e-2082e3d54e33/reddit-campaign-shouts-out.html"
+        },
+        {
+          "date": "2026-06-29 03:02",
+          "title": "WEN Stock Gains Overnight: Retail Mood Peaks Amid 'Wendependence Day' Buzz",
+          "source": "Stocktwits",
+          "link": "https://finance.yahoo.com/m/63b64326-fb08-3ec5-a112-02b8d33dcd0c/wen-stock-gains-overnight%3A.html"
+        },
+        {
+          "date": "2026-06-26 13:58",
+          "title": "This Site Was Known As the Internets Odd Duck a Decade Ago. Now Its Aiming for 1 Billion Users.",
+          "source": "Entrepreneur",
+          "link": "https://finance.yahoo.com/m/6045132e-2df6-3785-9ff1-08bee3d37945/this-site-was-known-as-the.html"
+        },
+        {
+          "date": "2026-06-26 02:22",
+          "title": "WEN Stock Heads For Third Weekly Gain: How It Went From A 12-Year Low To WallStreetBets' Favorite In Four Days",
+          "source": "Stocktwits",
+          "link": "https://finance.yahoo.com/m/8be2114f-419c-3b07-a9fd-189dd83f2dfe/wen-stock-heads-for-third.html"
+        }
+      ]
+    },
+    {
+      "ticker": "CCEP",
+      "company": "Coca-Cola Europacific Partners Plc",
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Non-Alcoholic",
+      "country": "United Kingdom",
+      "market_cap": 47030000000.0,
+      "price": 106.1,
+      "change_pct": 6.03,
+      "volume": 2883519.0,
+      "mqs": 30.0,
+      "tier": "Pullback",
+      "badges": [
+        "Pullback: tight"
+      ],
+      "extension": null,
+      "pullback_depth": "tight",
+      "retrace_pct": 18.8,
+      "dist_above_ema10_atr": 0.43,
+      "up_streak": 0,
+      "close_position": 0.814,
+      "vol_profile": {
+        "am_vol": 89541,
+        "pm_vol": 75733,
+        "pm_share": 0.458,
+        "persistence": "balanced"
+      },
+      "latest_bar": {
+        "open": 104.02,
+        "high": 106.465,
+        "low": 103.96,
+        "close": 106.0,
+        "volume": 182966.0,
+        "date": "2026-07-01",
+        "close_position": 0.814
+      },
+      "run_low": 89.26,
+      "run_high": 102.555,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.814,
+        "volume": 0.314,
+        "float": 0.1,
+        "short_float": 0.175,
+        "catalyst": 0.15,
+        "persistence": 0.0
+      },
+      "shs_float": 197520000.0,
+      "short_float_pct": 3.5,
+      "short_ratio": 3.72,
+      "rel_volume": 1.55,
+      "atr14": 2.37,
+      "sma50_dist_pct": 11.25,
+      "sma200_dist_pct": 13.29,
+      "perf_week_pct": 7.39,
+      "earnings": "Feb 17 BMO",
+      "catalyst": {
+        "strength": "none",
+        "score": 0.15,
+        "label": "No recent news",
+        "reason": "No headlines in the last few days.",
+        "source": "rules"
+      },
+      "news": []
+    },
+    {
+      "ticker": "IBKR",
+      "company": "Interactive Brokers Group Inc",
+      "sector": "Financial",
+      "industry": "Capital Markets",
+      "country": "USA",
+      "market_cap": 41540000000.0,
+      "price": 93.25,
+      "change_pct": 7.13,
+      "volume": 7431532.0,
+      "mqs": 21.2,
+      "tier": "Reversal/Failed",
+      "badges": [
+        "Broke down 57% off peak"
+      ],
+      "extension": null,
+      "pullback_depth": null,
+      "retrace_pct": 56.8,
+      "dist_above_ema10_atr": -1.13,
+      "up_streak": 0,
+      "close_position": 0.713,
+      "vol_profile": {
+        "am_vol": 154895,
+        "pm_vol": 132138,
+        "pm_share": 0.46,
+        "persistence": "balanced"
+      },
+      "latest_bar": {
+        "open": 87.94,
+        "high": 95.545,
+        "low": 87.58,
+        "close": 93.26,
+        "volume": 297980.0,
+        "date": "2026-07-01",
+        "close_position": 0.713
+      },
+      "run_low": 78.9,
+      "run_high": 97.72,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.713,
+        "volume": 0.303,
+        "float": 0.1,
+        "short_float": 0.164,
+        "catalyst": 0.9,
+        "persistence": 0.0
+      },
+      "shs_float": 432030000.0,
+      "short_float_pct": 3.28,
+      "short_ratio": 2.89,
+      "rel_volume": 1.51,
+      "atr14": 3.64,
+      "sma50_dist_pct": 8.63,
+      "sma200_dist_pct": 27.11,
+      "perf_week_pct": 0.5,
+      "earnings": "Apr 21 AMC",
+      "catalyst": {
+        "strength": "strong",
+        "score": 0.9,
+        "label": "Earnings / guidance",
+        "reason": "Interactive Brokers Group to Host Second Quarter Earnings Conference Call",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-07-01 12:01",
+          "title": "Interactive Brokers Group Reports Brokerage Metrics and Other Financial Information for June 2026, includes Reg.-NMS Execution Statistics",
+          "source": "Business Wire",
+          "link": "https://www.businesswire.com/news/home/20260701534227/en"
+        },
+        {
+          "date": "2026-07-01 02:30",
+          "title": "These 2 Stocks Will Benefit From Increased Volatility. How to Play Them.",
+          "source": "Barrons.com",
+          "link": "https://www.barrons.com/articles/2-stocks-benefit-increased-volatility-options-4a5ec9e8?mod=bar_FV"
+        },
+        {
+          "date": "2026-06-30 10:00",
+          "title": "Interactive Brokers Expands Access to Korean Equities with Launch of Nextrade ATS",
+          "source": "Business Wire",
+          "link": "https://www.businesswire.com/news/home/20260630285130/en/"
+        },
+        {
+          "date": "2026-06-30 09:00",
+          "title": "Interactive Brokers Group to Host Second Quarter Earnings Conference Call",
+          "source": "Business Wire",
+          "link": "https://www.businesswire.com/news/home/20260630719173/en"
+        }
+      ]
+    },
+    {
+      "ticker": "ALSN",
+      "company": "Allison Transmission Holdings Inc",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "country": "USA",
+      "market_cap": 9740000000.0,
+      "price": 117.46,
+      "change_pct": 4.19,
+      "volume": 3367758.0,
+      "mqs": 17.5,
+      "tier": "Reversal/Failed",
+      "badges": [
+        "Upper wick / fade",
+        "Broke down 67% off peak"
+      ],
+      "extension": null,
+      "pullback_depth": null,
+      "retrace_pct": 66.7,
+      "dist_above_ema10_atr": -1.28,
+      "up_streak": 0,
+      "close_position": 0.0,
+      "vol_profile": {
+        "am_vol": 97307,
+        "pm_vol": 96321,
+        "pm_share": 0.497,
+        "persistence": "balanced"
+      },
+      "latest_bar": {
+        "open": 120.91,
+        "high": 121.37,
+        "low": 117.48,
+        "close": 117.48,
+        "volume": 205304.0,
+        "date": "2026-07-01",
+        "close_position": 0.0
+      },
+      "run_low": 106.26,
+      "run_high": 125.775,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.0,
+        "volume": 0.96,
+        "float": 0.521,
+        "short_float": 0.19,
+        "catalyst": 0.45,
+        "persistence": 0.0
+      },
+      "shs_float": 82260000.0,
+      "short_float_pct": 3.8,
+      "short_ratio": 3.54,
+      "rel_volume": 3.81,
+      "atr14": 4.59,
+      "sma50_dist_pct": -2.48,
+      "sma200_dist_pct": 10.68,
+      "perf_week_pct": -1.85,
+      "earnings": "May 04 AMC",
+      "catalyst": {
+        "strength": "weak",
+        "score": 0.45,
+        "label": "Sector / macro",
+        "reason": "Allison Transmission Holdings Set to Join S&P MidCap 400 and Goodyear Tire & Rubber to Join S&P SmallCap 600",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-06-30 17:41",
+          "title": "Allison Transmission Holdings Set to Join S&P MidCap 400 and Goodyear Tire & Rubber to Join S&P SmallCap 600",
+          "source": "PR Newswire",
+          "link": "/news/365196/allison-transmission-holdings-set-to-join-sp-midcap-400-and-goodyear-tire-rubber-to-join-sp-smallcap-600"
+        },
+        {
+          "date": "2026-06-26 05:53",
+          "title": "How CAT Stock Doubles Again To Reach $2,000",
+          "source": "Trefis",
+          "link": "https://finance.yahoo.com/m/e4c2288e-1c2f-3c04-b4cd-9ecc3efc8676/how-cat-stock-doubles-again.html"
         }
       ]
     }
