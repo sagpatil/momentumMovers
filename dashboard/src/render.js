@@ -224,6 +224,14 @@ function openDrawer(r) {
     <div style="margin-top:14px"><span class="tier ${TIER_CLASS[r.tier] || ""}">${r.tier}</span>
       ${(r.badges || []).map(badgeHtml).join(" ")}</div>
 
+    <div class="section-title">Daily chart</div>
+    <a class="chart-wrap" href="https://finviz.com/quote.ashx?t=${r.ticker}" target="_blank" rel="noopener">
+      <img class="chart" alt="${r.ticker} daily chart" loading="lazy" referrerpolicy="no-referrer"
+        src="https://charts2.finviz.com/chart.ashx?t=${r.ticker}&ty=c&ta=1&p=d&s=l"
+        onerror="this.parentElement.classList.add('failed')">
+      <span class="chart-fallback">Chart unavailable — open on Finviz ↗</span>
+    </a>
+
     <div class="kv">
       ${kv("MQS", `<b style="color:${mqsColor(r.mqs)}">${fmtNum(r.mqs, 1)}</b>`)}
       ${kv("Change today", `${r.change_pct >= 0 ? "+" : ""}${fmtNum(r.change_pct, 1)}%`)}
