@@ -22,9 +22,28 @@ intraday.py       → real closing strength (close-in-range) from latest daily b
 catalyst.py       → keyword rules first, Claude LLM fallback for ambiguous headlines
 history.py        → append today to screener_history.parquet → consecutive-day streaks
 mqs.py            → MQS (0–100) + tier + risk badges
+signal_log.py     → point-in-time signal diary (signals.parquet) + run provenance
+                    (runs.parquet: git SHA, weights, filters per run)
 build_snapshot.py → orchestrates all of the above → dashboard/public/data/latest.json
 dashboard/        → Vite static app renders latest.json
+evaluate.py       → run on demand: grades every logged signal against subsequent
+                    bars → outcomes.parquet (fwd returns, exit rules,
+                    max gain / max drawdown vs entry, R-multiple)
 ```
+
+### Strategy tracking (three parquets under `dashboard/public/data/`)
+
+- **signals.parquet** — the diary. One flat row per ticker per hit day with
+  everything not reconstructable later (catalyst, float/short, MQS components as
+  computed that day). Append-only, replace-by-date. Backfill from dated JSON
+  archives: `python -m scrape.signal_log --backfill`.
+- **runs.parquet** — provenance: which code/weights/filters produced each day's
+  signals, so scores stay comparable as the strategy evolves.
+- **outcomes.parquet** — derived; `python -m scrape.evaluate` rebuilds it from
+  scratch (signals + fresh adjusted bars) and prints expectancy by tier / MQS
+  quartile / burst age. Delete freely, never hand-edit. Consecutive signals
+  group into an episode (>7 calendar days gap = new one); entry = close of the
+  first signal date.
 
 The Finviz `ticker_fundament()` method is broken in finvizfinance 1.3.0, so
 `quote_page.py` parses the quote-page snapshot table directly (more robust, one

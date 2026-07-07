@@ -157,18 +157,32 @@ each hit with a Momentum Quality Score (MQS), classifies the news catalyst, and
 publishes a dashboard. It does **not** reuse or trust the backtest's conclusions
 — it's a fresh-perspective triage tool. Full docs in `scrape/README.md`.
 
-Key facts for agents:
+Key facts for agents (gotcha details + data-file rules live in `CLAUDE.md`):
 - finvizfinance `ticker_fundament()` is broken in 1.3.0 → `scrape/quote_page.py`
   parses the quote page directly. Don't reintroduce `ticker_fundament()`.
 - `scrape/enrich.py` reuses the backtest's `fetch_bars.load_all_bars` for the
-  ~120-day bar context (run peak/retrace, EMA10/20, up-streak, extension).
+  ~120-day bar context (run peak/retrace, EMA10/20, extension) and derives the
+  **momentum burst** (`burst_age`/`burst_thrust_days`: thrust days = gain % +
+  ATR range expansion, up to 2 EMA10-holding rest days tolerated). Bursts — not
+  screener appearances — drive MQS persistence and the Day-1 vs Continuation
+  tier; the `history.py` streak is display-only fallback. No volume gate in
+  thrust detection: IEX relative volume is unreliable (see CLAUDE.md).
 - `scrape/intraday.py` adds real closing strength (latest daily bar O/H/L) and
   volume persistence (hourly AM/PM split), keyed to the latest *closed* session.
   Uses the free IEX feed. Closing strength replaced the old EMA proxy in MQS.
-- Streaks persist in `dashboard/public/data/screener_history.parquet` (committed,
-  NOT under the gitignored `data/`).
-- MQS weights + tier/extension thresholds are all tunable at the top of
-  `scrape/mqs.py`. Pullback fails at >50% retrace; extension warns at >4 ATR.
+- Strategy tracking: `scrape/signal_log.py` writes a point-in-time diary
+  (`signals.parquet`, distinct from Part 1's `results/signals.parquet`) plus
+  per-run provenance (`runs.parquet`); `scrape/evaluate.py` regenerates
+  `outcomes.parquet` on demand (forward returns, exit rules, max
+  gain/drawdown, R) —
+  derived data, never hand-edited, not a daily-pipeline dependency. All under
+  `dashboard/public/data/` (committed, NOT the gitignored `data/` bar cache),
+  alongside the streak history.
+- MQS weights + tier/extension thresholds: top of `scrape/mqs.py` (pullback
+  fails at >50% retrace; extension warns at >4 ATR). Burst thresholds: top of
+  `scrape/enrich.py`. Evaluator episode/exit constants: top of
+  `scrape/evaluate.py`.
+- The dashboard drawer hotlinks Finviz chart PNGs (recipe in CLAUDE.md).
 
 ## Conventions
 

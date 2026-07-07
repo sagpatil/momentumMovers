@@ -15,7 +15,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 from config import ROOT
-from scrape import catalyst, history, mqs
+from scrape import catalyst, history, mqs, signal_log
 from scrape.enrich import enrich
 from scrape.screener_feed import fetch_screener
 
@@ -62,6 +62,9 @@ def build(run_date: date | None = None, write: bool = True) -> dict:
             "latest_bar": e.get("latest_bar"),
             "run_low": bars.get("run_low"),
             "run_high": bars.get("run_high"),
+            "ema10": bars.get("ema10"),
+            "ema20": bars.get("ema20"),
+            "atr14_bars": bars.get("atr14_bars"),
             "streak": streak,
             "components": scored["components"],
             "shs_float": e.get("shs_float"),
@@ -82,11 +85,17 @@ def build(run_date: date | None = None, write: bool = True) -> dict:
     # Rewrite history with MQS now known (keeps the parquet's mqs column meaningful).
     history.append_today(rows, run_date)
 
+    filters_url = ("cap_smallover,sh_avgvol_o500,sh_curvol_o1000,sh_price_o7,"
+                   "sh_relvol_o1.5,ta_averagetruerange_o1,ta_change_u3,ta_sma200_pa")
+
+    # Point-in-time signal log + run provenance (see scrape/signal_log.py).
+    signal_log.append_today(rows, run_date)
+    signal_log.append_run(run_date, mqs.MQS_WEIGHTS, filters_url, len(rows))
+
     snapshot = {
         "run_date": run_date.isoformat(),
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "filters_url": "cap_smallover,sh_avgvol_o500,sh_curvol_o1000,sh_price_o7,"
-                       "sh_relvol_o1.5,ta_averagetruerange_o1,ta_change_u3,ta_sma200_pa",
+        "filters_url": filters_url,
         "n": len(rows),
         "weights": mqs.MQS_WEIGHTS,
         "rows": rows,

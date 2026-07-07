@@ -8,3 +8,6 @@ __pycache__/
 .DS_Store
 .idea/
 .vscode/
+
+# Derived strategy grades — regenerate with: python -m scrape.evaluate
+dashboard/public/data/outcomes.parquet

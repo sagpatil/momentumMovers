@@ -1,0 +1,42 @@
+name: Weekly strategy report
+
+on:
+  schedule:
+    # Friday 5 PM PST = Saturday 01:00 UTC (6 PM Friday during PDT).
+    - cron: "0 1 * * 6"
+  workflow_dispatch: {}   # allow manual runs from the Actions tab
+
+permissions:
+  contents: read
+
+concurrency:
+  group: weekly-report
+  cancel-in-progress: false
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install pipeline deps
+        run: pip install -r scrape/requirements-scrape.txt
+
+      # outcomes.parquet is derived data and stays uncommitted; the report is
+      # published to the run's job summary (Actions tab -> this run).
+      - name: Grade signals against outcomes
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: |
+          python -m scrape.evaluate | tee report.txt
+          {
+            echo "## Strategy report — $(date -u +%Y-%m-%d)"
+            echo '```'
+            cat report.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

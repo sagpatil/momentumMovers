@@ -43,7 +43,9 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -f dashboard/public/data/latest.json \
                      dashboard/public/data/*.json \
-                     dashboard/public/data/screener_history.parquet
+                     dashboard/public/data/screener_history.parquet \
+                     dashboard/public/data/signals.parquet \
+                     dashboard/public/data/runs.parquet
           git commit -m "snapshot: $(date -u +%Y-%m-%d)" || echo "no changes to commit"
           git push || echo "nothing to push"
 
