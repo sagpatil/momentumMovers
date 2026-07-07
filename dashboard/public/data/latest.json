@@ -1,6 +1,6 @@
 {
   "run_date": "2026-07-06",
-  "generated_at": "2026-07-06T22:45:56.149646+00:00",
+  "generated_at": "2026-07-06T23:59:03.892835+00:00",
   "filters_url": "cap_smallover,sh_avgvol_o500,sh_curvol_o1000,sh_price_o7,sh_relvol_o1.5,ta_averagetruerange_o1,ta_change_u3,ta_sma200_pa",
   "n": 10,
   "weights": {
@@ -22,7 +22,7 @@
       "price": 16.26,
       "change_pct": 5.17,
       "volume": 1501764.0,
-      "mqs": 61.9,
+      "mqs": 69.4,
       "tier": "Continuation",
       "badges": [],
       "extension": null,
@@ -30,6 +30,8 @@
       "retrace_pct": 0.1,
       "dist_above_ema10_atr": 2.12,
       "up_streak": 1,
+      "burst_age": 3,
+      "burst_thrust_days": 2,
       "close_position": 0.734,
       "vol_profile": {
         "am_vol": 30303,
@@ -48,14 +50,14 @@
       },
       "run_low": 10.25,
       "run_high": 15.46,
-      "streak": 3,
+      "streak": 1,
       "components": {
         "closing_strength": 0.734,
         "volume": 0.366,
         "float": 0.969,
         "short_float": 0.16,
         "catalyst": 0.9,
-        "persistence": 0.5
+        "persistence": 1.0
       },
       "shs_float": 24070000.0,
       "short_float_pct": 3.19,
@@ -95,72 +97,6 @@
       ]
     },
     {
-      "ticker": "ENOV",
-      "company": "Enovis Corp",
-      "sector": "Healthcare",
-      "industry": "Medical Devices",
-      "country": "USA",
-      "market_cap": 1490000000.0,
-      "price": 25.9,
-      "change_pct": 15.109999999999998,
-      "volume": 2148520.0,
-      "mqs": 53.9,
-      "tier": "Day-1 Breakout",
-      "badges": [
-        "Vol building",
-        "Closed at HOD"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 4.8,
-      "dist_above_ema10_atr": 0.71,
-      "up_streak": 1,
-      "close_position": 0.968,
-      "vol_profile": {
-        "am_vol": 36522,
-        "pm_vol": 105089,
-        "pm_share": 0.742,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 22.99,
-        "high": 26.15,
-        "low": 22.99,
-        "close": 26.05,
-        "volume": 144416.0,
-        "date": "2026-07-06",
-        "close_position": 0.968
-      },
-      "run_low": 19.14,
-      "run_high": 22.71,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.968,
-        "volume": 0.581,
-        "float": 0.722,
-        "short_float": 0.805,
-        "catalyst": 0.15,
-        "persistence": 0.0
-      },
-      "shs_float": 56160000.0,
-      "short_float_pct": 16.11,
-      "short_ratio": 8.26,
-      "rel_volume": 1.96,
-      "atr14": 1.59,
-      "sma50_dist_pct": 11.05,
-      "sma200_dist_pct": 0.07,
-      "perf_week_pct": 14.05,
-      "earnings": "May 07 BMO",
-      "catalyst": {
-        "strength": "none",
-        "score": 0.15,
-        "label": "No recent news",
-        "reason": "No headlines in the last few days.",
-        "source": "rules"
-      },
-      "news": []
-    },
-    {
       "ticker": "TENB",
       "company": "Tenable Holdings Inc",
       "sector": "Technology",
@@ -170,7 +106,7 @@
       "price": 41.29,
       "change_pct": 6.97,
       "volume": 5541631.0,
-      "mqs": 52.3,
+      "mqs": 67.3,
       "tier": "Continuation",
       "badges": [
         "Vol building"
@@ -180,6 +116,8 @@
       "retrace_pct": 4.2,
       "dist_above_ema10_atr": 3.14,
       "up_streak": 5,
+      "burst_age": 5,
+      "burst_thrust_days": 3,
       "close_position": 0.696,
       "vol_profile": {
         "am_vol": 189759,
@@ -198,14 +136,14 @@
       },
       "run_low": 20.07,
       "run_high": 39.42,
-      "streak": 1,
+      "streak": 2,
       "components": {
         "closing_strength": 0.696,
         "volume": 0.459,
         "float": 0.318,
         "short_float": 0.53,
         "catalyst": 0.9,
-        "persistence": 0.0
+        "persistence": 1.0
       },
       "shs_float": 108690000.0,
       "short_float_pct": 10.6,
@@ -254,7 +192,7 @@
       "price": 14.83,
       "change_pct": 11.67,
       "volume": 3147241.0,
-      "mqs": 50.8,
+      "mqs": 65.8,
       "tier": "Pullback",
       "badges": [
         "Vol building",
@@ -265,6 +203,8 @@
       "retrace_pct": 11.1,
       "dist_above_ema10_atr": 2.52,
       "up_streak": 9,
+      "burst_age": 4,
+      "burst_thrust_days": 2,
       "close_position": 0.719,
       "vol_profile": {
         "am_vol": 34798,
@@ -290,7 +230,7 @@
         "float": 0.794,
         "short_float": 0.99,
         "catalyst": 0.15,
-        "persistence": 0.0
+        "persistence": 1.0
       },
       "shs_float": 46760000.0,
       "short_float_pct": 19.81,
@@ -320,7 +260,7 @@
       "price": 78.7,
       "change_pct": 10.04,
       "volume": 2714985.0,
-      "mqs": 46.6,
+      "mqs": 61.6,
       "tier": "Continuation",
       "badges": [
         "Closed at HOD"
@@ -330,6 +270,8 @@
       "retrace_pct": 3.5,
       "dist_above_ema10_atr": 2.35,
       "up_streak": 5,
+      "burst_age": 5,
+      "burst_thrust_days": 4,
       "close_position": 0.902,
       "vol_profile": {
         "am_vol": 120390,
@@ -355,7 +297,7 @@
         "float": 0.617,
         "short_float": 0.772,
         "catalyst": 0.15,
-        "persistence": 0.0
+        "persistence": 1.0
       },
       "shs_float": 69790000.0,
       "short_float_pct": 15.44,
@@ -385,8 +327,8 @@
       "price": 28.43,
       "change_pct": 7.57,
       "volume": 3030684.0,
-      "mqs": 46.6,
-      "tier": "Day-1 Breakout",
+      "mqs": 61.6,
+      "tier": "Continuation",
       "badges": [
         "Vol building",
         "Closed at HOD"
@@ -396,6 +338,8 @@
       "retrace_pct": 1.9,
       "dist_above_ema10_atr": 2.27,
       "up_streak": 0,
+      "burst_age": 5,
+      "burst_thrust_days": 3,
       "close_position": 0.939,
       "vol_profile": {
         "am_vol": 65678,
@@ -414,14 +358,14 @@
       },
       "run_low": 13.7,
       "run_high": 26.64,
-      "streak": 1,
+      "streak": 2,
       "components": {
         "closing_strength": 0.939,
         "volume": 0.547,
         "float": 0.832,
         "short_float": 0.239,
         "catalyst": 0.15,
-        "persistence": 0.0
+        "persistence": 1.0
       },
       "shs_float": 41880000.0,
       "short_float_pct": 4.79,
@@ -432,6 +376,142 @@
       "sma200_dist_pct": 92.33,
       "perf_week_pct": 24.15,
       "earnings": "May 06 AMC",
+      "catalyst": {
+        "strength": "none",
+        "score": 0.15,
+        "label": "No recent news",
+        "reason": "No headlines in the last few days.",
+        "source": "rules"
+      },
+      "news": []
+    },
+    {
+      "ticker": "ENOV",
+      "company": "Enovis Corp",
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "country": "USA",
+      "market_cap": 1490000000.0,
+      "price": 25.9,
+      "change_pct": 15.109999999999998,
+      "volume": 2148520.0,
+      "mqs": 53.9,
+      "tier": "Day-1 Breakout",
+      "badges": [
+        "Vol building",
+        "Closed at HOD"
+      ],
+      "extension": null,
+      "pullback_depth": null,
+      "retrace_pct": 4.8,
+      "dist_above_ema10_atr": 0.71,
+      "up_streak": 1,
+      "burst_age": 1,
+      "burst_thrust_days": 1,
+      "close_position": 0.968,
+      "vol_profile": {
+        "am_vol": 36522,
+        "pm_vol": 105089,
+        "pm_share": 0.742,
+        "persistence": "building"
+      },
+      "latest_bar": {
+        "open": 22.99,
+        "high": 26.15,
+        "low": 22.99,
+        "close": 26.05,
+        "volume": 144416.0,
+        "date": "2026-07-06",
+        "close_position": 0.968
+      },
+      "run_low": 19.14,
+      "run_high": 22.71,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.968,
+        "volume": 0.581,
+        "float": 0.722,
+        "short_float": 0.805,
+        "catalyst": 0.15,
+        "persistence": 0.0
+      },
+      "shs_float": 56160000.0,
+      "short_float_pct": 16.11,
+      "short_ratio": 8.26,
+      "rel_volume": 1.96,
+      "atr14": 1.59,
+      "sma50_dist_pct": 11.05,
+      "sma200_dist_pct": 0.07,
+      "perf_week_pct": 14.05,
+      "earnings": "May 07 BMO",
+      "catalyst": {
+        "strength": "none",
+        "score": 0.15,
+        "label": "No recent news",
+        "reason": "No headlines in the last few days.",
+        "source": "rules"
+      },
+      "news": []
+    },
+    {
+      "ticker": "MDA",
+      "company": "MDA Space Ltd",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "country": "Canada",
+      "market_cap": 5840000000.0,
+      "price": 42.11,
+      "change_pct": 3.34,
+      "volume": 2075639.0,
+      "mqs": 47.9,
+      "tier": "Pullback",
+      "badges": [
+        "Vol building",
+        "Pullback: tight"
+      ],
+      "extension": null,
+      "pullback_depth": "tight",
+      "retrace_pct": 43.6,
+      "dist_above_ema10_atr": 0.74,
+      "up_streak": 1,
+      "burst_age": 4,
+      "burst_thrust_days": 2,
+      "close_position": 0.749,
+      "vol_profile": {
+        "am_vol": 10288,
+        "pm_vol": 20589,
+        "pm_share": 0.667,
+        "persistence": "building"
+      },
+      "latest_bar": {
+        "open": 40.81,
+        "high": 42.525,
+        "low": 40.81,
+        "close": 42.095,
+        "volume": 36459.0,
+        "date": "2026-07-06",
+        "close_position": 0.749
+      },
+      "run_low": 30.0,
+      "run_high": 49.23,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.749,
+        "volume": 0.57,
+        "float": 0.183,
+        "short_float": 0.07,
+        "catalyst": 0.15,
+        "persistence": 1.0
+      },
+      "shs_float": 126190000.0,
+      "short_float_pct": 1.41,
+      "short_ratio": 1.64,
+      "rel_volume": 1.92,
+      "atr14": 2.55,
+      "sma50_dist_pct": 10.93,
+      "sma200_dist_pct": 51.04,
+      "perf_week_pct": 18.15,
+      "earnings": "May 07 BMO",
       "catalyst": {
         "strength": "none",
         "score": 0.15,
@@ -462,6 +542,8 @@
       "retrace_pct": 6.9,
       "dist_above_ema10_atr": 1.17,
       "up_streak": 0,
+      "burst_age": 0,
+      "burst_thrust_days": 0,
       "close_position": 0.717,
       "vol_profile": {
         "am_vol": 93790,
@@ -529,6 +611,8 @@
       "retrace_pct": 18.3,
       "dist_above_ema10_atr": 0.35,
       "up_streak": 1,
+      "burst_age": 0,
+      "burst_thrust_days": 0,
       "close_position": 0.928,
       "vol_profile": {
         "am_vol": 20191,
@@ -575,72 +659,6 @@
       "news": []
     },
     {
-      "ticker": "MDA",
-      "company": "MDA Space Ltd",
-      "sector": "Industrials",
-      "industry": "Aerospace & Defense",
-      "country": "Canada",
-      "market_cap": 5840000000.0,
-      "price": 42.11,
-      "change_pct": 3.34,
-      "volume": 2075639.0,
-      "mqs": 32.9,
-      "tier": "Pullback",
-      "badges": [
-        "Vol building",
-        "Pullback: tight"
-      ],
-      "extension": null,
-      "pullback_depth": "tight",
-      "retrace_pct": 43.6,
-      "dist_above_ema10_atr": 0.74,
-      "up_streak": 1,
-      "close_position": 0.749,
-      "vol_profile": {
-        "am_vol": 10288,
-        "pm_vol": 20589,
-        "pm_share": 0.667,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 40.81,
-        "high": 42.525,
-        "low": 40.81,
-        "close": 42.095,
-        "volume": 36459.0,
-        "date": "2026-07-06",
-        "close_position": 0.749
-      },
-      "run_low": 30.0,
-      "run_high": 49.23,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.749,
-        "volume": 0.57,
-        "float": 0.183,
-        "short_float": 0.07,
-        "catalyst": 0.15,
-        "persistence": 0.0
-      },
-      "shs_float": 126190000.0,
-      "short_float_pct": 1.41,
-      "short_ratio": 1.64,
-      "rel_volume": 1.92,
-      "atr14": 2.55,
-      "sma50_dist_pct": 10.93,
-      "sma200_dist_pct": 51.04,
-      "perf_week_pct": 18.15,
-      "earnings": "May 07 BMO",
-      "catalyst": {
-        "strength": "none",
-        "score": 0.15,
-        "label": "No recent news",
-        "reason": "No headlines in the last few days.",
-        "source": "rules"
-      },
-      "news": []
-    },
-    {
       "ticker": "WULF",
       "company": "TeraWulf Inc",
       "sector": "Financial",
@@ -661,6 +679,8 @@
       "retrace_pct": 84.6,
       "dist_above_ema10_atr": -1.71,
       "up_streak": 0,
+      "burst_age": 0,
+      "burst_thrust_days": 0,
       "close_position": 0.061,
       "vol_profile": {
         "am_vol": 2121586,

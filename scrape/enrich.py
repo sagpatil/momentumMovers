@@ -5,7 +5,8 @@ For each ticker passing the screen we gather:
   - recent headlines via finvizfinance ticker_news()
   - a ~80-day daily bar history (Alpaca) to derive the *run context* the MQS needs:
       run_low / run_high / breakout context, retrace_pct (for the pullback floor),
-      ema10/ema20, up_streak (consecutive up-days), dist_above_ema10_atr (extension).
+      ema10/ema20, up_streak (consecutive up-days), dist_above_ema10_atr (extension),
+      burst_age / burst_thrust_days (the multi-day momentum burst, rest-day tolerant).
 
 The bar-derived block is what lets us distinguish a Day-1 breakout from a flag
 pullback from an extended runner — none of which the once-a-day screener row alone
@@ -29,6 +30,15 @@ _BAR_LOOKBACK_DAYS = 120
 # A "run" is the stretch of recent strength we measure retrace against: walk back
 # from today while price stays above this fraction of the trailing SMA20-ish base.
 _RUN_PULLBACK_FLOOR_DAYS = 40
+
+# Burst detection: a "thrust" day is what the live screen would have flagged,
+# reconstructed from bars so the count doesn't depend on screener appearances.
+# ATR-relative with a % floor so it scales from $8 small-caps to $40 names.
+# Deliberately no volume gate: IEX single-venue relvol measured 0.6-1.1x on
+# verified +5-10% breakout days (TENB/LMND), so it rejects real thrusts.
+_THRUST_MIN_GAIN_PCT = 3.0     # mirrors ta_change_u3
+_THRUST_MIN_ATR_MULT = 0.75    # gain must also be a real range expansion
+_BURST_REST_TOLERANCE = 2      # consecutive rest days allowed before the burst ends
 
 
 def _recent_news(ticker: str, days: int = 5, limit: int = 6) -> list[dict]:
@@ -90,6 +100,34 @@ def _bar_context(s: pd.DataFrame) -> dict:
         else:
             break
 
+    # Momentum burst: trailing days since ignition, tolerating rest days. A thrust
+    # day re-derives the screen's momentum bar from the bars themselves (gain +
+    # range expansion), so a quiet inside day that holds EMA10 doesn't reset the
+    # count the way a missed screener appearance does. A day that is neither
+    # thrust nor holding rest (or too many consecutive rests) ends the burst.
+    def _is_thrust(j: int) -> bool:
+        prev = float(close.iloc[j - 1])
+        gain = float(close.iloc[j]) - prev
+        if prev <= 0 or gain <= 0:
+            return False
+        if gain / prev * 100.0 < _THRUST_MIN_GAIN_PCT:
+            return False
+        a = atr.iloc[j - 1]
+        return not (pd.notna(a) and float(a) > 0 and gain < _THRUST_MIN_ATR_MULT * float(a))
+
+    burst_age = 0
+    burst_thrust_days = 0
+    pending_rest = 0
+    for j in range(last, 0, -1):
+        if _is_thrust(j):
+            burst_age += pending_rest + 1
+            burst_thrust_days += 1
+            pending_rest = 0
+        elif float(close.iloc[j]) >= float(ema10.iloc[j]) and pending_rest < _BURST_REST_TOLERANCE:
+            pending_rest += 1
+        else:
+            break
+
     # The current run: walk back from today to the most recent significant swing low
     # within the lookback window. run_low = that trough, run_high = peak since then.
     window = s.iloc[max(0, last - _RUN_PULLBACK_FLOOR_DAYS) : last + 1].reset_index(drop=True)
@@ -114,6 +152,8 @@ def _bar_context(s: pd.DataFrame) -> dict:
         "above_ema10": last_close >= last_ema10,
         "above_ema20": last_close >= last_ema20,
         "up_streak": up_streak,
+        "burst_age": burst_age,
+        "burst_thrust_days": burst_thrust_days,
         "run_low": run_low,
         "run_high": run_high,
         "retrace_pct": round(retrace_pct, 1),

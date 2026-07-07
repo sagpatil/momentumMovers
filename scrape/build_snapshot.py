@@ -55,6 +55,8 @@ def build(run_date: date | None = None, write: bool = True) -> dict:
             "retrace_pct": scored["retrace_pct"],
             "dist_above_ema10_atr": scored["dist_above_ema10_atr"],
             "up_streak": scored["up_streak"],
+            "burst_age": scored["burst_age"],
+            "burst_thrust_days": scored["burst_thrust_days"],
             "close_position": scored["close_position"],
             "vol_profile": scored["vol_profile"],
             "latest_bar": e.get("latest_bar"),

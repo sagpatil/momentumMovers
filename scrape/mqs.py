@@ -11,7 +11,9 @@ Components (each normalized 0..1, then weighted):
   float             low float = squeeze fuel (small Shs Float scores higher)
   short_float       high short interest = squeeze fuel
   catalyst          set later by catalyst.py (strong news > weak/none)
-  persistence       multi-day screener appearances (streak) set later by history.py
+  persistence       bar-derived burst age (thrust days with rest-day tolerance,
+                    from enrich.py) — peaks days 3-5, tapers after; falls back to
+                    the screener-appearance streak when bars are unavailable
 
 Tier (primary archetype) is independent of the risk badges:
   Day-1 Breakout    first appearance, strong close, high rel-vol
@@ -48,6 +50,14 @@ EXT_DANGER_ATR = 7.0
 # Float buckets (shares). Below LOW_FLOAT = powder keg.
 LOW_FLOAT = 20_000_000
 HIGH_FLOAT = 150_000_000
+
+# Burst persistence: ramp up to full credit by day 3, hold through day 5, then
+# taper — these vertical bursts typically exhaust after 3-5 thrust days, so day 6+
+# is late, not better.
+BURST_PEAK_START = 3
+BURST_PEAK_END = 5
+BURST_LATE_DECAY = 0.2   # per day past the peak window
+BURST_LATE_FLOOR = 0.4
 
 
 def _clamp(x: float, lo: float = 0.0, hi: float = 1.0) -> float:
@@ -112,6 +122,17 @@ def _short_float_score(rec: dict) -> float:
     return _clamp(sf / 20.0)
 
 
+def _persistence_score(bars: dict, streak: int) -> float:
+    age = bars.get("burst_age")
+    if age is None:
+        return _clamp((streak - 1) / 4.0)
+    if age <= BURST_PEAK_START:
+        return _clamp((age - 1) / (BURST_PEAK_START - 1))
+    if age <= BURST_PEAK_END:
+        return 1.0
+    return max(BURST_LATE_FLOOR, 1.0 - BURST_LATE_DECAY * (age - BURST_PEAK_END))
+
+
 # ----------------------------- tier + badges --------------------------------
 
 
@@ -123,6 +144,8 @@ def classify(rec: dict, streak: int) -> dict:
     above_ema10 = bars.get("above_ema10")
     above_ema20 = bars.get("above_ema20")
     up_streak = bars.get("up_streak", 0)
+    burst_age = bars.get("burst_age")
+    burst_thrust_days = bars.get("burst_thrust_days")
     rv = rec.get("rel_volume")
 
     badges: list[str] = []
@@ -160,14 +183,21 @@ def classify(rec: dict, streak: int) -> dict:
     # Primary tier. The retrace floor (>50% of the breakout->peak run given back)
     # demotes a name to Reversal/Failed regardless of how it closed today — a bounce
     # inside a broken structure is not a healthy pullback.
+    # Day-1 is judged by burst age (bar-derived), not the screener-appearance
+    # streak: a mid-burst rest day drops a name off the screen for a day, and the
+    # re-hit must read as Continuation, not a fresh breakout.
+    persist_days = burst_age if burst_age is not None else streak
     if retrace is not None and retrace > PULLBACK_FAIL_RETRACE_PCT:
         tier = "Reversal/Failed"
     elif retrace is not None and retrace > 5.0:
         tier = "Pullback"
-    elif streak <= 1 and up_streak <= 2:
+    elif persist_days <= 1 and up_streak <= 2:
         tier = "Day-1 Breakout"
     else:
         tier = "Continuation"
+
+    if burst_age is not None and burst_age > 5:
+        badges.append(f"Late burst (day {burst_age})")
 
     # Pullback-depth descriptor — only meaningful for an actual Pullback. A failed
     # reversal must not also advertise "Pullback: tight" (contradictory).
@@ -192,6 +222,8 @@ def classify(rec: dict, streak: int) -> dict:
         "retrace_pct": retrace,
         "dist_above_ema10_atr": dist,
         "up_streak": up_streak,
+        "burst_age": burst_age,
+        "burst_thrust_days": burst_thrust_days,
         "close_position": cp,
         "vol_profile": vp or None,
     }
@@ -212,7 +244,7 @@ def score(rec: dict, streak: int = 1, catalyst_score: float | None = None) -> di
         "float": _float_score(rec),
         "short_float": _short_float_score(rec),
         "catalyst": catalyst_score if catalyst_score is not None else 0.4,
-        "persistence": _clamp((streak - 1) / 4.0),  # 1 day ->0, 5+ days ->1
+        "persistence": _persistence_score(rec.get("bars") or {}, streak),
     }
     mqs = sum(comps[k] * MQS_WEIGHTS[k] for k in MQS_WEIGHTS) * 100.0
     cls = classify(rec, streak)

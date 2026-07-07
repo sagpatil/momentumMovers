@@ -84,7 +84,7 @@ export function renderApp(app, snapshot) {
               ["rel_volume", "RelVol"],
               ["shs_float", "Float"],
               ["short_float_pct", "Short %"],
-              ["streak", "Streak"],
+              ["burst_age", "Burst"],
               ["catalyst", "Catalyst"],
             ]
               .map(([k, label]) => `<th data-sort="${k}">${label}</th>`)
@@ -118,7 +118,7 @@ function renderStats() {
   const rows = state.rows;
   const strong = rows.filter((r) => r.catalyst?.strength === "strong").length;
   const breakouts = rows.filter((r) => r.tier === "Day-1 Breakout").length;
-  const repeat = rows.filter((r) => (r.streak || 1) >= 2).length;
+  const repeat = rows.filter((r) => (r.burst_age ?? r.streak ?? 1) >= 2).length;
   const avgMqs = rows.length ? rows.reduce((a, r) => a + (r.mqs || 0), 0) / rows.length : 0;
   const cards = [
     ["Hits", rows.length],
@@ -181,7 +181,7 @@ function renderTable() {
       const chgCls = r.change_pct >= 0 ? "pos" : "neg";
       const tierCls = TIER_CLASS[r.tier] || "";
       const cat = r.catalyst || {};
-      const streak = r.streak || 1;
+      const burst = r.burst_age ?? r.streak ?? 1;
       return `<tr data-idx="${state.rows.indexOf(r)}">
         <td class="tick">${r.ticker}<span class="co">${r.company || ""}</span></td>
         <td><span class="mqs"><span class="bar"><i style="width:${Math.min(100, r.mqs)}%;background:${mqsColor(r.mqs)}"></i></span>${fmtNum(r.mqs, 1)}</span></td>
@@ -194,7 +194,7 @@ function renderTable() {
         <td class="num">${fmtNum(r.rel_volume, 1)}×</td>
         <td class="num">${fmtM(r.shs_float)}</td>
         <td class="num">${r.short_float_pct == null ? "—" : fmtNum(r.short_float_pct, 1) + "%"}</td>
-        <td class="streak ${streak >= 3 ? "hot" : ""}">${streak}d</td>
+        <td class="streak ${burst >= 3 ? "hot" : ""}" title="${r.burst_thrust_days ?? "?"} thrust day(s) in burst">${burst}d</td>
         <td><span class="cat ${catClass(cat.strength)}">${cat.label || "—"}</span></td>
       </tr>`;
     })
@@ -238,6 +238,7 @@ function openDrawer(r) {
       ${kv("Dist > EMA10", r.dist_above_ema10_atr == null ? "—" : fmtNum(r.dist_above_ema10_atr, 1) + " ATR")}
       ${kv("Run (low → peak)", r.run_low == null ? "—" : `${fmtNum(r.run_low, 2)} → ${fmtNum(r.run_high, 2)}`)}
       ${kv("Retrace from peak", r.retrace_pct == null ? "—" : fmtNum(r.retrace_pct, 1) + "% given back")}
+      ${kv("Burst", r.burst_age == null ? "—" : `day ${r.burst_age} · ${r.burst_thrust_days ?? 0} thrust`)}
       ${kv("Up-day streak", `${r.up_streak ?? 0}d`)}
       ${kv("Screener streak", `${r.streak || 1}d`)}
       ${kv("vs SMA50", r.sma50_dist_pct == null ? "—" : "+" + fmtNum(r.sma50_dist_pct, 0) + "%")}
