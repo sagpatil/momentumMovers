@@ -1,8 +1,8 @@
 {
-  "run_date": "2026-07-13",
-  "generated_at": "2026-07-13T22:27:12.228951+00:00",
+  "run_date": "2026-07-14",
+  "generated_at": "2026-07-14T22:30:10.092521+00:00",
   "filters_url": "cap_smallover,sh_avgvol_o500,sh_curvol_o1000,sh_price_o7,sh_relvol_o1.5,ta_averagetruerange_o1,ta_change_u3,ta_sma200_pa",
-  "n": 6,
+  "n": 15,
   "weights": {
     "closing_strength": 0.22,
     "volume": 0.18,
@@ -13,507 +13,1356 @@
   },
   "rows": [
     {
-      "ticker": "CNMD",
-      "company": "Conmed Corp",
-      "sector": "Healthcare",
-      "industry": "Medical Devices",
-      "country": "USA",
-      "market_cap": 1280000000.0,
-      "price": 42.41,
-      "change_pct": 10.21,
-      "volume": 2454898.0,
-      "mqs": 77.3,
-      "tier": "Pullback",
-      "badges": [
-        "Pullback: tight"
-      ],
-      "extension": null,
-      "pullback_depth": "tight",
-      "retrace_pct": 5.8,
-      "dist_above_ema10_atr": 1.81,
-      "up_streak": 2,
-      "burst_age": 2,
-      "burst_thrust_days": 2,
-      "close_position": 0.785,
-      "vol_profile": {
-        "am_vol": 75478,
-        "pm_vol": 40071,
-        "pm_share": 0.347,
-        "persistence": "balanced"
-      },
-      "latest_bar": {
-        "open": 39.445,
-        "high": 43.24,
-        "low": 39.445,
-        "close": 42.425,
-        "volume": 122531.0,
-        "date": "2026-07-13",
-        "close_position": 0.785
-      },
-      "run_low": 31.765,
-      "run_high": 38.83,
-      "ema10": 35.220044556698,
-      "ema20": 34.85915634787717,
-      "atr14_bars": 1.7668120063412374,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.785,
-        "volume": 1.0,
-        "float": 0.923,
-        "short_float": 0.422,
-        "catalyst": 0.9,
-        "persistence": 0.5
-      },
-      "shs_float": 29980000.0,
-      "short_float_pct": 8.45,
-      "short_ratio": 4.74,
-      "rel_volume": 4.59,
-      "atr14": 2.21,
-      "sma50_dist_pct": 19.65,
-      "sma200_dist_pct": 5.78,
-      "perf_week_pct": 20.79,
-      "earnings": "Jul 29 AMC",
-      "catalyst": {
-        "strength": "strong",
-        "score": 0.9,
-        "label": "M&A",
-        "reason": "CNMD Stock Surges As Much As 10% After-Hours On Reports Of Private Equity Takeover Interest",
-        "source": "rules"
-      },
-      "news": [
-        {
-          "date": "2026-07-13 16:49",
-          "title": "Why This Medical Technology Stock Is Up 10%",
-          "source": "Barrons.com",
-          "link": "https://www.barrons.com/articles/conmed-stock-medical-technology-5ad49b03?mod=bar_FV"
-        },
-        {
-          "date": "2026-07-13 12:34",
-          "title": "CNMD Stock Hits Highest Level In Over Four Months  Why JPMorgan Believes Firm Would Be Highly Attractive To Financial Acquirers",
-          "source": "Stocktwits",
-          "link": "https://finance.yahoo.com/m/a6d12372-b3f9-3998-8b1a-18d4b0a58b65/cnmd-stock-hits-highest-level.html"
-        },
-        {
-          "date": "2026-07-10 20:28",
-          "title": "CNMD Stock Surges As Much As 10% After-Hours On Reports Of Private Equity Takeover Interest",
-          "source": "Stocktwits",
-          "link": "https://finance.yahoo.com/m/a4411767-90ee-35f5-b373-8226cb5d9250/cnmd-stock-surges-as-much-as.html"
-        }
-      ]
-    },
-    {
-      "ticker": "QTTB",
-      "company": "Q32 Bio Inc",
+      "ticker": "CELC",
+      "company": "Celcuity Inc",
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "country": "USA",
-      "market_cap": 506310000.0,
-      "price": 21.38,
-      "change_pct": 90.72,
-      "volume": 27784914.0,
-      "mqs": 68.1,
+      "market_cap": 5420000000.0,
+      "price": 111.05,
+      "change_pct": 6.99,
+      "volume": 2138696.0,
+      "mqs": 66.6,
       "tier": "Pullback",
       "badges": [
-        "Vol fading",
+        "Vol building",
         "Pullback: deep"
       ],
       "extension": null,
       "pullback_depth": "deep",
-      "retrace_pct": 38.7,
-      "dist_above_ema10_atr": -1.15,
+      "retrace_pct": 38.5,
+      "dist_above_ema10_atr": -0.4,
       "up_streak": 0,
       "burst_age": 0,
       "burst_thrust_days": 0,
-      "close_position": 0.825,
+      "close_position": 0.768,
       "vol_profile": {
-        "am_vol": 231087,
-        "pm_vol": 104946,
-        "pm_share": 0.312,
-        "persistence": "front_loaded"
+        "am_vol": 16581,
+        "pm_vol": 52557,
+        "pm_share": 0.76,
+        "persistence": "building"
       },
       "latest_bar": {
-        "open": 17.55,
-        "high": 22.2,
-        "low": 17.46,
-        "close": 21.37,
-        "volume": 340324.0,
-        "date": "2026-07-13",
-        "close_position": 0.825
+        "open": 104.91,
+        "high": 113.73,
+        "low": 101.55,
+        "close": 110.905,
+        "volume": 81681.0,
+        "date": "2026-07-14",
+        "close_position": 0.768
       },
-      "run_low": 5.23,
-      "run_high": 15.0,
-      "ema10": 12.681744036636596,
-      "ema20": 12.369669624319616,
-      "atr14_bars": 1.2803983451791352,
+      "run_low": 82.64,
+      "run_high": 117.2,
+      "ema10": 106.30467894288213,
+      "ema20": 104.47551254180273,
+      "atr14_bars": 6.050204252325131,
       "streak": 1,
       "components": {
-        "closing_strength": 0.825,
-        "volume": 0.85,
-        "float": 1.0,
-        "short_float": 0.356,
+        "closing_strength": 0.768,
+        "volume": 0.467,
+        "float": 0.855,
+        "short_float": 1.0,
         "catalyst": 0.9,
         "persistence": 0.0
       },
-      "shs_float": 9500000.0,
-      "short_float_pct": 7.13,
-      "short_ratio": 0.84,
-      "rel_volume": 34.62,
-      "atr14": 2.18,
-      "sma50_dist_pct": 108.81,
-      "sma200_dist_pct": 285.32,
-      "perf_week_pct": 66.19,
-      "earnings": "May 05 BMO",
+      "shs_float": 38910000.0,
+      "short_float_pct": 28.19,
+      "short_ratio": 7.99,
+      "rel_volume": 1.56,
+      "atr14": 7.06,
+      "sma50_dist_pct": -1.2,
+      "sma200_dist_pct": 9.67,
+      "perf_week_pct": -4.04,
+      "earnings": "May 14 AMC",
       "catalyst": {
         "strength": "strong",
         "score": 0.9,
         "label": "FDA / clinical",
-        "reason": "Q32 Bio Shares Jump 60% After Positive Mid-Stage Alopecia Trial Results (QTTB)",
+        "reason": "CELC Stock Clocks Best Day In About 2 Months On First FDA Approval For Cancer Drug",
         "source": "rules"
       },
       "news": [
         {
-          "date": "2026-07-13 16:01",
-          "title": "Q32 Bio Announces Proposed Public Offering of Common Stock and Pre-Funded Warrants",
-          "source": "PR Newswire",
-          "link": "/news/367487/q32-bio-announces-proposed-public-offering-of-common-stock-and-pre-funded-warrants"
+          "date": "2026-07-14 17:24",
+          "title": "CELC Stock Clocks Best Day In About 2 Months On First FDA Approval For Cancer Drug",
+          "source": "Stocktwits",
+          "link": "https://finance.yahoo.com/m/8b606c98-d082-3a2a-9a2d-490a29456649/celc-stock-clocks-best-day-in.html"
         },
         {
-          "date": "2026-07-13 08:24",
-          "title": "Q32 Bio Shares Jump 60% After Positive Mid-Stage Alopecia Trial Results (QTTB)",
-          "source": "InvestorsHub",
-          "link": "https://finance.yahoo.com/m/c0f3b1f0-242c-303d-90b7-e1284ea07042/q32-bio-shares-jump-60%25-after.html"
-        },
-        {
-          "date": "2026-07-13 08:03",
-          "title": "Q32 bounces back to claim study success for alopecia drug",
-          "source": "BioPharma Dive",
-          "link": "https://finance.yahoo.com/m/1c9bdbd1-bb9e-35eb-873f-553d4de89e06/q32-bounces-back-to-claim.html"
-        },
-        {
-          "date": "2026-07-13 06:59",
-          "title": "Q32 Bio Announces Positive 36-Week Topline Results from Part B of the SIGNAL-AA Clinical Trial of Bempikibart in Alopecia Areata",
-          "source": "PR Newswire",
-          "link": "/news/367323/q32-bio-announces-positive-36-week-topline-results-from-part-b-of-the-signal-aa-clinical-trial-of-bempikibart-in-alopecia-areata"
-        },
-        {
-          "date": "2026-07-10 16:05",
-          "title": "Q32 Bio to Report 36-Week Topline Results from Part B of SIGNAL-AA Clinical Trial of Bempikibart in Alopecia Areata on July 13, 2026",
-          "source": "PR Newswire",
-          "link": "/news/367250/q32-bio-to-report-36-week-topline-results-from-part-b-of-signal-aa-clinical-trial-of-bempikibart-in-alopecia-areata-on-july-13-2026"
+          "date": "2026-07-14 16:53",
+          "title": "Celcuity Announces FDA Approval of REVTORPYK (gedatolisib) for the Treatment of HR+/HER2-, PIK3CA Wild-Type Locally Advanced or Metastatic Breast Cancer",
+          "source": "GlobeNewswire",
+          "link": "/news/368207/celcuity-announces-fda-approval-of-revtorpyk-gedatolisib-for-the-treatment-of-hrher2-pik3ca-wild-type-locally-advanced-or-metastatic-breast-cancer"
         }
       ]
     },
     {
-      "ticker": "PSNL",
-      "company": "Personalis Inc",
+      "ticker": "VERA",
+      "company": "Vera Therapeutics Inc",
       "sector": "Healthcare",
-      "industry": "Diagnostics & Research",
+      "industry": "Biotechnology",
       "country": "USA",
-      "market_cap": 1580000000.0,
-      "price": 15.04,
-      "change_pct": 6.890000000000001,
-      "volume": 10664551.0,
-      "mqs": 49.1,
+      "market_cap": 3100000000.0,
+      "price": 43.13,
+      "change_pct": 3.93,
+      "volume": 2583717.0,
+      "mqs": 60.6,
       "tier": "Pullback",
       "badges": [
+        "Vol building",
+        "Closed at HOD",
         "Pullback: tight"
       ],
       "extension": null,
       "pullback_depth": "tight",
-      "retrace_pct": 13.5,
-      "dist_above_ema10_atr": 0.45,
+      "retrace_pct": 23.4,
+      "dist_above_ema10_atr": 0.02,
       "up_streak": 0,
       "burst_age": 0,
       "burst_thrust_days": 0,
-      "close_position": 0.576,
+      "close_position": 0.964,
       "vol_profile": {
-        "am_vol": 337977,
-        "pm_vol": 215762,
-        "pm_share": 0.39,
-        "persistence": "balanced"
-      },
-      "latest_bar": {
-        "open": 13.59,
-        "high": 16.13,
-        "low": 13.57,
-        "close": 15.045,
-        "volume": 556613.0,
-        "date": "2026-07-13",
-        "close_position": 0.576
-      },
-      "run_low": 5.7,
-      "run_high": 15.36,
-      "ema10": 13.599894565339875,
-      "ema20": 12.548479103971662,
-      "atr14_bars": 1.0288839955466749,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.576,
-        "volume": 0.869,
-        "float": 0.611,
-        "short_float": 0.801,
-        "catalyst": 0.15,
-        "persistence": 0.0
-      },
-      "shs_float": 70570000.0,
-      "short_float_pct": 16.02,
-      "short_ratio": 3.7,
-      "rel_volume": 3.49,
-      "atr14": 1.18,
-      "sma50_dist_pct": 52.39,
-      "sma200_dist_pct": 74.49,
-      "perf_week_pct": 4.88,
-      "earnings": "May 07 AMC",
-      "catalyst": {
-        "strength": "none",
-        "score": 0.15,
-        "label": "No recent news",
-        "reason": "No headlines in the last few days.",
-        "source": "rules"
-      },
-      "news": []
-    },
-    {
-      "ticker": "NSP",
-      "company": "Insperity Inc",
-      "sector": "Industrials",
-      "industry": "Staffing & Employment Services",
-      "country": "USA",
-      "market_cap": 1850000000.0,
-      "price": 48.39,
-      "change_pct": 6.329999999999999,
-      "volume": 1255026.0,
-      "mqs": 46.8,
-      "tier": "Pullback",
-      "badges": [
-        "Vol building",
-        "Pullback: tight"
-      ],
-      "extension": null,
-      "pullback_depth": "tight",
-      "retrace_pct": 6.5,
-      "dist_above_ema10_atr": 1.08,
-      "up_streak": 2,
-      "burst_age": 0,
-      "burst_thrust_days": 0,
-      "close_position": 0.757,
-      "vol_profile": {
-        "am_vol": 4766,
-        "pm_vol": 18816,
-        "pm_share": 0.798,
+        "am_vol": 34563,
+        "pm_vol": 57295,
+        "pm_share": 0.624,
         "persistence": "building"
       },
       "latest_bar": {
-        "open": 46.715,
-        "high": 49.0,
-        "low": 46.715,
-        "close": 48.445,
-        "volume": 30221.0,
-        "date": "2026-07-13",
-        "close_position": 0.757
+        "open": 41.99,
+        "high": 43.17,
+        "low": 41.36,
+        "close": 43.105,
+        "volume": 102210.0,
+        "date": "2026-07-14",
+        "close_position": 0.964
       },
-      "run_low": 27.55,
-      "run_high": 46.755,
-      "ema10": 43.32006241034306,
-      "ema20": 40.96256409681918,
-      "atr14_bars": 2.024135480004157,
+      "run_low": 30.61,
+      "run_high": 44.83,
+      "ema10": 41.464061712292754,
+      "ema20": 39.98663835765511,
+      "atr14_bars": 2.410263454713601,
       "streak": 1,
       "components": {
-        "closing_strength": 0.757,
-        "volume": 0.479,
-        "float": 0.88,
-        "short_float": 0.616,
-        "catalyst": 0.15,
+        "closing_strength": 0.964,
+        "volume": 0.496,
+        "float": 0.704,
+        "short_float": 1.0,
+        "catalyst": 0.45,
         "persistence": 0.0
       },
-      "shs_float": 35550000.0,
-      "short_float_pct": 12.32,
-      "short_ratio": 5.6,
-      "rel_volume": 1.6,
-      "atr14": 2.56,
-      "sma50_dist_pct": 34.67,
-      "sma200_dist_pct": 35.17,
-      "perf_week_pct": 9.38,
-      "earnings": "Jul 29 AMC",
+      "shs_float": 58470000.0,
+      "short_float_pct": 23.12,
+      "short_ratio": 8.69,
+      "rel_volume": 1.66,
+      "atr14": 2.58,
+      "sma50_dist_pct": 17.16,
+      "sma200_dist_pct": 11.98,
+      "perf_week_pct": 0.4,
+      "earnings": "May 07 BMO",
       "catalyst": {
-        "strength": "none",
-        "score": 0.15,
-        "label": "No recent news",
-        "reason": "No headlines in the last few days.",
-        "source": "rules"
-      },
-      "news": []
-    },
-    {
-      "ticker": "CHRD",
-      "company": "Chord Energy Corp",
-      "sector": "Energy",
-      "industry": "Oil & Gas E&P",
-      "country": "USA",
-      "market_cap": 6890000000.0,
-      "price": 122.36,
-      "change_pct": 4.23,
-      "volume": 1245521.0,
-      "mqs": 37.8,
-      "tier": "Pullback",
-      "badges": [
-        "Vol building",
-        "Pullback: deep"
-      ],
-      "extension": null,
-      "pullback_depth": "deep",
-      "retrace_pct": 49.8,
-      "dist_above_ema10_atr": -0.14,
-      "up_streak": 0,
-      "burst_age": 0,
-      "burst_thrust_days": 0,
-      "close_position": 0.609,
-      "vol_profile": {
-        "am_vol": 26779,
-        "pm_vol": 36181,
-        "pm_share": 0.575,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 120.71,
-        "high": 124.27,
-        "low": 119.59,
-        "close": 122.44,
-        "volume": 73416.0,
-        "date": "2026-07-13",
-        "close_position": 0.609
-      },
-      "run_low": 111.33,
-      "run_high": 123.26,
-      "ema10": 117.89248627121366,
-      "ema20": 121.23418785746318,
-      "atr14_bars": 4.186458869471217,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.609,
-        "volume": 0.467,
-        "float": 0.747,
-        "short_float": 0.31,
-        "catalyst": 0.15,
-        "persistence": 0.0
-      },
-      "shs_float": 52840000.0,
-      "short_float_pct": 6.21,
-      "short_ratio": 4.09,
-      "rel_volume": 1.56,
-      "atr14": 4.78,
-      "sma50_dist_pct": -7.76,
-      "sma200_dist_pct": 9.07,
-      "perf_week_pct": 9.65,
-      "earnings": "May 05 AMC",
-      "catalyst": {
-        "strength": "none",
-        "score": 0.15,
-        "label": "No recent news",
-        "reason": "No headlines in the last few days.",
-        "source": "rules"
-      },
-      "news": []
-    },
-    {
-      "ticker": "BIIB",
-      "company": "Biogen Inc",
-      "sector": "Healthcare",
-      "industry": "Drug Manufacturers - General",
-      "country": "USA",
-      "market_cap": 30860000000.0,
-      "price": 209.03,
-      "change_pct": 4.96,
-      "volume": 2259249.0,
-      "mqs": 25.2,
-      "tier": "Reversal/Failed",
-      "badges": [
-        "Vol building",
-        "Broke down 58% off peak"
-      ],
-      "extension": null,
-      "pullback_depth": null,
-      "retrace_pct": 57.9,
-      "dist_above_ema10_atr": -0.8,
-      "up_streak": 1,
-      "burst_age": 0,
-      "burst_thrust_days": 0,
-      "close_position": 0.879,
-      "vol_profile": {
-        "am_vol": 25507,
-        "pm_vol": 82893,
-        "pm_share": 0.765,
-        "persistence": "building"
-      },
-      "latest_bar": {
-        "open": 199.61,
-        "high": 210.58,
-        "low": 198.58,
-        "close": 209.125,
-        "volume": 121731.0,
-        "date": "2026-07-13",
-        "close_position": 0.879
-      },
-      "run_low": 185.1,
-      "run_high": 218.855,
-      "ema10": 204.19458991044687,
-      "ema20": 203.21546538029742,
-      "atr14_bars": 6.104930584966268,
-      "streak": 1,
-      "components": {
-        "closing_strength": 0.879,
-        "volume": 0.561,
-        "float": 0.028,
-        "short_float": 0.196,
-        "catalyst": 0.9,
-        "persistence": 0.0
-      },
-      "shs_float": 146320000.0,
-      "short_float_pct": 3.91,
-      "short_ratio": 4.8,
-      "rel_volume": 1.89,
-      "atr14": 7.09,
-      "sma50_dist_pct": 5.69,
-      "sma200_dist_pct": 16.47,
-      "perf_week_pct": 0.27,
-      "earnings": "Jul 29 BMO",
-      "catalyst": {
-        "strength": "strong",
-        "score": 0.9,
-        "label": "FDA / clinical",
-        "reason": "FDA Approves LEQEMBI IQLIK (lecanemab-irmb) Subcutaneous Injection as an Initiation Dose for Early Alzheimer's Disease",
+        "strength": "weak",
+        "score": 0.45,
+        "label": "Sector / macro",
+        "reason": "Vera Therapeutics Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
         "source": "rules"
       },
       "news": [
         {
-          "date": "2026-07-13 17:38",
-          "title": "FDA Approves LEQEMBI IQLIK (lecanemab-irmb) Subcutaneous Injection as an Initiation Dose for Early Alzheimer's Disease",
+          "date": "2026-07-10 16:05",
+          "title": "Vera Therapeutics Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
           "source": "GlobeNewswire",
-          "link": "/news/367547/fda-approves-leqembi-iqlik-lecanemab-irmb-subcutaneous-injection-as-an-initiation-dose-for-early-alzheimers-disease"
+          "link": "/news/367256/vera-therapeutics-announces-inducement-grants-under-nasdaq-listing-rule-5635c4"
         },
         {
-          "date": "2026-07-13 16:30",
-          "title": "Biogen Inc. stock outperforms competitors on strong trading day",
-          "source": "MarketWatch",
-          "link": "https://www.marketwatch.com/data-news/biogen-inc-stock-outperforms-competitors-on-strong-trading-day-9860669d-7032489ddae2?mod=mw_FV"
+          "date": "2026-07-09 08:00",
+          "title": "Vera Therapeutics Announces Appointment of Nancy Boman as Chief Regulatory Officer and Planned Retirement of William Turner",
+          "source": "GlobeNewswire",
+          "link": "/news/366882/vera-therapeutics-announces-appointment-of-nancy-boman-as-chief-regulatory-officer-and-planned-retirement-of-william-turner"
+        }
+      ]
+    },
+    {
+      "ticker": "ERAS",
+      "company": "Erasca Inc",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "USA",
+      "market_cap": 6060000000.0,
+      "price": 19.5,
+      "change_pct": 8.94,
+      "volume": 10696601.0,
+      "mqs": 55.2,
+      "tier": "Pullback",
+      "badges": [
+        "Pullback: healthy"
+      ],
+      "extension": null,
+      "pullback_depth": "healthy",
+      "retrace_pct": 21.3,
+      "dist_above_ema10_atr": -0.08,
+      "up_streak": 0,
+      "burst_age": 0,
+      "burst_thrust_days": 0,
+      "close_position": 0.862,
+      "vol_profile": {
+        "am_vol": 376502,
+        "pm_vol": 293500,
+        "pm_share": 0.438,
+        "persistence": "balanced"
+      },
+      "latest_bar": {
+        "open": 18.48,
+        "high": 19.7,
+        "low": 18.21,
+        "close": 19.495,
+        "volume": 671509.0,
+        "date": "2026-07-14",
+        "close_position": 0.862
+      },
+      "run_low": 9.81,
+      "run_high": 20.075,
+      "ema10": 17.969808993894226,
+      "ema20": 16.83917115054668,
+      "atr14_bars": 1.1301652497811012,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.862,
+        "volume": 0.32,
+        "float": 0.1,
+        "short_float": 0.864,
+        "catalyst": 0.9,
+        "persistence": 0.0
+      },
+      "shs_float": 187050000.0,
+      "short_float_pct": 17.28,
+      "short_ratio": 4.74,
+      "rel_volume": 1.57,
+      "atr14": 1.22,
+      "sma50_dist_pct": 42.07,
+      "sma200_dist_pct": 98.63,
+      "perf_week_pct": 6.21,
+      "earnings": "May 11 AMC",
+      "catalyst": {
+        "strength": "strong",
+        "score": 0.9,
+        "label": "FDA / clinical",
+        "reason": "Erasca Announces Updated Preliminary Phase 1 Data and Registration-Enabling Plans for Potentially Best-in-Class Pan-RAS Molecular Glue ERAS-0015 in KRAS-Mutant ",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-07-13 23:10",
+          "title": "Erasca Announces Pricing of Upsized Public Offering of Common Stock",
+          "source": "GlobeNewswire",
+          "link": "/news/367557/erasca-announces-pricing-of-upsized-public-offering-of-common-stock"
         },
         {
-          "date": "2026-07-13 15:21",
-          "title": "BIIB Stock Jumps 5%  Analysts Raise Price Targets After FDA Clears Alzheimers Treatment For At-Home Use",
+          "date": "2026-07-13 16:19",
+          "title": "Erasca Announces Proposed Public Offering of $500 Million of Common Stock",
+          "source": "GlobeNewswire",
+          "link": "/news/367517/erasca-announces-proposed-public-offering-of-500-million-of-common-stock"
+        },
+        {
+          "date": "2026-07-13 16:01",
+          "title": "Erasca Announces Updated Preliminary Phase 1 Data and Registration-Enabling Plans for Potentially Best-in-Class Pan-RAS Molecular Glue ERAS-0015 in KRAS-Mutant Solid Tumors",
+          "source": "GlobeNewswire",
+          "link": "/news/367489/erasca-announces-updated-preliminary-phase-1-data-and-registration-enabling-plans-for-potentially-best-in-class-pan-ras-molecular-glue-eras-0015-in-kras-mutant-solid-tumors"
+        }
+      ]
+    },
+    {
+      "ticker": "S",
+      "company": "SentinelOne Inc",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "country": "USA",
+      "market_cap": 6830000000.0,
+      "price": 19.92,
+      "change_pct": 7.39,
+      "volume": 13488404.0,
+      "mqs": 54.6,
+      "tier": "Pullback",
+      "badges": [
+        "Late burst (day 11)",
+        "Pullback: tight"
+      ],
+      "extension": null,
+      "pullback_depth": "tight",
+      "retrace_pct": 9.2,
+      "dist_above_ema10_atr": 0.94,
+      "up_streak": 1,
+      "burst_age": 11,
+      "burst_thrust_days": 6,
+      "close_position": 0.829,
+      "vol_profile": {
+        "am_vol": 661534,
+        "pm_vol": 558388,
+        "pm_share": 0.458,
+        "persistence": "balanced"
+      },
+      "latest_bar": {
+        "open": 18.155,
+        "high": 20.26,
+        "low": 18.15,
+        "close": 19.9,
+        "volume": 1222928.0,
+        "date": "2026-07-14",
+        "close_position": 0.829
+      },
+      "run_low": 14.315,
+      "run_high": 18.99,
+      "ema10": 17.706333797819177,
+      "ema20": 17.069827872634473,
+      "atr14_bars": 0.9094976586975942,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.829,
+        "volume": 0.36,
+        "float": 0.1,
+        "short_float": 0.362,
+        "catalyst": 0.9,
+        "persistence": 0.4
+      },
+      "shs_float": 319090000.0,
+      "short_float_pct": 7.24,
+      "short_ratio": 2.93,
+      "rel_volume": 1.71,
+      "atr14": 1.02,
+      "sma50_dist_pct": 19.98,
+      "sma200_dist_pct": 29.12,
+      "perf_week_pct": 9.69,
+      "earnings": "May 28 AMC",
+      "catalyst": {
+        "strength": "strong",
+        "score": 0.9,
+        "label": "Earnings / guidance",
+        "reason": "IBM's Earnings Warning Is Great for Crowdstrike Stock",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-07-14 12:17",
+          "title": "IBM's Earnings Warning Is Great for Crowdstrike Stock",
+          "source": "Barrons.com",
+          "link": "https://www.barrons.com/articles/ibm-earnings-warning-crowdstrike-stock-041e6d6d?mod=bar_FV"
+        },
+        {
+          "date": "2026-07-09 20:40",
+          "title": "CVLT Grew. The Stock Did Not. Someone Is Wrong",
+          "source": "Trefis",
+          "link": "https://finance.yahoo.com/m/b986d0e7-6e19-3d03-b1b6-a7d3687b6b5a/cvlt-grew.-the-stock-did-not..html"
+        }
+      ]
+    },
+    {
+      "ticker": "GS",
+      "company": "Goldman Sachs Group Inc",
+      "sector": "Financial",
+      "industry": "Capital Markets",
+      "country": "USA",
+      "market_cap": 336310000000.0,
+      "price": 1140.0,
+      "change_pct": 9.0,
+      "volume": 3788694.0,
+      "mqs": 48.9,
+      "tier": "Pullback",
+      "badges": [
+        "Closed at HOD",
+        "Pullback: tight"
+      ],
+      "extension": null,
+      "pullback_depth": "tight",
+      "retrace_pct": 38.3,
+      "dist_above_ema10_atr": 0.04,
+      "up_streak": 0,
+      "burst_age": 0,
+      "burst_thrust_days": 0,
+      "close_position": 0.969,
+      "vol_profile": {
+        "am_vol": 78208,
+        "pm_vol": 47998,
+        "pm_share": 0.38,
+        "persistence": "balanced"
+      },
+      "latest_bar": {
+        "open": 1083.62,
+        "high": 1143.785,
+        "low": 1082.74,
+        "close": 1141.87,
+        "volume": 130233.0,
+        "date": "2026-07-14",
+        "close_position": 0.969
+      },
+      "run_low": 920.1,
+      "run_high": 1124.55,
+      "ema10": 1045.1060771855534,
+      "ema20": 1043.3827022790451,
+      "atr14_bars": 28.71573829976226,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.969,
+        "volume": 0.389,
+        "float": 0.1,
+        "short_float": 0.111,
+        "catalyst": 0.9,
+        "persistence": 0.0
+      },
+      "shs_float": 293320000.0,
+      "short_float_pct": 2.21,
+      "short_ratio": 3.09,
+      "rel_volume": 1.81,
+      "atr14": 34.71,
+      "sma50_dist_pct": 12.07,
+      "sma200_dist_pct": 26.84,
+      "perf_week_pct": 9.3,
+      "earnings": "Jul 14 BMO",
+      "catalyst": {
+        "strength": "strong",
+        "score": 0.9,
+        "label": "Earnings / guidance",
+        "reason": "Elevance Is Overcoming Medicare Advantage Hurdles. Earnings Could Show It.",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-07-14 18:07",
+          "title": "Elevance Is Overcoming Medicare Advantage Hurdles. Earnings Could Show It.",
+          "source": "Barrons.com",
+          "link": "https://www.barrons.com/articles/elevance-health-earnings-stock-price-a310dd71?mod=bar_FV"
+        },
+        {
+          "date": "2026-07-14 17:46",
+          "title": "Bank Stocks Diverge Post-Earnings: Citi Drops, Goldman Hits Fresh Record",
+          "source": "Barrons.com",
+          "link": "https://www.barrons.com/livecoverage/wells-fargo-bank-of-america-goldman-sachs-jpmorgan-chase-citigroup-bank-earnings/card/bank-stocks-diverge-post-earnings-citi-drops-goldman-hits-fresh-record-C7bswtafPp1YJq4o5syg?mod=bar_FV"
+        },
+        {
+          "date": "2026-07-14 17:00",
+          "title": "The Goldman Sachs Group Inc (GS) Q2 2026 Earnings Call Highlights: Record Revenues and ...",
+          "source": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-group-inc-gs-210055004.html"
+        },
+        {
+          "date": "2026-07-14 16:51",
+          "title": "Big Banks' Profits Surge After a Red-Hot Quarter on Wall Street",
+          "source": "The Wall Street Journal",
+          "link": "https://www.wsj.com/finance/banking/big-banks-profits-surge-after-a-red-hot-quarter-on-wall-street-7a25ffbe?mod=wsj_FV"
+        },
+        {
+          "date": "2026-07-14 16:02",
+          "title": "SpaceX and other mega AI deals are lifting big bank profits. CEOs say more are coming.",
+          "source": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/spacex-and-other-mega-ai-deals-are-lifting-big-bank-profits-ceos-say-more-are-coming-200253557.html"
+        }
+      ]
+    },
+    {
+      "ticker": "REZI",
+      "company": "Resideo Technologies Inc",
+      "sector": "Industrials",
+      "industry": "Industrial Distribution",
+      "country": "USA",
+      "market_cap": 5580000000.0,
+      "price": 36.86,
+      "change_pct": 4.12,
+      "volume": 2444733.0,
+      "mqs": 45.2,
+      "tier": "Pullback",
+      "badges": [
+        "Vol building",
+        "Pullback: tight"
+      ],
+      "extension": null,
+      "pullback_depth": "tight",
+      "retrace_pct": 8.2,
+      "dist_above_ema10_atr": 1.84,
+      "up_streak": 2,
+      "burst_age": 2,
+      "burst_thrust_days": 2,
+      "close_position": 0.773,
+      "vol_profile": {
+        "am_vol": 74696,
+        "pm_vol": 79911,
+        "pm_share": 0.517,
+        "persistence": "building"
+      },
+      "latest_bar": {
+        "open": 35.76,
+        "high": 37.36,
+        "low": 35.2,
+        "close": 36.87,
+        "volume": 159165.0,
+        "date": "2026-07-14",
+        "close_position": 0.773
+      },
+      "run_low": 26.735,
+      "run_high": 36.18,
+      "ema10": 32.5234222998223,
+      "ema20": 32.00335900502971,
+      "atr14_bars": 1.5655718453269984,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.773,
+        "volume": 0.49,
+        "float": 0.13,
+        "short_float": 0.178,
+        "catalyst": 0.4,
+        "persistence": 0.5
+      },
+      "shs_float": 133150000.0,
+      "short_float_pct": 3.57,
+      "short_ratio": 3.2,
+      "rel_volume": 1.64,
+      "atr14": 1.73,
+      "sma50_dist_pct": 14.11,
+      "sma200_dist_pct": 3.22,
+      "perf_week_pct": 13.66,
+      "earnings": "May 12 AMC",
+      "catalyst": {
+        "strength": "unknown",
+        "score": 0.4,
+        "label": "Unclassified",
+        "reason": "Headlines present but no rule matched.",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-07-14 06:50",
+          "title": "ADI Global Distribution Outlines Standalone Strategy and Financial Framework at Inaugural Investor Day",
+          "source": "PR Newswire",
+          "link": "/news/367695/adi-global-distribution-outlines-standalone-strategy-and-financial-framework-at-inaugural-investor-day"
+        },
+        {
+          "date": "2026-07-13 08:57",
+          "title": "NYSE Content Update: Circle Shares Come Off 5% Rise After Latest Banking Step",
+          "source": "PR Newswire",
+          "link": "/news/367419/nyse-content-update-circle-shares-come-off-5-rise-after-latest-banking-step"
+        },
+        {
+          "date": "2026-07-13 06:50",
+          "title": "Resideo To Present Strategy and Financial Framework as Pure-Play Building Technologies Company at Investor Day",
+          "source": "PR Newswire",
+          "link": "/news/367321/resideo-to-present-strategy-and-financial-framework-as-pure-play-building-technologies-company-at-investor-day"
+        }
+      ]
+    },
+    {
+      "ticker": "VRNS",
+      "company": "Varonis Systems Inc",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "country": "USA",
+      "market_cap": 5530000000.0,
+      "price": 48.19,
+      "change_pct": 6.19,
+      "volume": 3589115.0,
+      "mqs": 40.9,
+      "tier": "Pullback",
+      "badges": [
+        "Vol building",
+        "Pullback: tight"
+      ],
+      "extension": null,
+      "pullback_depth": "tight",
+      "retrace_pct": 10.1,
+      "dist_above_ema10_atr": 0.91,
+      "up_streak": 1,
+      "burst_age": 0,
+      "burst_thrust_days": 0,
+      "close_position": 0.742,
+      "vol_profile": {
+        "am_vol": 94056,
+        "pm_vol": 143667,
+        "pm_share": 0.604,
+        "persistence": "building"
+      },
+      "latest_bar": {
+        "open": 44.62,
+        "high": 49.34,
+        "low": 44.62,
+        "close": 48.12,
+        "volume": 250543.0,
+        "date": "2026-07-14",
+        "close_position": 0.742
+      },
+      "run_low": 26.56,
+      "run_high": 47.54,
+      "ema10": 43.48636023976786,
+      "ema20": 40.64659732059295,
+      "atr14_bars": 2.1228307659455883,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.742,
+        "volume": 0.453,
+        "float": 0.315,
+        "short_float": 0.356,
+        "catalyst": 0.4,
+        "persistence": 0.0
+      },
+      "shs_float": 108990000.0,
+      "short_float_pct": 7.11,
+      "short_ratio": 3.26,
+      "rel_volume": 1.51,
+      "atr14": 2.48,
+      "sma50_dist_pct": 39.67,
+      "sma200_dist_pct": 41.78,
+      "perf_week_pct": 5.13,
+      "earnings": "Jul 28 AMC",
+      "catalyst": {
+        "strength": "unknown",
+        "score": 0.4,
+        "label": "Unclassified",
+        "reason": "Headlines present but no rule matched.",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-07-14 09:00",
+          "title": "Varonis Extends AI Security Coverage to Claude Code and Claude Cowork",
+          "source": "GlobeNewswire",
+          "link": "/news/367917/varonis-extends-ai-security-coverage-to-claude-code-and-claude-cowork"
+        },
+        {
+          "date": "2026-07-09 16:05",
+          "title": "Varonis Announces Date of Second Quarter 2026 Financial Results",
+          "source": "GlobeNewswire",
+          "link": "/news/367053/varonis-announces-date-of-second-quarter-2026-financial-results"
+        }
+      ]
+    },
+    {
+      "ticker": "SYRE",
+      "company": "Spyre Therapeutics Inc",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "USA",
+      "market_cap": 8590000000.0,
+      "price": 98.95,
+      "change_pct": 5.57,
+      "volume": 2773361.0,
+      "mqs": 39.5,
+      "tier": "Pullback",
+      "badges": [
+        "Vol building",
+        "Upper wick / fade",
+        "Pullback: tight"
+      ],
+      "extension": null,
+      "pullback_depth": "tight",
+      "retrace_pct": 22.4,
+      "dist_above_ema10_atr": 0.12,
+      "up_streak": 0,
+      "burst_age": 0,
+      "burst_thrust_days": 0,
+      "close_position": 0.358,
+      "vol_profile": {
+        "am_vol": 46524,
+        "pm_vol": 51408,
+        "pm_share": 0.525,
+        "persistence": "building"
+      },
+      "latest_bar": {
+        "open": 95.445,
+        "high": 105.07,
+        "low": 95.445,
+        "close": 98.895,
+        "volume": 106060.0,
+        "date": "2026-07-14",
+        "close_position": 0.358
+      },
+      "run_low": 64.75,
+      "run_high": 102.0,
+      "ema10": 93.07635343762826,
+      "ema20": 89.58249282215485,
+      "atr14_bars": 4.932371736451605,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.358,
+        "volume": 0.581,
+        "float": 0.558,
+        "short_float": 0.88,
+        "catalyst": 0.15,
+        "persistence": 0.0
+      },
+      "shs_float": 77450000.0,
+      "short_float_pct": 17.61,
+      "short_ratio": 9.65,
+      "rel_volume": 1.96,
+      "atr14": 5.81,
+      "sma50_dist_pct": 22.67,
+      "sma200_dist_pct": 110.43,
+      "perf_week_pct": 5.01,
+      "earnings": "May 05 BMO",
+      "catalyst": {
+        "strength": "none",
+        "score": 0.15,
+        "label": "No recent news",
+        "reason": "No headlines in the last few days.",
+        "source": "rules"
+      },
+      "news": []
+    },
+    {
+      "ticker": "SEI",
+      "company": "Solaris Energy Infrastructure Inc",
+      "sector": "Energy",
+      "industry": "Oil & Gas Equipment & Services",
+      "country": "USA",
+      "market_cap": 5110000000.0,
+      "price": 69.5,
+      "change_pct": 3.5000000000000004,
+      "volume": 10444574.0,
+      "mqs": 34.3,
+      "tier": "Reversal/Failed",
+      "badges": [
+        "Vol building",
+        "Broke down 59% off peak"
+      ],
+      "extension": null,
+      "pullback_depth": null,
+      "retrace_pct": 59.4,
+      "dist_above_ema10_atr": -0.61,
+      "up_streak": 0,
+      "burst_age": 0,
+      "burst_thrust_days": 0,
+      "close_position": 0.858,
+      "vol_profile": {
+        "am_vol": 106017,
+        "pm_vol": 145931,
+        "pm_share": 0.579,
+        "persistence": "building"
+      },
+      "latest_bar": {
+        "open": 68.845,
+        "high": 69.83,
+        "low": 67.5,
+        "close": 69.5,
+        "volume": 257541.0,
+        "date": "2026-07-14",
+        "close_position": 0.858
+      },
+      "run_low": 63.26,
+      "run_high": 72.825,
+      "ema10": 70.26544505101953,
+      "ema20": 72.0884815297601,
+      "atr14_bars": 5.089242798372885,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.858,
+        "volume": 1.0,
+        "float": 0.814,
+        "short_float": 1.0,
+        "catalyst": 0.45,
+        "persistence": 0.0
+      },
+      "shs_float": 44230000.0,
+      "short_float_pct": 30.41,
+      "short_ratio": 5.59,
+      "rel_volume": 4.34,
+      "atr14": 5.19,
+      "sma50_dist_pct": -5.72,
+      "sma200_dist_pct": 19.8,
+      "perf_week_pct": 6.35,
+      "earnings": "Apr 27 AMC",
+      "catalyst": {
+        "strength": "weak",
+        "score": 0.45,
+        "label": "Sector / macro",
+        "reason": "SEI Stock Jumps 5% After-Hours As S&P 600 Inclusion Sparks Buying",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-07-13 16:05",
+          "title": "Solaris Energy Infrastructure Schedules Second Quarter 2026 Results Conference Call",
+          "source": "Business Wire",
+          "link": "https://www.businesswire.com/news/home/20260713807841/en/"
+        },
+        {
+          "date": "2026-07-09 20:02",
+          "title": "SEI Stock Jumps 5% After-Hours As S&P 600 Inclusion Sparks Buying",
           "source": "Stocktwits",
-          "link": "https://finance.yahoo.com/m/04076b3a-e4e2-3c05-a5f1-1265babcea63/biib-stock-jumps-5%25-%E2%80%94.html"
+          "link": "https://finance.yahoo.com/m/722e9190-d08d-3274-a089-967139256077/sei-stock-jumps-5%25.html"
         },
         {
-          "date": "2026-07-13 09:41",
-          "title": "American Express, Biogen upgraded: Wall Street's top analyst calls",
-          "source": "The Fly",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/american-express-biogen-upgraded-wall-134141253.html"
+          "date": "2026-07-09 17:47",
+          "title": "Solaris Energy Infrastructure Set to Join S&P SmallCap 600",
+          "source": "PR Newswire",
+          "link": "/news/367116/solaris-energy-infrastructure-set-to-join-sp-smallcap-600"
+        }
+      ]
+    },
+    {
+      "ticker": "AEHR",
+      "company": "Aehr Test Systems",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "USA",
+      "market_cap": 2260000000.0,
+      "price": 72.01,
+      "change_pct": 5.87,
+      "volume": 4836793.0,
+      "mqs": 32.3,
+      "tier": "Reversal/Failed",
+      "badges": [
+        "Vol building",
+        "Broke down 71% off peak"
+      ],
+      "extension": null,
+      "pullback_depth": null,
+      "retrace_pct": 71.0,
+      "dist_above_ema10_atr": -0.9,
+      "up_streak": 0,
+      "burst_age": 0,
+      "burst_thrust_days": 0,
+      "close_position": 0.726,
+      "vol_profile": {
+        "am_vol": 17669,
+        "pm_vol": 37060,
+        "pm_share": 0.677,
+        "persistence": "building"
+      },
+      "latest_bar": {
+        "open": 73.24,
+        "high": 73.37,
+        "low": 68.55,
+        "close": 72.05,
+        "volume": 61265.0,
+        "date": "2026-07-14",
+        "close_position": 0.726
+      },
+      "run_low": 63.495,
+      "run_high": 79.29,
+      "ema10": 77.07616277629975,
+      "ema20": 84.77149685598962,
+      "atr14_bars": 9.984014191682945,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.726,
+        "volume": 0.579,
+        "float": 0.925,
+        "short_float": 0.702,
+        "catalyst": 0.9,
+        "persistence": 0.0
+      },
+      "shs_float": 29690000.0,
+      "short_float_pct": 14.03,
+      "short_ratio": 1.68,
+      "rel_volume": 1.95,
+      "atr14": 10.18,
+      "sma50_dist_pct": -23.83,
+      "sma200_dist_pct": 44.94,
+      "perf_week_pct": 7.57,
+      "earnings": "Jul 14 AMC",
+      "catalyst": {
+        "strength": "strong",
+        "score": 0.9,
+        "label": "Earnings / guidance",
+        "reason": "Big banks launch the second-quarter earnings season",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-07-14 17:03",
+          "title": "This Chip Test Maker's Stock Is Soaring on Record Bookings, Robust Outlook",
+          "source": "Barrons.com",
+          "link": "https://www.barrons.com/articles/aehr-test-systems-earnings-stock-price-27770a4a?mod=bar_FV"
         },
         {
-          "date": "2026-07-13 08:31",
-          "title": "Truist upgrades Biogen to Buy on Alzheimers, pipeline optimism ahead of key data",
+          "date": "2026-07-14 16:06",
+          "title": "Aehr Test Systems Reports Fiscal 2026 Fourth Quarter and Full Year Financial Results with Record Quarterly Bookings and $100 Million Effective Backlog",
+          "source": "ACCESSWIRE",
+          "link": "/news/368117/aehr-test-systems-reports-fiscal-2026-fourth-quarter-and-full-year-financial-results-with-record-quarterly-bookings-and-100-million-effective-backlog"
+        },
+        {
+          "date": "2026-07-14 16:05",
+          "title": "Aehr Receives More Than $8 Million in New Silicon Carbide Wafer-Level Burn-In Orders as Global Electric Vehicle Programs Accelerate",
+          "source": "ACCESSWIRE",
+          "link": "/news/368070/aehr-receives-more-than-8-million-in-new-silicon-carbide-wafer-level-burn-in-orders-as-global-electric-vehicle-programs-accelerate"
+        },
+        {
+          "date": "2026-07-14 04:25",
+          "title": "Big banks launch the second-quarter earnings season",
+          "source": "MarketWatch",
+          "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-oil-prices-us-iran-tension-bank-earnings-cpi-june/card/big-banks-launch-the-second-quarter-earnings-season-eSpN72X3baALAFN7Bok7?mod=mw_FV"
+        },
+        {
+          "date": "2026-07-14 03:29",
+          "title": "Stock Market Today: Dow, S&P 500 and Nasdaq set for mixed start as oil rises with bank earnings, Warsh testimony and CPI data on tap",
+          "source": "MarketWatch",
+          "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-oil-prices-us-iran-tension-bank-earnings-cpi-june?mod=mw_FV"
+        }
+      ]
+    },
+    {
+      "ticker": "CCXI",
+      "company": "Churchill Capital Corp XI",
+      "sector": "Financial",
+      "industry": "Shell Companies",
+      "country": "USA",
+      "market_cap": 889530000.0,
+      "price": 15.97,
+      "change_pct": 11.37,
+      "volume": 4007217.0,
+      "mqs": 26.4,
+      "tier": "Reversal/Failed",
+      "badges": [
+        "Vol building",
+        "Closed at HOD",
+        "Broke down 56% off peak"
+      ],
+      "extension": null,
+      "pullback_depth": null,
+      "retrace_pct": 56.3,
+      "dist_above_ema10_atr": -0.79,
+      "up_streak": 0,
+      "burst_age": 0,
+      "burst_thrust_days": 0,
+      "close_position": 1.0,
+      "vol_profile": {
+        "am_vol": 58143,
+        "pm_vol": 61635,
+        "pm_share": 0.515,
+        "persistence": "building"
+      },
+      "latest_bar": {
+        "open": 15.04,
+        "high": 16.175,
+        "low": 15.02,
+        "close": 16.175,
+        "volume": 122720.0,
+        "date": "2026-07-14",
+        "close_position": 1.0
+      },
+      "run_low": 10.24,
+      "run_high": 19.66,
+      "ema10": 15.329667799931052,
+      "ema20": 14.258177692444141,
+      "atr14_bars": 1.2225304833272752,
+      "streak": 1,
+      "components": {
+        "closing_strength": 1.0,
+        "volume": 0.67,
+        "float": 0.832,
+        "short_float": 0.057,
+        "catalyst": 0.4,
+        "persistence": 0.0
+      },
+      "shs_float": 41900000.0,
+      "short_float_pct": 1.15,
+      "short_ratio": 0.27,
+      "rel_volume": 2.27,
+      "atr14": 1.37,
+      "sma50_dist_pct": 35.87,
+      "sma200_dist_pct": 44.62,
+      "perf_week_pct": 0.69,
+      "earnings": "-",
+      "catalyst": {
+        "strength": "unknown",
+        "score": 0.4,
+        "label": "Unclassified",
+        "reason": "Headlines present but no rule matched.",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-07-14 11:30",
+          "title": "Agility Robotics and Churchill Capital Corp XI Announce Confidential Submission of Draft Registration Statement on Form S-4 in Connection with Proposed Business Combination",
+          "source": "Business Wire",
+          "link": "/news/368028/agility-robotics-and-churchill-capital-corp-xi-announce-confidential-submission-of-draft-registration-statement-on-form-s-4-in-connection-with-proposed-business-combination"
+        }
+      ]
+    },
+    {
+      "ticker": "CLSK",
+      "company": "Cleanspark Inc",
+      "sector": "Financial",
+      "industry": "Capital Markets",
+      "country": "USA",
+      "market_cap": 3450000000.0,
+      "price": 13.45,
+      "change_pct": 8.82,
+      "volume": 76285676.0,
+      "mqs": 25.8,
+      "tier": "Reversal/Failed",
+      "badges": [
+        "Vol fading",
+        "Upper wick / fade",
+        "Broke down 68% off peak"
+      ],
+      "extension": null,
+      "pullback_depth": null,
+      "retrace_pct": 67.8,
+      "dist_above_ema10_atr": -0.8,
+      "up_streak": 0,
+      "burst_age": 0,
+      "burst_thrust_days": 0,
+      "close_position": 0.27,
+      "vol_profile": {
+        "am_vol": 2294941,
+        "pm_vol": 996157,
+        "pm_share": 0.303,
+        "persistence": "front_loaded"
+      },
+      "latest_bar": {
+        "open": 14.665,
+        "high": 15.085,
+        "low": 12.805,
+        "close": 13.42,
+        "volume": 3291820.0,
+        "date": "2026-07-14",
+        "close_position": 0.27
+      },
+      "run_low": 11.95,
+      "run_high": 13.27,
+      "ema10": 13.390586729295546,
+      "ema20": 14.29050217283036,
+      "atr14_bars": 1.2717521592781855,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.27,
+        "volume": 0.744,
+        "float": 0.1,
+        "short_float": 1.0,
+        "catalyst": 0.9,
+        "persistence": 0.0
+      },
+      "shs_float": 246380000.0,
+      "short_float_pct": 31.91,
+      "short_ratio": 3.69,
+      "rel_volume": 3.58,
+      "atr14": 1.39,
+      "sma50_dist_pct": -11.52,
+      "sma200_dist_pct": 1.17,
+      "perf_week_pct": 7.77,
+      "earnings": "May 11 AMC",
+      "catalyst": {
+        "strength": "strong",
+        "score": 0.9,
+        "label": "Contract / partnership",
+        "reason": "CleanSpark shares surge after company secures $6.6B data center lease agreement",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-07-14 15:27",
+          "title": "CleanSpark Lands $6.6 Billion Data Center Lease With Global Tech Tenant",
+          "source": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cleanspark-lands-6-6-billion-192729898.html"
+        },
+        {
+          "date": "2026-07-14 11:53",
+          "title": "CleanSpark shares surge after company secures $6.6B data center lease agreement",
+          "source": "Proactive",
+          "link": "https://finance.yahoo.com/m/23ad81fb-6147-3a79-a8b5-5fccba9dd06d/cleanspark-shares-surge-after.html"
+        },
+        {
+          "date": "2026-07-14 11:44",
+          "title": "KBW keeps CleanSpark at Outperform and $16 after Sandersville lease",
+          "source": "Blockspace",
+          "link": "https://finance.yahoo.com/m/1bbf8d42-3896-3df3-8dfd-8f9ea6869a33/kbw-keeps-cleanspark-at.html"
+        },
+        {
+          "date": "2026-07-14 10:31",
+          "title": "CleanSpark Signs Data Centre Lease Worth $6.6 Billion",
+          "source": "CryptoProwl",
+          "link": "https://finance.yahoo.com/m/3936ee74-0a7e-3a5a-8cfe-bb2a2580ce82/cleanspark-signs-data-centre.html"
+        },
+        {
+          "date": "2026-07-14 09:47",
+          "title": "CLSK Stock Leads Gains Among Crypto Equities  Lifting Data Center-Focused Bitcoin Miners",
+          "source": "Stocktwits",
+          "link": "https://finance.yahoo.com/m/fae150c0-ceaa-330d-b58d-338f07c822aa/clsk-stock-leads-gains-among.html"
+        }
+      ]
+    },
+    {
+      "ticker": "TSEM",
+      "company": "Tower Semiconductor Ltd",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Israel",
+      "market_cap": 28550000000.0,
+      "price": 255.49,
+      "change_pct": 11.24,
+      "volume": 4654819.0,
+      "mqs": 22.7,
+      "tier": "Pullback",
+      "badges": [
+        "Vol fading",
+        "Upper wick / fade",
+        "Pullback: deep"
+      ],
+      "extension": null,
+      "pullback_depth": "deep",
+      "retrace_pct": 21.0,
+      "dist_above_ema10_atr": -0.13,
+      "up_streak": 1,
+      "burst_age": 0,
+      "burst_thrust_days": 0,
+      "close_position": 0.138,
+      "vol_profile": {
+        "am_vol": 107677,
+        "pm_vol": 44754,
+        "pm_share": 0.294,
+        "persistence": "front_loaded"
+      },
+      "latest_bar": {
+        "open": 266.54,
+        "high": 274.0,
+        "low": 252.52,
+        "close": 255.49,
+        "volume": 164469.0,
+        "date": "2026-07-14",
+        "close_position": 0.138
+      },
+      "run_low": 201.995,
+      "run_high": 237.005,
+      "ema10": 232.31689050318383,
+      "ema20": 242.10622224831044,
+      "atr14_bars": 19.843297325852973,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.138,
+        "volume": 0.33,
+        "float": 0.35,
+        "short_float": 0.121,
+        "catalyst": 0.4,
+        "persistence": 0.0
+      },
+      "shs_float": 104540000.0,
+      "short_float_pct": 2.41,
+      "short_ratio": 1.15,
+      "rel_volume": 2.13,
+      "atr14": 22.53,
+      "sma50_dist_pct": 1.56,
+      "sma200_dist_pct": 61.97,
+      "perf_week_pct": 20.55,
+      "earnings": "Aug 04 BMO",
+      "catalyst": {
+        "strength": "unknown",
+        "score": 0.4,
+        "label": "Unclassified",
+        "reason": "Headlines present but no rule matched.",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-07-14 14:40",
+          "title": "Wedbush Delivers an Urgent Message for TSMC Stock Investors",
+          "source": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/articles/wedbush-delivers-urgent-message-tsmc-184001343.html"
+        },
+        {
+          "date": "2026-07-14 11:20",
+          "title": "Tower Semiconductor shares jump as company announces Japan expansion to boost silicon photonics capacity",
+          "source": "Proactive",
+          "link": "https://finance.yahoo.com/m/95b70fb6-0300-396d-8ec9-df7d109d5e90/tower-semiconductor-shares.html"
+        },
+        {
+          "date": "2026-07-14 09:08",
+          "title": "Tower Semiconductor Gets $1B Grant From Japan to Expand Chip Making. Stock Soars 19%.",
+          "source": "Barrons.com",
+          "link": "https://www.barrons.com/articles/tower-semiconductor-stock-japan-chip-investment-81431b13?mod=bar_FV"
+        },
+        {
+          "date": "2026-07-14 08:46",
+          "title": "Tower Semiconductor, CleanSpark surge premarket; IBM, JPMorgan slip",
           "source": "Investing.com",
-          "link": "https://finance.yahoo.com/healthcare/articles/truist-upgrades-biogen-buy-alzheimer-123105983.html"
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tower-semiconductor-cleanspark-surge-premarket-124613836.html"
+        },
+        {
+          "date": "2026-07-14 06:47",
+          "title": "Tower Semiconductor Unveils $3 Billion Japan Expansion to Boost AI Chip Production (TSEM)",
+          "source": "InvestorsHub",
+          "link": "/news/367692/tower-semiconductor-unveils-3-billion-japan-expansion-to-boost-ai-chip-production-tsem"
+        }
+      ]
+    },
+    {
+      "ticker": "MDA",
+      "company": "MDA Space Ltd",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "country": "Canada",
+      "market_cap": 4700000000.0,
+      "price": 33.89,
+      "change_pct": 7.690000000000001,
+      "volume": 2825617.0,
+      "mqs": 21.1,
+      "tier": "Reversal/Failed",
+      "badges": [
+        "Vol building",
+        "Closed at HOD",
+        "Broke down 96% off peak"
+      ],
+      "extension": null,
+      "pullback_depth": null,
+      "retrace_pct": 96.4,
+      "dist_above_ema10_atr": -2.19,
+      "up_streak": 0,
+      "burst_age": 0,
+      "burst_thrust_days": 0,
+      "close_position": 0.907,
+      "vol_profile": {
+        "am_vol": 74080,
+        "pm_vol": 85878,
+        "pm_share": 0.537,
+        "persistence": "building"
+      },
+      "latest_bar": {
+        "open": 32.36,
+        "high": 34.08,
+        "low": 32.36,
+        "close": 33.92,
+        "volume": 167014.0,
+        "date": "2026-07-14",
+        "close_position": 0.907
+      },
+      "run_low": 31.415,
+      "run_high": 33.665,
+      "ema10": 36.70655165546597,
+      "ema20": 37.76385482674135,
+      "atr14_bars": 2.3832146735049466,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.907,
+        "volume": 0.636,
+        "float": 0.182,
+        "short_float": 0.055,
+        "catalyst": 0.4,
+        "persistence": 0.0
+      },
+      "shs_float": 126310000.0,
+      "short_float_pct": 1.09,
+      "short_ratio": 1.05,
+      "rel_volume": 2.15,
+      "atr14": 2.55,
+      "sma50_dist_pct": -11.97,
+      "sma200_dist_pct": 20.02,
+      "perf_week_pct": -14.27,
+      "earnings": "May 07 BMO",
+      "catalyst": {
+        "strength": "unknown",
+        "score": 0.4,
+        "label": "Unclassified",
+        "reason": "Headlines present but no rule matched.",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-07-14 08:16",
+          "title": "MDA SPACE ANNOUNCES CLOSING OF ITS UPSIZED BOUGHT DEAL OFFERING OF COMMON SHARES",
+          "source": "PR Newswire",
+          "link": "/news/367835/mda-space-announces-closing-of-its-upsized-bought-deal-offering-of-common-shares"
+        },
+        {
+          "date": "2026-07-09 09:19",
+          "title": "MDA Space Increases Previously Announced Bought Deal Offering of Common Shares",
+          "source": "GlobeNewswire",
+          "link": "/news/366978/mda-space-increases-previously-announced-bought-deal-offering-of-common-shares"
+        }
+      ]
+    },
+    {
+      "ticker": "FCEL",
+      "company": "Fuelcell Energy Inc",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "country": "USA",
+      "market_cap": 1710000000.0,
+      "price": 21.35,
+      "change_pct": 11.9,
+      "volume": 19560326.0,
+      "mqs": 19.5,
+      "tier": "Reversal/Failed",
+      "badges": [
+        "Upper wick / fade",
+        "Broke down 82% off peak"
+      ],
+      "extension": null,
+      "pullback_depth": null,
+      "retrace_pct": 82.4,
+      "dist_above_ema10_atr": -1.21,
+      "up_streak": 0,
+      "burst_age": 0,
+      "burst_thrust_days": 0,
+      "close_position": 0.34,
+      "vol_profile": {
+        "am_vol": 314820,
+        "pm_vol": 275473,
+        "pm_share": 0.467,
+        "persistence": "balanced"
+      },
+      "latest_bar": {
+        "open": 21.18,
+        "high": 22.88,
+        "low": 20.57,
+        "close": 21.355,
+        "volume": 591605.0,
+        "date": "2026-07-14",
+        "close_position": 0.34
+      },
+      "run_low": 15.07,
+      "run_high": 37.825,
+      "ema10": 23.76347794936496,
+      "ema20": 23.585480584764877,
+      "atr14_bars": 3.8706524429819416,
+      "streak": 1,
+      "components": {
+        "closing_strength": 0.34,
+        "volume": 0.337,
+        "float": 0.635,
+        "short_float": 0.762,
+        "catalyst": 0.4,
+        "persistence": 0.0
+      },
+      "shs_float": 67390000.0,
+      "short_float_pct": 15.24,
+      "short_ratio": 0.85,
+      "rel_volume": 1.63,
+      "atr14": 3.95,
+      "sma50_dist_pct": 1.96,
+      "sma200_dist_pct": 89.38,
+      "perf_week_pct": -17.76,
+      "earnings": "Jun 08 BMO",
+      "catalyst": {
+        "strength": "unknown",
+        "score": 0.4,
+        "label": "Unclassified",
+        "reason": "Headlines present but no rule matched.",
+        "source": "rules"
+      },
+      "news": [
+        {
+          "date": "2026-07-14 13:58",
+          "title": "FCEL Stock Is Surging Today  This Analyst Sees A Further 41% Upside On Multiple Growth Catalysts",
+          "source": "Stocktwits",
+          "link": "https://finance.yahoo.com/m/4d138ca2-9764-3020-af34-1627d2a260c0/fcel-stock-is-surging-today-%E2%80%93.html"
+        },
+        {
+          "date": "2026-07-14 09:36",
+          "title": "Apple, IBM downgraded: Wall Street's top analyst calls",
+          "source": "The Fly",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-ibm-downgraded-wall-streets-133610054.html"
+        },
+        {
+          "date": "2026-07-14 09:06",
+          "title": "FuelCell's Big Partnership Couldn't Outrun Its Big Bill",
+          "source": "Trefis",
+          "link": "https://finance.yahoo.com/m/c1a1d5c3-e0be-3cac-a071-10f3e1149f48/fuelcell%27s-big-partnership.html"
+        },
+        {
+          "date": "2026-07-13 16:13",
+          "title": "How Bloom Energy Became AIs Emergency Power Button",
+          "source": "Trefis",
+          "link": "https://finance.yahoo.com/m/127e6f19-3c82-349d-a671-2e89c33aec10/how-bloom-energy-became-ai%E2%80%99s.html"
+        },
+        {
+          "date": "2026-07-09 16:42",
+          "title": "Bloom Energy Rebounds; 'Categorically Rejects' Short-Seller Report",
+          "source": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/bloom-energy-stock-rebounds-rejects-short-seller-report?mod=IBD_FV"
         }
       ]
     }
