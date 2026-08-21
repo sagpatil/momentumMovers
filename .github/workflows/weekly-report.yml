@@ -1,9 +1,6 @@
 name: Weekly strategy report
 
 on:
-  schedule:
-    # Friday 5 PM PST = Saturday 01:00 UTC (6 PM Friday during PDT).
-    - cron: "0 1 * * 6"
   workflow_dispatch: {}   # allow manual runs from the Actions tab
 
 permissions:
